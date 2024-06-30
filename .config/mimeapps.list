@@ -1,0 +1,11 @@
+[Default Applications]
+x-scheme-handler/baiduyunguanjia=baidunetdisk.desktop
+
+[Added Associations]
+text/plain=org.xfce.mousepad.desktop;xed.desktop;sublime_text.desktop;
+application/x-shellscript=sublime_text.desktop;
+application/vnd.apple.mpegurl=org.xfce.mousepad.desktop;
+image/jpeg=firefox.desktop;
+video/x-matroska=vlc.desktop;
+video/mp4=mpv.desktop;vlc.desktop;
+application/vnd.rn-realmedia=vlc.desktop;
