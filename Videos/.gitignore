@@ -1,0 +1,16 @@
+*.mp4
+*/*.mp4
+*/*/*.mp4
+0电影
+肇论
+xrated.tmp
+xrated.ts
+xrated.script/url_href.txt
+xrated.script/url_m3u8_faild.txt
+xrated.script/url_playlist.txt
+xrated.script/url.txt
+xrated.script/url_playlist_2.txt
+xrated.trash/*
+xrated.txt/*
+xrated.ssh/playlist.m3u8
+xrated.cut/playlist.m3u8

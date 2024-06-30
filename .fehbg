@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/zzz/.config/i3/7a9c3c0f9ae09855c77de391ff193f61.jpeg' 

@@ -1,0 +1,15 @@
+font_size 12.0
+
+enable_audio_bell no
+
+#remember_window_size  yes
+#initial_window_width  1024
+#initial_window_height 800
+
+focus_follows_mouse yes
+mouse_hide_wait 2.0
+
+
+# BEGIN_KITTY_THEME
+include Catppuccin-Mocha.conf
+# END_KITTY_THEME
