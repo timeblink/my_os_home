@@ -11,9 +11,7 @@ configuration {
     sidebar-mode:    false;
 }
 
-/* @import "~/.config/rofi/themes/arc_dark_transparent_colors.rasi"
-*/
-@import "~/.config/rofi/themes/Adapta-Nokto.rasi"
+@import "~/.config/rofi/themes/arc_dark_colors.rasi"
 
 window {
     background-color: @background;

@@ -13,9 +13,29 @@ configuration {
     sidebar-mode:        false;
 }
 
-/* @import "~/.config/rofi/arc_dark_transparent_colors.rasi"
-*/
+/*
+@import "~/.config/rofi/themes/solarized_alternate.rasi"
+@import "~/.config/rofi/themes/sidebar.rasi"
+@import "~/.config/rofi/themes/purple.rasi"
+@import "~/.config/rofi/themes/Paper.rasi"
+@import "~/.config/rofi/themes/Monokai.rasi"
+@import "~/.config/rofi/themes/Indego.rasi"
+@import "~/.config/rofi/themes/DarkBlue.rasi"
+@import "~/.config/rofi/themes/arc_dark_transparent_colors.rasi"
+@import "~/.config/rofi/themes/arc_dark_colors.rasi"
+@import "~/.config/rofi/themes/Arc-Dark.rasi"
+@import "~/.config/rofi/themes/Arc.rasi"
+@import "~/.config/rofi/themes/alter.rasi"
+@import "~/.config/rofi/themes/android_notification.rasi"
 @import "~/.config/rofi/themes/Adapta-Nokto.rasi"
+*/
+
+@import "~/.config/rofi/themes/sidebar.rasi"
+@import "~/.config/rofi/themes/arc_dark_colors.rasi"
+
+
+
+
 
 
 window {

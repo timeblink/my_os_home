@@ -113,6 +113,15 @@ typeset -A menu
 
 # Menu with keys/commands
 
+# menu=(
+#   [| Shutdown]="systemctl poweroff"
+#   [| Reboot]="systemctl reboot"
+#   [| Suspend]="systemctl suspend"
+#   [| Hibernate]="systemctl hibernate"
+#   [| Lock]="~/.config/i3/scripts/blur-lock"
+#   [| Logout]="i3-msg exit"
+#   [| Cancel]=""
+# )
 menu=(
   [| Shutdown]="systemctl poweroff"
   [| Reboot]="systemctl reboot"
@@ -121,7 +130,8 @@ menu=(
 menu_nrows=${#menu[@]}
 
 # Menu entries that may trigger a confirmation message
-menu_confirm="Shutdown Reboot Hibernate Suspend Halt Logout"
+# menu_confirm="Reboot Shutdown Hibernate Suspend Halt Logout"
+menu_confirm="Reboot Shutdown"
 
 launcher_exe=""
 launcher_options=""
