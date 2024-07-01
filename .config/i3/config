@@ -445,6 +445,8 @@ for_window [class="Bluetooth-sendto" instance="bluetooth-sendto"] floating enabl
 for_window [class="Pamac-manager"] floating enable
 for_window [window_role="About"] floating enable
 
+for_window [class="mpv"] floating enable
+
 # set border of floating window
 for_window [class="urxvt"] border pixel 1
 
