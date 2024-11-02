@@ -322,6 +322,7 @@ assign [class="Xfce4-terminal"] $ws1
 assign [class="(?i)firefox"]    $ws2
 assign [class="Thunar"]         $ws3
 assign [class="Sublime_text"]   $ws4
+assign [class="xed"]   		$ws4
 assign [class="audacious"]      $ws8
 #assign [class="emacs"]          $ws9
 assign [class="wps"]            $ws10
@@ -331,6 +332,7 @@ for_window [class=Xfce4-terminal] focus
 #for_window [class=Xfce4-terminal] floating enable resize set 1400 800 ,move right 212px ,move down 54px
 for_window [class=(?i)firefox] focus
 for_window [class=Thunar] focus
+for_window [class=xed] focus
 #for_window [class=emacs] focus
 
 #############################################
