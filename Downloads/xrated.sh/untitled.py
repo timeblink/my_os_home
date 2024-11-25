@@ -27,9 +27,9 @@ import os
 # import argparse
 # import traceback
 
-file_url_href      = os.environ['HOME']+"/Public/xrated.sh/url_href.txt"
-file_url_playlist  = os.environ['HOME']+"/Public/xrated.sh/url_playlist.txt"
-file_url_playlist2 = os.environ['HOME']+"/Public/xrated.sh/url_playlist_2.txt"
+file_url_href      = os.environ['HOME']+"/Desktop/my_os_home/Downloads/xrated.sh/url_href.txt"
+file_url_playlist  = os.environ['HOME']+"/Desktop/my_os_home/Downloads/xrated.sh/url_playlist.txt"
+file_url_playlist2 = os.environ['HOME']+"/Desktop/my_os_home/Downloads/xrated.sh/url_playlist_2.txt"
 
 
 def tag_div_class_listpic(tag):
@@ -50,7 +50,7 @@ def tag_source(tag):
   return True
 
 def get_tag_href(tag):
-  return "https://sdyxldkphs.xyz"+tag.find_all(["a"])[0].get('href')
+  return "https://jnstuwqgtp.top"+tag.find_all(["a"])[0].get('href')
 
 def open_url(url):
   content = "<html></html>"
@@ -118,8 +118,8 @@ def loop_list_page(list_url,loop_int):
             file.write(src_url_txt+"\n")
 
 if __name__ == "__main__":
-  url_str = "https://sdyxldkphs.xyz/vod/list.html?type_id=1070&page="
-  url_str = "https://sdyxldkphs.xyz/vod/list.html?type_id=1071&page="
+  url_str = "https://jnstuwqgtp.top/vod/list.html?type_id=1071&page="
+  url_str = "https://jnstuwqgtp.top/vod/list.html?type_id=1070&page="
   from selenium import webdriver
   from selenium.webdriver.firefox.options import Options
   opt = Options()
@@ -127,7 +127,7 @@ if __name__ == "__main__":
   opt.add_argument("--disable-gpu")
   global g_driver
   g_driver = webdriver.Firefox(options=opt)
-  loop_list_page(url_str,100)
+  loop_list_page(url_str,10)
   #loop_list_page(url_str,2)
   g_driver.quit()
 

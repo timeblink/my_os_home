@@ -7,6 +7,7 @@ m3u8url=$1
 relname=
 
 m3u8file=${mp4dir}/playlist.m3u8
+faildfile=${HOME}/Videos/url_m3u8_faild.txt
 
 dirurl=$(dirname ${m3u8url})
 
@@ -17,7 +18,7 @@ res=$?
 #echo ${res}
 if [ ${res} -ne 0 ]
 then
-  echo ${m3u8url} | tee -a /home/zzz/Public/xrated.sh/url_m3u8_faild.txt
+  echo ${m3u8url} | tee -a ${faildfile}
 fi
 #set +x
 
@@ -28,7 +29,7 @@ if [ -s ${m3u8file} ]
 then
   mv ${m3u8file} ${mp4dir}/${relname}.m3u8
 else
-  echo ${m3u8url} | tee -a /home/zzz/Public/xrated.sh/url_m3u8_faild.txt
+  echo ${m3u8url} | tee -a ${faildfile}
   exit 0
 fi
 
