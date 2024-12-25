@@ -4,8 +4,11 @@
 
 while read line
 do
-    ./m3u8get.sh $line
-done < url.txt
+    [ -z ${line} ] && break
+    [ "${line}" == "" ] && break
+    [ "${line}" == "END" ] && break
+    ${HOME}/Desktop/my_os_home/Downloads/xrated.sh/m3u8get.sh $line
+done < ${HOME}/Desktop/my_os_home/Downloads/xrated.sh/url.txt
 
 #sn=$1
 
