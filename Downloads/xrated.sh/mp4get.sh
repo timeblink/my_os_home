@@ -39,6 +39,9 @@ do
         then
             w_count=0
         fi
+        rm ${mp4dir}/${name}.m3u8
+        rm ${mp4dir}/${name}.txt
+
     done
     rm -f *.ts playlist.m3u8
     popd

@@ -3,7 +3,7 @@
 #m3u8list=()
 #m3u8list+=""
 
-mp4dir=${HOME}/Videos/xrated
+mp4dir=${HOME}/Videos/xrated.mp4
 mkdir -p ${mp4dir}
 tsdir=${HOME}/Videos/xrated.ts
 mkdir -p ${tsdir}

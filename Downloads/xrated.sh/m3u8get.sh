@@ -6,6 +6,10 @@ mkdir -p ${mp4dir}
 m3u8url=$1
 relname=
 
+[ -z ${m3u8url} ] && exit 0
+[ "${m3u8url}" == "" ] && exit 0
+[ "${m3u8url}" == "END" ] && exit 0
+
 m3u8file=${mp4dir}/playlist.m3u8
 faildfile=${HOME}/Videos/url_m3u8_faild.txt
 

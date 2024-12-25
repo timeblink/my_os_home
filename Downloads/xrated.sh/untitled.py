@@ -21,25 +21,19 @@
 '''
 
 import os
-# import sys
-# import json
-# import shutil
-# import argparse
-# import traceback
 
 file_url_href      = os.environ['HOME']+"/Desktop/my_os_home/Downloads/xrated.sh/url_href.txt"
 file_url_playlist  = os.environ['HOME']+"/Desktop/my_os_home/Downloads/xrated.sh/url_playlist.txt"
 file_url_playlist2 = os.environ['HOME']+"/Desktop/my_os_home/Downloads/xrated.sh/url_playlist_2.txt"
 
-
 def tag_div_class_listpic(tag):
-  #print("no div tag ?")
+  # print("no div tag ?")
   if tag.name != 'div':
     return False
-  #print("not has class ?")
+  # print("not has class ?")
   if not tag.has_attr('class'):
     return False
-  #print("tag_div_class_listpic")
+  # print("tag_div_class_listpic")
   return 'listpic' in tag.get('class')
 
 def tag_source(tag):
@@ -54,19 +48,10 @@ def get_tag_href(tag):
 
 def open_url(url):
   content = "<html></html>"
-  ###############################################
-  # import requests
-  # headers = {
-  #   "Cache-Control": "no-cache",
-  #   "Pragma": "no-cache"
-  # }
-  # response = requests.get(url,headers=headers)
-  # content = response.text
-  # response.close()
-  ###############################################
   try:
     g_driver.get(url)
     content = g_driver.page_source
+    #print(content)
   except:
     print("error when open "+url)
     return None
@@ -85,17 +70,18 @@ def search_in_file(file_path1,file_path2,search_text):
       result = True
   return result
 
-def loop_list_page(list_url,loop_int):
-  for i in range(1,loop_int,1):
+def loop_list_page(list_url,loop_start=1,loop_int=1):
+  for i in range(loop_start,loop_start+loop_int,1):
     url_str = list_url+str(i)
-    #print(url_str)
     a_list = []
     try:
       a_list = open_url(url_str).find_all(tag_div_class_listpic)
-    except:
+    except Exception as e:
+      print(str(e))
       continue
     finally:
       print(url_str)
+      # print(len(a_list))
     for href in map(lambda x:get_tag_href(x),a_list):
       print(href)
       #continue
@@ -118,8 +104,8 @@ def loop_list_page(list_url,loop_int):
             file.write(src_url_txt+"\n")
 
 if __name__ == "__main__":
-  url_str = "https://jnstuwqgtp.top/vod/list.html?type_id=1071&page="
   url_str = "https://jnstuwqgtp.top/vod/list.html?type_id=1070&page="
+  # url_str = "https://jnstuwqgtp.top/vod/list.html?type_id=1071&page="
   from selenium import webdriver
   from selenium.webdriver.firefox.options import Options
   opt = Options()
@@ -127,7 +113,6 @@ if __name__ == "__main__":
   opt.add_argument("--disable-gpu")
   global g_driver
   g_driver = webdriver.Firefox(options=opt)
-  loop_list_page(url_str,10)
-  #loop_list_page(url_str,2)
+  loop_list_page(url_str,1,5)
   g_driver.quit()
 
