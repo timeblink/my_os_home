@@ -22,7 +22,8 @@
 
 import os
 
-file_url_href      = os.environ['HOME']+"/Desktop/my_os_home/Downloads/xrated.sh/url_href.txt"
+m3u8_url_file      = os.environ['HOME']+"/Desktop/my_os_home/Downloads/xrated.sh/url.txt"
+# file_url_href      = os.environ['HOME']+"/Desktop/my_os_home/Downloads/xrated.sh/url_href.txt"
 file_url_playlist  = os.environ['HOME']+"/Desktop/my_os_home/Downloads/xrated.sh/url_playlist.txt"
 file_url_playlist2 = os.environ['HOME']+"/Desktop/my_os_home/Downloads/xrated.sh/url_playlist_2.txt"
 
@@ -85,8 +86,8 @@ def loop_list_page(list_url,loop_start=1,loop_int=1):
     for href in map(lambda x:get_tag_href(x),a_list):
       print(href)
       #continue
-      with open(file_url_href,"a") as file:
-        file.write(href+"\n")
+      # with open(file_url_href,"a") as file:
+      #   file.write(href+"\n")
       b_list = []
       try:
         b_list = open_url(href).find_all(tag_source)
@@ -101,6 +102,8 @@ def loop_list_page(list_url,loop_start=1,loop_int=1):
         if not has_url:
           print(f"{src_url_txt}")
           with open(file_url_playlist,"a") as file:
+            file.write(src_url_txt+"\n")
+          with open(m3u8_url_file,"a") as file:
             file.write(src_url_txt+"\n")
 
 if __name__ == "__main__":
