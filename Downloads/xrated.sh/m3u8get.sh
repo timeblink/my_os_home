@@ -1,7 +1,8 @@
 #!/bin/bash
 
 
-mp4dir=${HOME}/Videos/xrated.txt
+# mp4dir=${HOME}/Videos/xrated.txt
+mp4dir=${HOME}/Videos/xrated.mp4
 mkdir -p ${mp4dir}
 m3u8url=$1
 relname=
