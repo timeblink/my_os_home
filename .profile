@@ -36,3 +36,6 @@ export VISUAL="/usr/bin/subl3"
 #export VISUAL="gvim"
 #export VISUAL="vim"
 export EDITOR="vim"
+
+go env -w GO111MODULE=on
+go env -w GOPROXY=http://goproxy.cn,direct
