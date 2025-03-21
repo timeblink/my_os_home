@@ -12,3 +12,8 @@ yay -S gtk libatspi2.0-0
 sudo pacman -U baidunetdisk-4.17.7-1-x86_64.pkg.tar.zst 
 yay -R audacious
 yay -R vlc
+
+
+echo "Server = http://mirrors.zju.edu.cn/archlinux/$repo/os/$arch" | tee -a /etc/pacman.d/mirrorlist
+sudo pacman -Syu
+yay -Syy
