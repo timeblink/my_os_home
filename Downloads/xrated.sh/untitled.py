@@ -71,40 +71,42 @@ def search_in_file(file_path1,file_path2,search_text):
       result = True
   return result
 
+def open_src_url(src_url):
+  has_url = search_in_file(file_url_playlist,file_url_playlist2,src_url)
+  if not has_url:
+    print(f"{src_url}")
+    with open(file_url_playlist,"a") as file:
+      file.write(src_url+"\n")
+    with open(m3u8_url_file,"a") as file:
+      file.write(src_url+"\n")
+
+def open_tag_url(url_tag):
+  print(url_tag)
+  b_list = []
+  try:
+    b_list = open_url(url_tag).find_all(tag_source)
+  except:
+    return 0
+  finally:
+    print(url_tag)
+  for b in b_list:
+    open_src_url(b.get('src'))
+
+def open_page_url(page_url):
+  a_list = []
+  try:
+    a_list = open_url(page_url).find_all(tag_div_class_listpic)
+  except Exception as e:
+    print(str(e))
+    return 0
+  finally:
+    print(page_url)
+  for tag_href in map(lambda x:get_tag_href(x),a_list):
+    open_tag_url(tag_href)
+
 def loop_list_page(list_url,loop_start=1,loop_int=1):
   for i in range(loop_start,loop_start+loop_int,1):
-    url_str = list_url+str(i)
-    a_list = []
-    try:
-      a_list = open_url(url_str).find_all(tag_div_class_listpic)
-    except Exception as e:
-      print(str(e))
-      continue
-    finally:
-      print(url_str)
-      # print(len(a_list))
-    for href in map(lambda x:get_tag_href(x),a_list):
-      print(href)
-      #continue
-      # with open(file_url_href,"a") as file:
-      #   file.write(href+"\n")
-      b_list = []
-      try:
-        b_list = open_url(href).find_all(tag_source)
-      except:
-        continue
-      finally:
-        print(href)
-      for b in b_list:
-        src_url_txt = b.get('src')
-        #print(src_url_txt)
-        has_url = search_in_file(file_url_playlist,file_url_playlist2,src_url_txt)
-        if not has_url:
-          print(f"{src_url_txt}")
-          with open(file_url_playlist,"a") as file:
-            file.write(src_url_txt+"\n")
-          with open(m3u8_url_file,"a") as file:
-            file.write(src_url_txt+"\n")
+    open_page_url(list_url+str(i))
 
 if __name__ == "__main__":
   url_list = []
@@ -119,4 +121,5 @@ if __name__ == "__main__":
   g_driver = webdriver.Firefox(options=opt)
   for url_str in url_list:
     loop_list_page(url_str,1,2)
+    #loop_list_page(url_str,45,5)
   g_driver.quit()

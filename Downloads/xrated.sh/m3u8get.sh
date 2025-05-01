@@ -12,7 +12,7 @@ relname=
 [ "${m3u8url}" == "END" ] && exit 0
 
 m3u8file=${mp4dir}/playlist.m3u8
-faildfile=${HOME}/Videos/url_m3u8_faild.txt
+faildfile=${HOME}/Desktop/my_os_home/Downloads/xrated.sh/url_m3u8_faild.txt
 
 dirurl=$(dirname ${m3u8url})
 
