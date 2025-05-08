@@ -6,7 +6,8 @@ mkdir -p ${mp4dir}
 tsdir=${HOME}/Videos/xrated.ts
 mkdir -p ${tsdir}
 
-LIMIT_RATE="1400"
+# LIMIT_RATE="1400"
+LIMIT_RATE="800"
 
 w_count=0
 i_sleep=45

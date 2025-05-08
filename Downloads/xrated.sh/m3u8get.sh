@@ -18,7 +18,7 @@ dirurl=$(dirname ${m3u8url})
 
 #set -x
 rm -f ${m3u8file}
-wget --quiet -O ${m3u8file} ${m3u8url}
+wget --quiet --timeout=90 -O ${m3u8file} ${m3u8url}
 res=$?
 #echo ${res}
 if [ ${res} -ne 0 ]
