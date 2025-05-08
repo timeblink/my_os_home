@@ -120,7 +120,7 @@ if __name__ == "__main__":
   global g_driver
   g_driver = webdriver.Firefox(options=opt)
   for url_str in url_list:
-    loop_list_page(url_str,1,2)
+    loop_list_page(url_str,1,5)
     #45~50,25~30,30~35
-    #loop_list_page(url_str,30,5)
+    #loop_list_page(url_str,1,60)
   g_driver.quit()
