@@ -24,11 +24,6 @@ awk -F',' \
  | tee /home/zzz/Videos/xrated.ssh/cut.sh
 
 
-# pushd /home/zzz/Videos/xrated.cut
-# rm *.mp4
-# popd 
-
-# exit 0
 sh /home/zzz/Videos/xrated.ssh/cut.sh
 
 rm /home/zzz/Videos/xrated.cut/playlist.m3u8
@@ -38,6 +33,4 @@ echo "#EXTM3U" | tee /home/zzz/Videos/xrated.cut/playlist.m3u8
 find /home/zzz/Videos/xrated.cut -type f -name '*.mp4' -printf '%p\n' \
  | tee -a /home/zzz/Videos/xrated.cut/playlist.m3u8
 
-# clear
-
-# echo "mpv -fs --playlist=/home/zzz/Videos/xrated.cut/playlist.m3u8 --loop-playlist=inf --shuffle"
+exit 0
