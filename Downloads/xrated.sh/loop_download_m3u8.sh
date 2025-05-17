@@ -5,7 +5,7 @@ do
     [ -z ${line} ] && break
     [ "${line}" == "" ] && break
     [ "${line}" == "END" ] && break
-    sh m3u8get.sh $line
+    sh download_m3u8.sh $line
 done < url.txt
 
 rm url.txt

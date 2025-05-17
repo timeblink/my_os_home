@@ -63,8 +63,8 @@ do
 
         [ $mp4get -ne 0 ] && continue
 
-        # printf " mp4get.sh %s \n" "${name}"
-        sh ${exehome}/mp4get.sh ${name}
+        # printf " download_mp4.sh %s \n" "${name}"
+        sh ${exehome}/download_mp4.sh ${name}
         res=$?
         [ $res -ne 0 ] && continue
 
