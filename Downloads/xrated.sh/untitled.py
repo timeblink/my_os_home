@@ -87,8 +87,8 @@ def open_tag_url(url_tag):
     b_list = open_url(url_tag).find_all(tag_source)
   except:
     return 0
-  # finally:
-  #   print(url_tag)
+  finally:
+    print(url_tag)
   for b in b_list:
     open_src_url(b.get('src'))
 
@@ -99,8 +99,8 @@ def open_page_url(page_url):
   except Exception as e:
     print(str(e))
     return 0
-  # finally:
-  #   print(page_url)
+  finally:
+    print(page_url)
   for tag_href in map(lambda x:get_tag_href(x),a_list):
     open_tag_url(tag_href)
 
