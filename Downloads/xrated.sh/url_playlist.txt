@@ -2804,3 +2804,8 @@ https://s1.wnsplayer.xyz/007de117acb2/HD/34/2025-05-24/57b8d0934506/51f7c70ded8a
 https://s1.wnsplayer.xyz/007de117acb2/HD/34/2025-05-24/8b7202801df0/e3032d663000/playlist.m3u8
 https://s1.wnsplayer.xyz/007de117acb2/HD/34/2025-05-23/dea8de29914e/5a8e94f42367/playlist.m3u8
 https://s1.wnsplayer.xyz/007de117acb2/HD/34/2025-05-23/0f66de8f3011/b8877f2a85f0/playlist.m3u8
+https://s1.wnsplayer.xyz/007de117acb2/HD/33/2025-05-27/7ea63a1c2614/55aee285d0ee/playlist.m3u8
+https://s1.wnsplayer.xyz/007de117acb2/HD/33/2025-05-27/f3fe5eef5a9a/4e2f1e1ae061/playlist.m3u8
+https://s1.wnsplayer.xyz/007de117acb2/HD/33/2025-05-27/8a7f526d8da4/d98f06829dc8/playlist.m3u8
+https://s1.wnsplayer.xyz/007de117acb2/HD/34/2025-05-27/12c9b2b12232/33d60b5b3814/playlist.m3u8
+https://s1.wnsplayer.xyz/007de117acb2/HD/34/2025-05-27/302f6c5e9745/88fc17099cc7/playlist.m3u8
