@@ -74,7 +74,7 @@ def search_in_file(file_path1,file_path2,search_text):
 def open_src_url(src_url):
   has_url = search_in_file(file_url_playlist,file_url_playlist2,src_url)
   if not has_url:
-    # print(f"{src_url}")
+    print(f"{src_url}")
     with open(file_url_playlist,"a") as file:
       file.write(src_url+"\n")
     with open(m3u8_url_file,"a") as file:
@@ -87,8 +87,8 @@ def open_tag_url(url_tag):
     b_list = open_url(url_tag).find_all(tag_source)
   except:
     return 0
-  finally:
-    print(url_tag)
+  # finally:
+  #   print(url_tag)
   for b in b_list:
     open_src_url(b.get('src'))
 
@@ -99,8 +99,8 @@ def open_page_url(page_url):
   except Exception as e:
     print(str(e))
     return 0
-  finally:
-    print(page_url)
+  # finally:
+  #   print(page_url)
   for tag_href in map(lambda x:get_tag_href(x),a_list):
     open_tag_url(tag_href)
 
