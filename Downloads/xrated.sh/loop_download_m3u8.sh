@@ -10,3 +10,5 @@ done < url.txt
 
 rm url.txt
 touch url.txt
+
+exit 0

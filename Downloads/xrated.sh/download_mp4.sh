@@ -60,3 +60,5 @@ rm -f *.ts playlist.m3u8
 
 mv ${mp4dir}/${name}.m3u8 ${trashd}/
 mv ${mp4dir}/${name}.txt ${trashd}/
+
+exit 0

@@ -1,7 +1,8 @@
 #!/bin/bash
 
-echo "" > cut.txt
 touch cut.txt
+
+echo -n "" > cut.txt
 
 for i in `find -mindepth 2 -maxdepth 2 -type f -name '*.txt' -printf '%P\n' | awk -F'.' '{print $1}'`
 do

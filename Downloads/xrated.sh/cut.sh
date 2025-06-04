@@ -47,6 +47,4 @@ cat 1.txt 2.txt | sort -k1,1 -k2,2n | tee cut.txt
 
 rm 1.txt 2.txt
 
-
-
-
+exit 0
