@@ -21,10 +21,12 @@ do
   if [ -f $f0.txt ]
   then
     mv $f0.txt /home/zzz/Videos/xrated.ssh/$d/$f1.txt
-    #printf '%s' $f1
-  else
-    touch /home/zzz/Videos/xrated.ssh/$d/$f1.txt
   fi
+  if [ -f $f1.txt ]
+  then
+    mv $f1.txt /home/zzz/Videos/xrated.ssh/$d/$f1.txt
+  fi
+  touch /home/zzz/Videos/xrated.ssh/$d/$f1.txt
 done
 
 exit 0

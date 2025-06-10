@@ -110,8 +110,9 @@ def loop_list_page(list_url,loop_start=1,loop_int=1):
 
 if __name__ == "__main__":
   url_list = []
-  url_list.append("https://eexbruwkbu.top/vod/list.html?type_id=1070&page=")
-  url_list.append("https://eexbruwkbu.top/vod/list.html?type_id=1071&page=")
+  url_list.append("https://eexbruwkbu.top/vod/list.html?type_id=1070&page=,1,5")
+  url_list.append("https://eexbruwkbu.top/vod/list.html?type_id=1071&page=,1,5")
+  #url_list.append("https://eexbruwkbu.top/vod/list.html?type_id=1068&page=,1,0")
   from selenium import webdriver
   from selenium.webdriver.firefox.options import Options
   opt = Options()
@@ -119,8 +120,8 @@ if __name__ == "__main__":
   opt.add_argument("--disable-gpu")
   global g_driver
   g_driver = webdriver.Firefox(options=opt)
-  for url_str in url_list:
-    loop_list_page(url_str,1,10)
-    #45~50,25~30,30~35
-    #loop_list_page(url_str,1,60)
+  for url in url_list:
+    url_str,page_1,page_2 = url.split(",")
+    loop_list_page(url_str,page_1,page_2)
+    #loop_list_page(url_str,page_1,60)
   g_driver.quit()
