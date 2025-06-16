@@ -38,7 +38,7 @@ do
 
         if [ -f ${ucdir}/${name}.mp4 ]
         then
-            printf " in uc dif \n"
+            printf " in uc dir \n"
             mp4get=1
         fi
 
@@ -57,8 +57,8 @@ do
 
         if [ $mp4get -ne 0 ]
         then
-            mv ${mp4dir}/${name}.m3u8 ${trashd}/
-            mv ${mp4dir}/${name}.txt ${trashd}/
+            mv -f ${mp4dir}/${name}.m3u8 ${trashd}/
+            mv -f ${mp4dir}/${name}.txt ${trashd}/
         fi
 
         [ $mp4get -ne 0 ] && continue

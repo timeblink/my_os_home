@@ -4,6 +4,10 @@
 # mp4dir=${HOME}/Videos/xrated.txt
 mp4dir=${HOME}/Videos/xrated.mp4
 mkdir -p ${mp4dir}
+trashd=${HOME}/Videos/xrated.trash
+mkdir -p ${trashd}
+tmpd=${HOME}/Videos/xrated.tmp
+mkdir -p ${tmpd}
 m3u8url=$1
 relname=
 
@@ -30,6 +34,8 @@ fi
 relname=$(stat -c %Y ${m3u8file})
 
 [ -f ${mp4dir}/${relname}.m3u8 ] && exit 0
+[ -f ${trashd}/${relname}.m3u8 ] && exit 0
+[ -f ${tmpd}/${relname}.m3u8 ] && exit 0
 if [ -s ${m3u8file} ]
 then
   mv ${m3u8file} ${mp4dir}/${relname}.m3u8
