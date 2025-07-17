@@ -30,6 +30,7 @@ LIMIT_RATE="100"
 [ $h == '21' ] && LIMIT_RATE="200"
 [ $h == '22' ] && LIMIT_RATE="800"
 [ $h == '23' ] && LIMIT_RATE="1400"
+LIMIT_RATE="1024"
 
 #pushd ${tsdir}
 rm -f *.ts playlist.m3u8

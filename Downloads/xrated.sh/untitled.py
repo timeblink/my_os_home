@@ -27,14 +27,16 @@ m3u8_url_file      = os.environ['HOME']+"/Desktop/my_os_home/Downloads/xrated.sh
 file_url_playlist  = os.environ['HOME']+"/Desktop/my_os_home/Downloads/xrated.sh/url_playlist.txt"
 file_url_playlist2 = os.environ['HOME']+"/Desktop/my_os_home/Downloads/xrated.sh/url_playlist_2.txt"
 
+url_root_path = "https://vyqtnxbc.top:2549"
+
 def tag_div_class_listpic(tag):
-  # print("no div tag ?")
+  #print("no div tag ?")
   if tag.name != 'div':
     return False
-  # print("not has class ?")
+  #print("not has class ?")
   if not tag.has_attr('class'):
     return False
-  # print("tag_div_class_listpic")
+  #print("tag_div_class_listpic")
   return 'listpic' in tag.get('class')
 
 def tag_source(tag):
@@ -45,14 +47,17 @@ def tag_source(tag):
   return True
 
 def get_tag_href(tag):
-  return "https://jnstuwqgtp.top"+tag.find_all(["a"])[0].get('href')
+  return '{url_root}{tag_href}'.format(
+    url_root=url_root_path,
+    tag_href=tag.find_all(["a"])[0].get('href'))
+  #return url_roo_path+tag.find_all(["a"])[0].get('href')
 
 def open_url(url):
   content = "<html></html>"
   try:
     g_driver.get(url)
     content = g_driver.page_source
-    # print(content)
+    #print(content)
   except:
     print("error when open "+url)
     return None
@@ -81,38 +86,42 @@ def open_src_url(src_url):
       file.write(src_url+"\n")
 
 def open_tag_url(url_tag):
-  # print(url_tag)
   b_list = []
   try:
     b_list = open_url(url_tag).find_all(tag_source)
   except:
     return 0
-  # finally:
-  #   print(url_tag)
+  #finally:
+  #  print(url_tag)
   for b in b_list:
     open_src_url(b.get('src'))
 
 def open_page_url(page_url):
   a_list = []
   try:
+    # 打开列表网页后，针对性的搜索具体的div
     a_list = open_url(page_url).find_all(tag_div_class_listpic)
   except Exception as e:
     print(str(e))
     return 0
-  # finally:
-  #   print(page_url)
+  #finally:
+  #  print(page_url)
   for tag_href in map(lambda x:get_tag_href(x),a_list):
     open_tag_url(tag_href)
 
 def loop_list_page(list_url,loop_start=1,loop_int=1):
   for i in range(loop_start,loop_start+loop_int,1):
+    # 打开具体的列表网页，并且进行解析
     open_page_url(list_url+str(i))
 
 if __name__ == "__main__":
   url_list = []
-  url_list.append("https://eexbruwkbu.top/vod/list.html?type_id=1070&page=,1,5")
-  url_list.append("https://eexbruwkbu.top/vod/list.html?type_id=1071&page=,1,5")
-  #url_list.append("https://eexbruwkbu.top/vod/list.html?type_id=1068&page=,1,0")
+  url_list.append(
+    '{url_root}/vod/list.html?type_id=1070&page=,{start},{end}'.format(
+      url_root=url_root_path,start=1,end=5))
+  url_list.append(
+    '{url_root}/vod/list.html?type_id=1071&page=,{start},{end}'.format(
+      url_root=url_root_path,start=1,end=5))
   from selenium import webdriver
   from selenium.webdriver.firefox.options import Options
   opt = Options()
@@ -122,6 +131,7 @@ if __name__ == "__main__":
   g_driver = webdriver.Firefox(options=opt)
   for url in url_list:
     url_str,page_1,page_2 = url.split(",")
+    # 循环打开列表网页
     loop_list_page(url_str,int(page_1),int(page_2))
     #loop_list_page(url_str,page_1,60)
   g_driver.quit()
