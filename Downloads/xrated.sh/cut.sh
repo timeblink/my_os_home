@@ -30,6 +30,7 @@ touch /home/zzz/Videos/xrated.cut/playlist.m3u8
 echo "#EXTM3U" | tee /home/zzz/Videos/xrated.cut/playlist.m3u8
 
 find /home/zzz/Videos/xrated.cut -type f -name '*.mp4' -printf '%p\n' \
+ | sort -t'/' -k5.5,5.9 -r \
  | tee -a /home/zzz/Videos/xrated.cut/playlist.m3u8
 
 exit 0
