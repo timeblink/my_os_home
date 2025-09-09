@@ -118,10 +118,10 @@ if __name__ == "__main__":
   url_list = []
   url_list.append(
     '{url_root}/vod/list.html?type_id=1070&page=,{start},{end}'.format(
-      url_root=url_root_path,start=1,end=5))
+        url_root=url_root_path,start=1,end=5))
   url_list.append(
     '{url_root}/vod/list.html?type_id=1071&page=,{start},{end}'.format(
-      url_root=url_root_path,start=1,end=5))
+        url_root=url_root_path,start=1,end=5))
   from selenium import webdriver
   from selenium.webdriver.firefox.options import Options
   opt = Options()
