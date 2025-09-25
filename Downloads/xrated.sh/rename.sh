@@ -26,7 +26,7 @@ do
   then
     mv $f1.txt /home/zzz/Videos/xrated.ssh/$d/$f1.txt
   fi
-  touch /home/zzz/Videos/xrated.ssh/$d/$f1.txt
+  # touch /home/zzz/Videos/xrated.ssh/$d/$f1.txt
 done
 
 exit 0
