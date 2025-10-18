@@ -12,7 +12,11 @@ find "$(pwd)" -type f -name '*.mp4' -printf '%p\n' \
 [ -f playlist2.m3u8 ] && rm playlist2.m3u8
 touch playlist2.m3u8
 echo "#EXTM3U" > playlist2.m3u8
-[ -f filelist.txt ] && cat filelist.txt | tee -a playlist2.m3u8
+if [ -f filelist.txt ]
+then
+    cat filelist.txt \
+    | sort -t'/' -rk7 | uniq | tee -a playlist2.m3u8
+fi
 
 [ -f playlist3.m3u8 ] && rm playlist3.m3u8
 touch playlist3.m3u8
