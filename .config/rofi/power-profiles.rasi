@@ -13,7 +13,8 @@ configuration {
     sidebar-mode:     false;
 }
 
-@import "~/.config/rofi/themes/arc_dark_colors.rasi"
+@import "~/.config/rofi/config.rasi"
+/* Insert theme modifications after this */
 
 
 window {
@@ -22,6 +23,7 @@ window {
     padding:          10;
     transparency:     "real";
     width:            170px;
+    location:         east;
     /*y-offset:       18;*/
     /*x-offset:       850;*/
 }

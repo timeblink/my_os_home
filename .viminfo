@@ -1,0 +1,1113 @@
+# 这个 viminfo 文件是由 Vim 9.1 生成的。
+# 如果要自行修改请特别小心！
+
+# Viminfo version
+|1,4
+
+# 此文件建立时 'encoding' 的值
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最后 搜索模式:
+~MSle0~/Emacs
+
+# 最后 替换 搜索模式:
+~MSle0&\s\.
+
+# 最近的替换字符串:
+$
+
+# 命令行 历史记录 (从新到旧):
+:q
+|2,0,1763188086,,"q"
+:wq
+|2,0,1763170917,,"wq"
+:w
+|2,0,1763170657,,"w"
+:xa
+|2,0,1763126330,,"xa"
+:r .profile
+|2,0,1763121246,,"r .profile"
+:r rsync_all.txt
+|2,0,1763039476,,"r rsync_all.txt"
+:%s/\s\.//gc
+|2,0,1763038711,,"%s/\\s\\.//gc"
+:%`
+|2,0,1763038704,,"%`"
+:%
+|2,0,1763038701,,"%"
+:%s/\s\./gc
+|2,0,1763038697,,"%s/\\s\\./gc"
+:%s/ .//gc
+|2,0,1763038680,,"%s/ .//gc"
+:r rsync.sh
+|2,0,1763038574,,"r rsync.sh"
+:r .bashrc
+|2,0,1762942858,,"r .bashrc"
+:r yazi-default.toml
+|2,0,1762684519,,"r yazi-default.toml"
+:r keymap-default.toml
+|2,0,1762684485,,"r keymap-default.toml"
+:q!
+|2,0,1762674135,,"q!"
+:r filelist.txt
+|2,0,1762343577,,"r filelist.txt"
+:r Downloads/Backup/home/tmp/.bashrc
+|2,0,1762339300,,"r Downloads/Backup/home/tmp/.bashrc"
+
+# 查找字符串 历史记录 (从新到旧):
+?/Emacs
+|2,1,1763126508,47,"Emacs"
+?/cust
+|2,1,1763122909,47,"cust"
+?/emacs-server
+|2,1,1763121203,47,"emacs-server"
+?/fcitx
+|2,1,1763120575,47,"fcitx"
+? \s\.
+|2,1,1763038711,,"\\s\\."
+?  .
+|2,1,1763038680,," ."
+?/横宫七海
+|2,1,1763038322,47,"横宫七海"
+?/promp
+|2,1,1763012167,47,"promp"
+?/Man
+|2,1,1762774971,47,"Man"
+?/iT
+|2,1,1762774527,47,"iT"
+?/Red
+|2,1,1762774477,47,"Red"
+?/red
+|2,1,1762774474,47,"red"
+?/remove
+|2,1,1762745520,47,"remove"
+?/pdf
+|2,1,1762692693,47,"pdf"
+?/kitty
+|2,1,1762685946,47,"kitty"
+?/term
+|2,1,1762685877,47,"term"
+?/files
+|2,1,1762495666,47,"files"
+?/feh
+|2,1,1762434209,47,"feh"
+?/amix
+|2,1,1762434158,47,"amix"
+?/eng
+|2,1,1762425024,47,"eng"
+?/xkb
+|2,1,1762424251,47,"xkb"
+?/STEP
+|2,1,1762399097,47,"STEP"
+?/edit
+|2,1,1762394828,47,"edit"
+?/wl
+|2,1,1762345589,47,"wl"
+?/i3b
+|2,1,1762345575,47,"i3b"
+?/script
+|2,1,1762344610,47,"script"
+?/1717819699.mp4
+|2,1,1762343893,47,"1717819699.mp4"
+?/1669703857.mp4
+|2,1,1762343489,47,"1669703857.mp4"
+?/1662091794.mp4
+|2,1,1762340881,47,"1662091794.mp4"
+
+# 表达式 历史记录 (从新到旧):
+
+# 输入行 历史记录 (从新到旧):
+
+# 输入行 历史记录 (从新到旧):
+
+# 寄存器:
+"0	CHAR	0
+	 focus
+|3,0,0,0,1,0,1763162206," focus"
+""1	LINE	0
+	":colorscheme lightning
+|3,1,1,1,1,0,1763170910,"\":colorscheme lightning"
+"2	LINE	0
+	include /home/zzz/.config/kitty/kitty-themes/themes/C64.conf
+|3,0,2,1,1,0,1763168213,"include /home/zzz/.config/kitty/kitty-themes/themes/C64.conf"
+"3	LINE	0
+	
+|3,0,3,1,1,0,1763162108,""
+"4	CHAR	0
+	assign [class="Xreader"] $ws6
+	
+|3,0,4,0,2,0,1763162105,"assign [class=\"Xreader\"] $ws6",""
+"5	LINE	0
+	
+|3,0,5,1,1,0,1763162097,""
+"6	CHAR	0
+	for_window [class=Xreader] focus
+	for_window [class=mpv] floating enable
+	
+|3,0,6,0,3,0,1763162094,"for_window [class=Xreader] focus","for_window [class=mpv] floating enable",""
+"7	LINE	0
+	
+|3,0,7,1,1,0,1763162082,""
+"8	CHAR	0
+	#for_window [class=Emacs] floating enable focus
+	for_window [class=Emacs] focus
+	
+|3,0,8,0,3,0,1763162079,"#for_window [class=Emacs] floating enable focus","for_window [class=Emacs] focus",""
+"9	CHAR	0
+	for_window [class=Emacs] focus
+	
+|3,0,9,0,2,0,1763162077,"for_window [class=Emacs] focus",""
+"-	CHAR	0
+	#
+|3,0,36,0,1,0,1763168395,"#"
+
+# 文件标记:
+'0  4  0  ~/Videos/xrated.ssh/m3u8_init.sh
+|4,48,4,0,1763188086,"~/Videos/xrated.ssh/m3u8_init.sh"
+'1  85  0  ~/Videos/xrated.ssh/files.txt
+|4,49,85,0,1763182182,"~/Videos/xrated.ssh/files.txt"
+'2  9  17  ~/Videos/xrated.ssh/rsync.sh
+|4,50,9,17,1763182161,"~/Videos/xrated.ssh/rsync.sh"
+'3  52  0  ~/Videos/xrated.ssh/filelist2.txt
+|4,51,52,0,1763182114,"~/Videos/xrated.ssh/filelist2.txt"
+'4  37  0  ~/Videos/xrated.ssh/playlist2.m3u8
+|4,52,37,0,1763182081,"~/Videos/xrated.ssh/playlist2.m3u8"
+'5  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,53,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+'6  1  0  ~/.vimrc
+|4,54,1,0,1763170919,"~/.vimrc"
+'7  8  22  ~/.vimrc
+|4,55,8,22,1763170917,"~/.vimrc"
+'8  8  22  ~/.vimrc
+|4,56,8,22,1763170917,"~/.vimrc"
+'9  63  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,57,63,0,1763170703,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+
+# 跳转列表 (从新到旧):
+-'  4  0  ~/Videos/xrated.ssh/m3u8_init.sh
+|4,39,4,0,1763188086,"~/Videos/xrated.ssh/m3u8_init.sh"
+-'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
+|4,39,1,0,1763188076,"~/Videos/xrated.ssh/m3u8_init.sh"
+-'  85  0  ~/Videos/xrated.ssh/files.txt
+|4,39,85,0,1763182182,"~/Videos/xrated.ssh/files.txt"
+-'  85  0  ~/Videos/xrated.ssh/files.txt
+|4,39,85,0,1763182182,"~/Videos/xrated.ssh/files.txt"
+-'  1  0  ~/Videos/xrated.ssh/files.txt
+|4,39,1,0,1763182179,"~/Videos/xrated.ssh/files.txt"
+-'  1  0  ~/Videos/xrated.ssh/files.txt
+|4,39,1,0,1763182179,"~/Videos/xrated.ssh/files.txt"
+-'  9  17  ~/Videos/xrated.ssh/rsync.sh
+|4,39,9,17,1763182161,"~/Videos/xrated.ssh/rsync.sh"
+-'  9  17  ~/Videos/xrated.ssh/rsync.sh
+|4,39,9,17,1763182161,"~/Videos/xrated.ssh/rsync.sh"
+-'  9  17  ~/Videos/xrated.ssh/rsync.sh
+|4,39,9,17,1763182161,"~/Videos/xrated.ssh/rsync.sh"
+-'  9  17  ~/Videos/xrated.ssh/rsync.sh
+|4,39,9,17,1763182161,"~/Videos/xrated.ssh/rsync.sh"
+-'  1  0  ~/Videos/xrated.ssh/rsync.sh
+|4,39,1,0,1763182149,"~/Videos/xrated.ssh/rsync.sh"
+-'  1  0  ~/Videos/xrated.ssh/rsync.sh
+|4,39,1,0,1763182149,"~/Videos/xrated.ssh/rsync.sh"
+-'  1  0  ~/Videos/xrated.ssh/rsync.sh
+|4,39,1,0,1763182149,"~/Videos/xrated.ssh/rsync.sh"
+-'  1  0  ~/Videos/xrated.ssh/rsync.sh
+|4,39,1,0,1763182149,"~/Videos/xrated.ssh/rsync.sh"
+-'  52  0  ~/Videos/xrated.ssh/filelist2.txt
+|4,39,52,0,1763182114,"~/Videos/xrated.ssh/filelist2.txt"
+-'  52  0  ~/Videos/xrated.ssh/filelist2.txt
+|4,39,52,0,1763182114,"~/Videos/xrated.ssh/filelist2.txt"
+-'  52  0  ~/Videos/xrated.ssh/filelist2.txt
+|4,39,52,0,1763182114,"~/Videos/xrated.ssh/filelist2.txt"
+-'  52  0  ~/Videos/xrated.ssh/filelist2.txt
+|4,39,52,0,1763182114,"~/Videos/xrated.ssh/filelist2.txt"
+-'  52  0  ~/Videos/xrated.ssh/filelist2.txt
+|4,39,52,0,1763182114,"~/Videos/xrated.ssh/filelist2.txt"
+-'  52  0  ~/Videos/xrated.ssh/filelist2.txt
+|4,39,52,0,1763182114,"~/Videos/xrated.ssh/filelist2.txt"
+-'  52  0  ~/Videos/xrated.ssh/filelist2.txt
+|4,39,52,0,1763182114,"~/Videos/xrated.ssh/filelist2.txt"
+-'  52  0  ~/Videos/xrated.ssh/filelist2.txt
+|4,39,52,0,1763182114,"~/Videos/xrated.ssh/filelist2.txt"
+-'  1  0  ~/Videos/xrated.ssh/filelist2.txt
+|4,39,1,0,1763182108,"~/Videos/xrated.ssh/filelist2.txt"
+-'  1  0  ~/Videos/xrated.ssh/filelist2.txt
+|4,39,1,0,1763182108,"~/Videos/xrated.ssh/filelist2.txt"
+-'  1  0  ~/Videos/xrated.ssh/filelist2.txt
+|4,39,1,0,1763182108,"~/Videos/xrated.ssh/filelist2.txt"
+-'  1  0  ~/Videos/xrated.ssh/filelist2.txt
+|4,39,1,0,1763182108,"~/Videos/xrated.ssh/filelist2.txt"
+-'  1  0  ~/Videos/xrated.ssh/filelist2.txt
+|4,39,1,0,1763182108,"~/Videos/xrated.ssh/filelist2.txt"
+-'  1  0  ~/Videos/xrated.ssh/filelist2.txt
+|4,39,1,0,1763182108,"~/Videos/xrated.ssh/filelist2.txt"
+-'  1  0  ~/Videos/xrated.ssh/filelist2.txt
+|4,39,1,0,1763182108,"~/Videos/xrated.ssh/filelist2.txt"
+-'  1  0  ~/Videos/xrated.ssh/filelist2.txt
+|4,39,1,0,1763182108,"~/Videos/xrated.ssh/filelist2.txt"
+-'  37  0  ~/Videos/xrated.ssh/playlist2.m3u8
+|4,39,37,0,1763182081,"~/Videos/xrated.ssh/playlist2.m3u8"
+-'  37  0  ~/Videos/xrated.ssh/playlist2.m3u8
+|4,39,37,0,1763182081,"~/Videos/xrated.ssh/playlist2.m3u8"
+-'  37  0  ~/Videos/xrated.ssh/playlist2.m3u8
+|4,39,37,0,1763182081,"~/Videos/xrated.ssh/playlist2.m3u8"
+-'  37  0  ~/Videos/xrated.ssh/playlist2.m3u8
+|4,39,37,0,1763182081,"~/Videos/xrated.ssh/playlist2.m3u8"
+-'  37  0  ~/Videos/xrated.ssh/playlist2.m3u8
+|4,39,37,0,1763182081,"~/Videos/xrated.ssh/playlist2.m3u8"
+-'  37  0  ~/Videos/xrated.ssh/playlist2.m3u8
+|4,39,37,0,1763182081,"~/Videos/xrated.ssh/playlist2.m3u8"
+-'  37  0  ~/Videos/xrated.ssh/playlist2.m3u8
+|4,39,37,0,1763182081,"~/Videos/xrated.ssh/playlist2.m3u8"
+-'  37  0  ~/Videos/xrated.ssh/playlist2.m3u8
+|4,39,37,0,1763182081,"~/Videos/xrated.ssh/playlist2.m3u8"
+-'  37  0  ~/Videos/xrated.ssh/playlist2.m3u8
+|4,39,37,0,1763182081,"~/Videos/xrated.ssh/playlist2.m3u8"
+-'  37  0  ~/Videos/xrated.ssh/playlist2.m3u8
+|4,39,37,0,1763182081,"~/Videos/xrated.ssh/playlist2.m3u8"
+-'  37  0  ~/Videos/xrated.ssh/playlist2.m3u8
+|4,39,37,0,1763182081,"~/Videos/xrated.ssh/playlist2.m3u8"
+-'  37  0  ~/Videos/xrated.ssh/playlist2.m3u8
+|4,39,37,0,1763182081,"~/Videos/xrated.ssh/playlist2.m3u8"
+-'  37  0  ~/Videos/xrated.ssh/playlist2.m3u8
+|4,39,37,0,1763182081,"~/Videos/xrated.ssh/playlist2.m3u8"
+-'  37  0  ~/Videos/xrated.ssh/playlist2.m3u8
+|4,39,37,0,1763182081,"~/Videos/xrated.ssh/playlist2.m3u8"
+-'  37  0  ~/Videos/xrated.ssh/playlist2.m3u8
+|4,39,37,0,1763182081,"~/Videos/xrated.ssh/playlist2.m3u8"
+-'  37  0  ~/Videos/xrated.ssh/playlist2.m3u8
+|4,39,37,0,1763182081,"~/Videos/xrated.ssh/playlist2.m3u8"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  137  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,137,0,1763170934,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+-'  1  0  ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+|4,39,1,0,1763170923,"~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py"
+
+# 文件内的标记历史记录 (从新到旧):
+
+> ~/Videos/xrated.ssh/m3u8_init.sh
+	*	1763188084	0
+	"	4	0
+
+> ~/Videos/xrated.ssh/files.txt
+	*	1763182181	0
+	"	85	0
+
+> ~/Videos/xrated.ssh/rsync.sh
+	*	1763182160	0
+	"	9	17
+	^	11	15
+	.	11	14
+	+	9	0
+	+	9	69
+	+	9	0
+	+	9	5
+	+	9	0
+	+	9	6
+	+	9	3
+	+	9	0
+	+	9	6
+	+	9	0
+	+	9	6
+	+	9	0
+	+	9	6
+	+	9	0
+	+	9	1
+	+	9	11
+	+	9	79
+	+	9	73
+	+	9	69
+	+	9	0
+	+	9	136
+	+	9	34
+	+	9	3
+	+	9	1
+	+	9	0
+	+	9	1
+	+	9	0
+	+	9	1
+	+	9	0
+	+	9	28
+	+	9	0
+	+	9	1
+	+	9	0
+	+	9	12
+	+	9	19
+	+	9	0
+	+	9	31
+	+	9	4
+	+	9	0
+	+	9	1
+	+	9	0
+	+	9	73
+	+	9	0
+	+	9	20
+	+	9	25
+	+	9	0
+	+	9	1
+	+	9	0
+	+	3	0
+	+	7	0
+	+	9	0
+	+	9	5
+	+	9	0
+	+	9	13
+	+	9	0
+	+	9	13
+	+	9	8
+	+	9	0
+	+	9	12
+	+	9	0
+	+	9	10
+	+	9	0
+	+	6	26
+	+	9	0
+	+	14	0
+	+	9	70
+	+	14	0
+	+	9	21
+	+	12	40
+	+	13	2
+	+	12	17
+	+	9	30
+	+	12	33
+	+	8	10
+	+	9	38
+	+	12	35
+	+	12	34
+	+	13	0
+	+	10	0
+	+	12	0
+	+	11	0
+	+	9	11
+	+	12	39
+	+	9	30
+	+	11	14
+	+	9	28
+	+	11	33
+	+	9	29
+	+	11	14
+
+> ~/Videos/xrated.ssh/filelist2.txt
+	*	1763182113	0
+	"	52	0
+	.	1	0
+	+	1	0
+
+> ~/Videos/xrated.ssh/playlist2.m3u8
+	*	1763182079	0
+	"	37	0
+	^	37	52
+	.	37	51
+	+	37	51
+
+> ~/Videos/xrated.ssh/filelist.txt
+	*	1763182075	0
+	"	35	0
+	^	37	58
+	.	37	57
+	+	36	51
+	+	33	37
+	+	35	31
+	+	37	57
+
+> ~/Desktop/my_os_home/Downloads/xrated.sh/untitled.py
+	*	1763170932	0
+	"	137	0
+
+> ~/.vimrc
+	*	1763170918	0
+	"	1	0
+	^	8	23
+	.	8	22
+	+	7	0
+	+	7	19
+	+	7	0
+	+	8	22
+
+> ~/.config/kitty/themes.conf
+	*	1763170686	0
+	"	1	0
+	^	25	2
+	.	34	0
+	+	1	0
+	+	1	1
+	+	1	0
+	+	2	0
+	+	3	0
+	+	1	0
+	+	81	0
+	+	82	0
+	+	74	1
+	+	73	0
+	+	18	1
+	+	20	1
+	+	21	1
+	+	22	0
+	+	25	0
+	+	22	1
+	+	25	1
+	+	34	0
+
+> ~/Downloads/blueshirts/darcula/colors/darcula.vim
+	*	1763170670	0
+	"	85	0
+
+> ~/.config/kitty/kitty.conf
+	*	1763168144	0
+	"	1	0
+	^	12	28
+	.	12	27
+	+	5	20
+	+	7	11
+	+	6	11
+	+	13	24
+	+	14	0
+	+	11	23
+	+	12	25
+	+	13	24
+	+	12	25
+	+	13	24
+	+	1	0
+	+	2	65
+	+	8	27
+	+	2	15
+	+	1	15
+	+	3	15
+	+	28	18
+	+	7	24
+	+	28	18
+	+	29	24
+	+	21	29
+	+	22	23
+	+	11	27
+	+	12	26
+	+	11	27
+	+	12	26
+	+	11	27
+	+	37	42
+	+	11	27
+	+	12	27
+	+	11	27
+	+	12	27
+
+> ~/.config/i3/config
+	*	1763166721	0
+	"	1	0
+	^	341	22
+	.	341	21
+	+	457	81
+	+	458	0
+	+	452	0
+	+	332	26
+	+	345	22
+	+	409	75
+	+	409	47
+	+	270	0
+	+	278	0
+	+	392	79
+	+	393	0
+	+	422	41
+	+	345	40
+	+	335	33
+	+	332	0
+	+	345	0
+	+	335	22
+	+	324	19
+	+	175	45
+	+	447	37
+	+	335	25
+	+	424	12
+	+	425	25
+	+	333	26
+	+	346	22
+	+	333	15
+	+	346	0
+	+	346	25
+	+	326	32
+	+	334	0
+	+	325	0
+	+	326	0
+	+	325	26
+	+	329	0
+	+	330	0
+	+	346	0
+	+	347	0
+	+	336	0
+	+	338	0
+	+	342	0
+	+	343	0
+	+	346	0
+	+	339	0
+	+	342	0
+	+	332	0
+	+	327	0
+	+	329	0
+	+	328	18
+	+	341	21
+
+> ~/.bashrc
+	*	1763159797	0
+	"	41	0
+	.	46	0
+	+	46	0
+	+	43	0
+	+	46	0
+	+	22	0
+	+	21	0
+	+	27	0
+	+	46	0
+	+	30	0
+	+	40	0
+	+	46	0
+	+	44	0
+	+	36	0
+	+	30	0
+	+	22	23
+	+	23	33
+	+	25	45
+	+	23	45
+	+	25	44
+	+	24	45
+	+	23	46
+	+	24	46
+	+	23	65
+	+	25	46
+	+	23	44
+	+	25	44
+	+	22	16
+	+	26	14
+	+	22	21
+	+	23	0
+	+	15	26
+	+	32	0
+	+	30	23
+	+	32	0
+	+	33	0
+	+	31	24
+	+	32	14
+	+	19	12
+	+	16	0
+	+	30	0
+	+	31	0
+	+	16	0
+	+	18	0
+	+	19	0
+	+	30	0
+	+	29	25
+	+	30	1
+	+	31	0
+	+	32	0
+	+	29	0
+	+	30	0
+	+	28	0
+	+	31	0
+	+	14	0
+	+	13	0
+	+	11	3
+	+	46	0
+
+> ~/.emacs.d/init.el
+	*	1763127597	0
+	"	1	0
+	^	7	3
+	.	14	0
+	+	1	11
+	+	1	0
+	+	1	23
+	+	1	0
+	+	2	0
+	+	8	0
+	+	7	2
+	+	1	0
+	+	14	0
+
+> ~/.config/i3/i3blocks.conf
+	*	1763127255	0
+	"	56	0
+	^	66	0
+	.	56	0
+	+	69	0
+	+	57	26
+	+	79	0
+	+	38	0
+	+	54	27
+	+	54	0
+	+	45	0
+	+	54	0
+	+	44	0
+	+	54	0
+	+	54	42
+	+	54	0
+	+	47	27
+	+	54	0
+	+	64	0
+	+	68	0
+	+	64	3
+	+	65	12
+	+	67	29
+	+	65	10
+	+	59	0
+	+	63	0
+	+	62	27
+	+	60	14
+	+	59	5
+	+	55	13
+	+	54	4
+	+	50	16
+	+	49	10
+	+	49	8
+	+	44	5
+	+	45	14
+	+	65	17
+	+	64	7
+	+	54	7
+	+	55	16
+	+	55	0
+	+	70	0
+	+	46	0
+	+	56	0
+	+	61	0
+	+	66	0
+	+	61	0
+	+	56	0
+
+> ~/.config/i3/config.archlinux
+	*	1763126328	0
+	"	59	0
+
+> ~/.config/i3/config.eos
+	*	1763126315	0
+	"	197	0
+
+> ~/.clisprc.lisp
+	*	1763125428	0
+	"	1	0
+	.	9	0
+	+	9	0
+
+> ~/Downloads/jamescherti/minimal-emacs.d/early-init.el
+	*	1763123021	0
+	"	445	2
+
+> ~/Downloads/xiaohanyu/oh-my-emacs/init.el
+	*	1763122941	0
+	"	11	0
+
+> ~/Downloads/xiaohanyu/oh-my-emacs/custom.el
+	*	1763122891	0
+	"	1	0
+
+> ~/Downloads/purcell/emacs.d/init.el
+	*	1763122848	0
+	"	83	0
+
+> ~/Downloads/jamescherti/minimal-emacs.d/init.el
+	*	1763122822	0
+	"	538	0
+
+> ~/.profile
+	*	1763121223	0
+	"	24	0
+	^	23	1
+	.	24	0
+	+	38	0
+	+	66	0
+	+	39	0
+	+	40	0
+	+	38	0
+	+	34	28
+	+	23	0
+	+	5	0
+	+	27	0
+	+	44	0
+	+	46	0
+	+	66	0
+	+	3	0
+	+	35	0
+	+	24	0
+
+> ~/Desktop/my_os_home/Videos/xrated.ssh/filelist.txt
+	*	1763107289	0
+	"	37	57
+	^	37	58
+	.	37	57
+	+	37	57
+
+> ~/Videos/xrated.ssh/playlist1.m3u8
+	*	1763105092	0
+	"	43	0
+	.	3	0
+	+	3	0
+
+> ~/rsync.sh
+	*	1763072953	0
+	"	1	0
+
+> ~/Videos/xrated.ssh/rsync_include.txt
+	*	1763040074	0
+	"	88	0
+	.	89	0
+	+	1	0
+	+	89	0
+
+> ~/Videos/xrated.ssh/rsync_exclude.txt
+	*	1763039503	0
+	"	48	0
+	.	48	0
+	+	1	0
+	+	138	0
+	+	166	0
+	+	176	0
+	+	183	0
+	+	189	0
+	+	1	0
+	+	1	1
+	+	1	5
+	+	1	4
+	+	1	0
+	+	1	5
+	+	3	4
+	+	5	0
+	+	31	0
+	+	40	0
+	+	45	0
+	+	48	0
+
+> ~/Videos/xrated.ssh/rsync
+	*	1763038802	0
+	"	1	0
+
+> ~/.kshrc
+	*	1763012296	0
+	"	117	24
+	^	117	25
+	.	117	24
+	+	96	14
+	+	94	106
+	+	88	0
+	+	87	0
+	+	94	80
+	+	21	0
+	+	20	0
+	+	42	0
+	+	52	0
+	+	61	0
+	+	43	0
+	+	53	0
+	+	62	0
+	+	116	95
+	+	117	84
+	+	116	5
+	+	117	45
+	+	117	97
+	+	117	90
+	+	117	33
+	+	117	24
+
+> /usr/bin/wps
+	*	1762830241	0
+	"	126	2
+
+> ~/Desktop/my_os_home/Downloads/xrated.sh/rename.sh
+	*	1762774758	0
+	"	1	0
+
+> ~/.config/kitty/kitty-themes/themes/Man_Page.conf
+	*	1762774730	0
+	"	9	0
+
+> ~/.config/yazi/yazi.toml
+	*	1762746294	0
+	"	1	0
+	.	1	0
+	+	1	5
+	+	1	0
+
+> ~/.config/yazi/keymap.toml
+	*	1762745525	0
+	"	75	28
+	.	1	0
+	+	1	0
+
+> ~/.config/yazi/yazi-default.toml
+	*	1762692744	0
+	"	147	23
+
+> ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml
+	*	1762686098	0
+	"	1	0
+
+> ~/.config/yazi/theme-dark.toml
+	*	1762685214	0
+	"	281	0
+
+> ~/.config/yazi/theme-light.toml
+	*	1762684563	0
+	"	270	0
+	^	270	1
+
+> ~/Downloads/#1.txt#
+	*	1762684406	0
+	"	1	0
+
+> ~/Videos/xrated.ssh/2
+	*	1762675140	0
+	"	4	0
+	^	3	9
+	.	4	0
+	+	1	0
+	+	124	0
+	+	1	10
+	+	4	0
+
+> ~/Videos/xrated.ssh/1
+	*	1762674184	0
+	"	2	0
+	^	129	12
+	.	2	0
+	+	1	0
+	+	141	0
+	+	1	0
+	+	130	0
+	+	133	0
+	+	137	0
+	+	138	0
+	+	141	0
+	+	1	4
+	+	129	9
+	+	2	0
+	+	1	0
+	+	2	0
+
+> ~/.config/mpv/mpv.conf
+	*	1762475973	0
+	"	5	8
+	^	5	9
+	.	5	8
+	+	3	7
+	+	6	12
+	+	5	8
+	+	6	13
+	+	5	8
+
+> ~/.config/worker/lvconf
+	*	1762425034	0
+	"	1	0
+
+> ~/.config/worker/config
+	*	1762425025	0
+	"	73	2
+
+> ~/Videos/xrated.ssh/rm.sh
+	*	1762418239	0
+	"	1	0
+
+> ~/Videos/xrated.ssh/delete.sh
+	*	1762418232	0
+	"	1	0
+
+> ~/.config/i3/scripts/volume
+	*	1762416603	0
+	"	1	0
+
+> ~/Documents/阅藏知津/毗尼/南山五部-弘一大师圈点彩色版/04四分律比丘尼鈔/1.sh
+	*	1762405208	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Documents/阅藏知津/毗尼/南山五部-弘一大师圈点彩色版/03四分律羯磨疏濟緣記/1.sh
+	*	1762405171	0
+	"	8	0
+	.	8	0
+	+	8	0
+
+> ~/Documents/阅藏知津/毗尼/南山五部-弘一大师圈点彩色版/02四分律戒本疏行宗記/1.sh
+	*	1762405117	0
+	"	1	0
+
+> ~/Music/老八张/playlist1.m3u8
+	*	1762400269	0
+	"	1	0
+	.	2	0
+	+	2	0
+
+> ~/.config/i3/scripts/disk
+	*	1762399349	0
+	"	48	0
+
+> ~/.config/i3/scripts/volume_brightness.sh
+	*	1762399081	0
+	"	96	0
+
+> ~/.config/Thunar/uca.xml
+	*	1762398461	0
+	"	1	0
+
+> ~/.config/Thunar/accels.scm
+	*	1762398458	0
+	"	109	0
+
+> ~/.config/sublime-text/Local/Session.sublime_session
+	*	1762395045	0
+	"	56	0
+
+> ~/.config/sublime-text/Packages/User/Preferences.sublime-settings
+	*	1762394983	0
+	"	10	0
+
+> ~/.fehbg
+	*	1762392279	0
+	"	2	0
+	^	2	1
+	.	2	0
+	+	3	73
+	+	2	0
+
+> ~/.config/i3/scripts/bandwidth2
+	*	1762345741	0
+	"	104	0
+
+> ~/.config/i3/scripts/battery1
+	*	1762345706	0
+	"	2	0
+
+> ~/Downloads/Backup/home/.config/i3/config
+	*	1762344495	0
+	"	46	0
+
+> ~/Downloads/Backup/home/.Xmodmap
+	*	1762344297	0
+	"	1	0
+
+> ~/Downloads/Backup/home/.vimrc
+	*	1762344285	0
+	"	1	0
+
+> ~/Downloads/Backup/home/.home/.profile
+	*	1762344235	0
+	"	38	0
+
+> ~/Downloads/Backup/home/.home/.gitconfig
+	*	1762344216	0
+	"	1	0
+
+> ~/Downloads/Backup/home/.home/.bashrc
+	*	1762344192	0
+	"	1	0
+
+> ~/Videos/xrated.ssh/playlist3.m3u8
+	*	1762344020	0
+	"	42	0
+
+> ~/Videos/xrated.cut/playlist1.m3u8
+	*	1762339958	0
+	"	1	0
+	.	2	0
+	+	2	0

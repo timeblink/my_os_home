@@ -3,7 +3,7 @@
  * Maintainer: joekamprad [joekamprad //a_t// endeavouros.com]
  *******************************************************/
 configuration {
-    font:                "Noto Sans Regular 12";
+    font:                "Noto Sans Regular 10";
     show-icons:          false;
     icon-theme:          "Qogir";
     display-drun:        "KeyHint";
@@ -15,7 +15,8 @@ configuration {
     sidebar-mode:        false;
 }
 
-@import "~/.config/rofi/themes/arc_dark_colors.rasi"
+@import "~/.config/rofi/config.rasi"
+/* Insert theme modifications after this */
 
 window {
     background-color: @background;
