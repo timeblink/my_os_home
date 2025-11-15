@@ -3,7 +3,7 @@
  * Maintainer: joekamprad [joekamprad //a_t// endeavouros.com]
  *******************************************************/
 configuration {
-    font:                "Noto Sans Regular 12";
+    font:                "Noto Sans Regular 10";
     show-icons:          true;
     icon-theme:          "Qogir";
     display-drun:        "Apps";
@@ -13,30 +13,8 @@ configuration {
     sidebar-mode:        false;
 }
 
-/*
-@import "~/.config/rofi/themes/solarized_alternate.rasi"
-@import "~/.config/rofi/themes/sidebar.rasi"
-@import "~/.config/rofi/themes/purple.rasi"
-@import "~/.config/rofi/themes/Paper.rasi"
-@import "~/.config/rofi/themes/Monokai.rasi"
-@import "~/.config/rofi/themes/Indego.rasi"
-@import "~/.config/rofi/themes/DarkBlue.rasi"
-@import "~/.config/rofi/themes/arc_dark_transparent_colors.rasi"
-@import "~/.config/rofi/themes/arc_dark_colors.rasi"
-@import "~/.config/rofi/themes/Arc-Dark.rasi"
-@import "~/.config/rofi/themes/Arc.rasi"
-@import "~/.config/rofi/themes/alter.rasi"
-@import "~/.config/rofi/themes/android_notification.rasi"
-@import "~/.config/rofi/themes/Adapta-Nokto.rasi"
-*/
-
-@import "~/.config/rofi/themes/sidebar.rasi"
-@import "~/.config/rofi/themes/arc_dark_colors.rasi"
-
-
-
-
-
+@import "~/.config/rofi/config.rasi"
+/* Insert theme modifications after this */
 
 window {
     background-color: @background;

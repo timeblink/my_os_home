@@ -11,8 +11,8 @@ https://discovery.endeavouros.com/window-tiling-managers/i3-wm/
 
  = windows key
 
-# # start xfce4-terminal
-# +Return 
+# start xfce4-terminal
++Return 
 
 # kill focused window
 +q
@@ -101,6 +101,6 @@ F1
 +p
 
 ## App shortcuts
-# # +w starts Firefox
-# # +n starts Thunar
++w starts Firefox
++n starts Thunar
  Button screenshot
