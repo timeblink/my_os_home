@@ -182,8 +182,7 @@ English (US):us:English (US, euro on 5):euro:
 English (US):us:English (US, intl., with dead keys):intl:
 English (US):us:English (US, alt. intl.):alt-intl:
 English (US):us:English (intl., with AltGr dead keys):altgr-intl:
-English (US):us:English (Macintosh, ABC, ANSI):mac:
-English (US):us:English (Macintosh, ABC, ISO):mac-iso:
+English (US):us:English (Macintosh):mac:
 English (US):us:English (Colemak):colemak:
 English (US):us:English (Colemak-DH):colemak_dh:
 English (US):us:English (Colemak-DH Wide):colemak_dh_wide:
@@ -197,8 +196,7 @@ English (US):us:English (Dvorak, one-handed, left):dvorak-l:
 English (US):us:English (Dvorak, one-handed, right):dvorak-r:
 English (US):us:English (classic Dvorak):dvorak-classic:
 English (US):us:English (programmer Dvorak):dvp:
-English (US):us:English (Dvorak, Macintosh, ANSI):dvorak-mac:
-English (US):us:English (Dvorak, Macintosh, ISO):dvorak-mac-iso:
+English (US):us:English (Dvorak, Macintosh):dvorak-mac:
 English (US):us:English (Norman):norman:
 English (US):us:English (US, Symbolic):symbolic:
 English (US):us:English (Workman):workman:
@@ -453,6 +451,7 @@ Italian:it:Ladin (German keyboard):lldde:
 Italian:it:Italian (Dvorak):dvorak:
 Japanese:jp:
 Japanese:jp:Japanese (Kana):kana:
+Japanese:jp:Japanese (Kana 86):kana86:
 Japanese:jp:Japanese (OADG 109A):OADG109A:
 Japanese:jp:Japanese (Macintosh):mac:
 Japanese:jp:Japanese (Dvorak):dvorak:
@@ -667,7 +666,6 @@ Swedish:se:Swedish (no dead keys):nodeadkeys:
 Swedish:se:Swedish (Dvorak):dvorak:
 Swedish:se:Swedish (Dvorak, intl.):us_dvorak:
 Swedish:se:Swedish (Svdvorak):svdvorak:
-Swedish:se:Swedish (Colemak):colemak:
 Swedish:se:Swedish (Macintosh):mac:
 Swedish:se:Swedish (US):us:
 Swedish:se:Swedish Sign Language:swl:
@@ -684,7 +682,6 @@ Tajik:tj:Tajik (legacy):legacy:
 Thai:th:
 Thai:th:Thai (TIS-820.2538):tis:
 Thai:th:Thai (Pattachote):pat:
-Thai:th:Thai (Manoonchai):mnc:
 Tswana:bw:
 Turkmen:tm:
 Turkmen:tm:Turkmen (Alt-Q):alt:
@@ -706,7 +703,6 @@ Ukrainian:ua:
 Ukrainian:ua:Ukrainian (phonetic):phonetic:
 Ukrainian:ua:Ukrainian (typewriter):typewriter:
 Ukrainian:ua:Ukrainian (Windows):winkeys:
-Ukrainian:ua:Ukrainian (Windows Enhanced):winkeysenhanced:
 Ukrainian:ua:Ukrainian (macOS):macOS:
 Ukrainian:ua:Ukrainian (legacy):legacy:
 Ukrainian:ua:Ukrainian (homophonic):homophonic:
@@ -717,7 +713,6 @@ Ukrainian:ua:Ukrainian (Sun Type 6/7):sun_type6:
 Urdu (Pakistan):pk:
 Urdu (Pakistan):pk:Urdu (Pakistan, CRULP):urd-crulp:
 Urdu (Pakistan):pk:Urdu (Pakistan, NLA):urd-nla:
-Urdu (Pakistan):pk:Urdu (Pak Urdu Phonetic):pak_urdu_phonetic:
 Urdu (Pakistan):pk:Arabic (Pakistan):ara:
 Urdu (Pakistan):pk:Sindhi:snd:
 Urdu (Pakistan):pk:Urdu (Pakistan, Navees):urd-navees:
@@ -734,7 +729,6 @@ Ancient:ancient:
 Ancient:ancient:Gothic:got:
 Ancient:ancient:Ugaritic:uga:
 Ancient:ancient:Avestan:ave:
-Ancient:ancient:Gothic (Alternative):got-alt:
 APL:apl:
 APL:apl:APL symbols (Dyalog APL):dyalog:
 APL:apl:APL symbols (SAX, Sharp APL for Unix):sax:

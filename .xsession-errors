@@ -1,0 +1,25 @@
+/bin/sh: line 1: /home/zzz/.screenlayout/monitor.sh: No such file or directory
+/bin/sh: line 1: xset: command not found
+amixer: Unable to find simple control 'Master',0
+
+amixer: Unable to find simple control 'Master',0
+
+Welcome app is disabled. To start it anyway, use option --enable (temporarily: --once).
+
+(xfce4-terminal:1885): xfce4-terminal-WARNING **: 08:06:55.829: Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+BUG: single log message > 4k
+[0.575] [glfw error 65544]: process_desktop_settings: failed with error: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[557.720] [PARSE ERROR] Unknown DCS escape code: zz
+[557.720] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[614.457] [PARSE ERROR] Unknown DCS escape code: zz
+[614.457] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[986.771] [PARSE ERROR] Unknown DCS escape code: zz
+[986.771] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[1068.623] [PARSE ERROR] Unknown DCS escape code: zz
+[1068.623] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[1481.861] [PARSE ERROR] Unknown DCS escape code: zz
+[1481.861] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[1526.386] [PARSE ERROR] Unknown DCS escape code: zz
+[1526.386] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[1548.538] [PARSE ERROR] Unknown DCS escape code: zz
+[1548.538] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'

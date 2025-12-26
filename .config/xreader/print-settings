@@ -1,0 +1,32 @@
+[Print Settings]
+cups-OutputBin=FaceDown
+media-type=Plain
+cups-MediaType=Plain
+cups-job-priority=50
+xreader-print-setting-page-autorotate=true
+cups-number-up=1
+xreader-print-setting-page-scale=1
+cover-before=none
+xreader-print-setting-page-size=false
+print-at-time=
+output-bin=FaceDown
+cover-after=none
+print-at=now
+printer=HP_LaserJet_Professional_M1213nf_MFP
+cups-cupsPrintQuality=Normal
+cups-job-sheets=none,none
+cups-OutputMode=Normal
+default-source=Auto
+cups-InputSlot=Auto
+quality=normal
+
+[Page Setup]
+PPDName=A4
+DisplayName=A4
+Width=210
+Height=297
+MarginTop=6.3499999999999996
+MarginBottom=14.224
+MarginLeft=6.3499999999999996
+MarginRight=6.3499999999999996
+Orientation=portrait

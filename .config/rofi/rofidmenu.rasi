@@ -3,7 +3,7 @@
  * Maintainer: joekamprad [joekamprad //a_t// endeavouros.com]
  *******************************************************/
 configuration {
-    font:                "Noto Sans Regular 10";
+    font:                "Noto Sans Regular 12";
     show-icons:          true;
     icon-theme:          "Qogir";
     display-drun:        "Apps";
@@ -13,8 +13,10 @@ configuration {
     sidebar-mode:        false;
 }
 
-@import "~/.config/rofi/config.rasi"
-/* Insert theme modifications after this */
+/* @import "~/.config/rofi/arc_dark_transparent_colors.rasi"
+*/
+@import "~/.config/rofi/themes/Adapta-Nokto.rasi"
+
 
 window {
     background-color: @background;

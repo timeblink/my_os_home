@@ -1,0 +1,76 @@
+1766619693047	FirefoxAccounts	TRACE	initializing new storage manager
+1766619693048	FirefoxAccounts	TRACE	starting fetch of json user data
+1766619693062	FirefoxAccounts	TRACE	finished fetch of json user data - took: 14
+1766619693063	FirefoxAccounts	DEBUG	reading secure storage with existing: []
+1766619693063	FirefoxAccounts	TRACE	starting fetch of user data from the login manager
+1766619693083	FirefoxAccounts	DEBUG	secure read fetched items: []
+1766619693083	FirefoxAccounts	TRACE	initializing of new storage manager done
+1766619693327	FirefoxAccounts	ERROR	FxA rejecting with error AUTH_ERROR, details: no session token
+1766619693327	FirefoxAccounts	ERROR	Could not update attached clients list : Error: AUTH_ERROR(resource://gre/modules/FxAccounts.sys.mjs:1655:18) JS Stack trace: _error@FxAccounts.sys.mjs:1655:18
+withSessionToken@FxAccounts.sys.mjs:878:18
+1766619693344	FirefoxAccounts	ERROR	FxA rejecting with error AUTH_ERROR, details: no session token
+1766619693345	FirefoxAccounts	ERROR	Could not update attached clients list : Error: AUTH_ERROR(resource://gre/modules/FxAccounts.sys.mjs:1655:18) JS Stack trace: _error@FxAccounts.sys.mjs:1655:18
+withSessionToken@FxAccounts.sys.mjs:878:18
+1766619693352	FirefoxAccounts	ERROR	FxA rejecting with error AUTH_ERROR, details: no session token
+1766619693352	FirefoxAccounts	ERROR	Could not update attached clients list : Error: AUTH_ERROR(resource://gre/modules/FxAccounts.sys.mjs:1655:18) JS Stack trace: _error@FxAccounts.sys.mjs:1655:18
+withSessionToken@FxAccounts.sys.mjs:878:18
+1766619693354	FirefoxAccounts	ERROR	FxA rejecting with error AUTH_ERROR, details: no session token
+1766619693354	FirefoxAccounts	ERROR	Could not update attached clients list : Error: AUTH_ERROR(resource://gre/modules/FxAccounts.sys.mjs:1655:18) JS Stack trace: _error@FxAccounts.sys.mjs:1655:18
+withSessionToken@FxAccounts.sys.mjs:878:18
+1766619693372	FirefoxAccounts	ERROR	FxA rejecting with error AUTH_ERROR, details: no session token
+1766619693372	FirefoxAccounts	ERROR	Could not update attached clients list : Error: AUTH_ERROR(resource://gre/modules/FxAccounts.sys.mjs:1655:18) JS Stack trace: _error@FxAccounts.sys.mjs:1655:18
+withSessionToken@FxAccounts.sys.mjs:878:18
+1766619693894	Sync.Status	INFO	Resetting Status.
+1766619693894	Sync.Status	DEBUG	Status.service: undefined => success.status_ok
+1766619693895	Sync.SyncScheduler	TRACE	Setting SyncScheduler policy values to defaults.
+1766619693895	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1766619693895	Sync.Service	INFO	Loading Weave 1.140.0
+1766619693895	Sync.Engine.Clients	DEBUG	Engine constructed
+1766619693896	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1766619693900	Sync.Engine.Addons	DEBUG	Engine constructed
+1766619693903	Sync.Engine.Addons	DEBUG	SyncEngine initialized: addons
+1766619693905	Sync.Engine.Passwords	DEBUG	Engine constructed
+1766619693906	Sync.Engine.Passwords	DEBUG	SyncEngine initialized: passwords
+1766619693908	Sync.Engine.Prefs	DEBUG	Engine constructed
+1766619693910	Sync.Engine.Prefs	DEBUG	SyncEngine initialized: prefs
+1766619693913	Sync.Engine.Bookmarks	DEBUG	Engine constructed
+1766619693915	Sync.Engine.Bookmarks	DEBUG	SyncEngine initialized: bookmarks
+1766619693917	Sync.Engine.Forms	DEBUG	Engine constructed
+1766619693918	Sync.Engine.Forms	DEBUG	SyncEngine initialized: forms
+1766619693920	Sync.Engine.History	DEBUG	Engine constructed
+1766619693922	Sync.Engine.History	DEBUG	SyncEngine initialized: history
+1766619693924	Sync.Engine.Tabs	DEBUG	Engine constructed
+1766619693925	Sync.Engine.Tabs	DEBUG	SyncEngine initialized: tabs
+1766619693930	Sync.Engine.Tabs	INFO	Got a bridged engine!
+1766619693932	Sync.Engine.CreditCards	DEBUG	Engine constructed
+1766619693938	Sync.Engine.CreditCards	DEBUG	SyncEngine initialized: creditcards
+1766619693940	Sync.Engine.Extension-Storage	DEBUG	Engine constructed
+1766619693941	Sync.Engine.Extension-Storage	DEBUG	SyncEngine initialized: extension-storage
+1766619694109	FirefoxAccounts	DEBUG	FxAccountsWebChannel registered: account_updates with origin https://accounts.firefox.com
+1766619694370	Sync.Engine.Extension-Storage	INFO	Got a bridged engine!
+1766619694371	Sync.Service	INFO	Mozilla/5.0 (X11; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0
+1766619694375	Sync.AddonsReconciler	INFO	Registering as Add-on Manager listener.
+1766619694375	Sync.AddonsReconciler	DEBUG	Adding change listener.
+1766619694376	Sync.Engine.History.Tracker	INFO	Adding Places observer.
+1766619694401	FirefoxAccounts	TRACE	Command queue observer created
+1766619694402	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1766619694403	FirefoxAccounts	INFO	Generating and persisting encrypted key (false, true)
+1766619694404	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1766619694407	FirefoxAccounts	INFO	Can't fetch keys, so unable to determine command keys
+1766619694407	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1766619694407	FirefoxAccounts	INFO	Generating and persisting encrypted key (false, true)
+1766619694407	FirefoxAccounts	INFO	Can't get keys; no key material or tokens available
+1766619694408	FirefoxAccounts	INFO	Can't fetch keys, so unable to determine command keys
+1766619694408	Sync.Telemetry	WARN	Failed to set sync identifiers in the deletion-request ping: Error: _registerOrUpdateDevice called without a session token
+1766619694409	Sync.Service	DEBUG	User-Agent: Firefox/138.0.1 (Linux x86_64) FxSync/1.140.0.20250501114137.desktop
+1766619694410	Sync.Service	INFO	Starting sync at 2025-12-25 07:41:34 in browser session ArIL_I6u7OII
+1766619694410	Sync.Service	DEBUG	In sync: should login.
+1766619694410	Sync.Service	INFO	User logged in successfully - verifying login.
+1766619694411	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState has an unverified user
+1766619694411	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.account
+1766619694411	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1766619694411	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.account
+1766619694412	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1766619694412	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1766619694413	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.account(resource://services-sync/service.sys.mjs:1041:15) JS Stack trace: onNotify@service.sys.mjs:1041:15
+1766619694414	Sync.Service	DEBUG	Not syncing: login returned false.
