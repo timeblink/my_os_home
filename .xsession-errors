@@ -23,3 +23,5 @@ BUG: single log message > 4k
 [1526.386] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
 [1548.538] [PARSE ERROR] Unknown DCS escape code: zz
 [1548.538] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[2197.127] [PARSE ERROR] Unknown DCS escape code: zz
+[2197.127] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'

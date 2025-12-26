@@ -21,7 +21,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1766709310,,"wq"
+|2,0,1766709960,,"wq"
 :q
 |2,0,1763188086,,"q"
 :w
@@ -164,36 +164,50 @@ $
 |3,0,36,0,1,0,1763168395,"#"
 
 # File marks:
-'0  3  4  ~/Downloads/.gitignore
-|4,48,3,4,1766709311,"~/Downloads/.gitignore"
-'1  2  4  ~/Downloads/.gitignore
-|4,49,2,4,1766709292,"~/Downloads/.gitignore"
+'0  8  7  ~/.gitignore
+|4,48,8,7,1766709960,"~/.gitignore"
+'1  3  4  ~/Downloads/.gitignore
+|4,49,3,4,1766709311,"~/Downloads/.gitignore"
 '2  2  4  ~/Downloads/.gitignore
 |4,50,2,4,1766709292,"~/Downloads/.gitignore"
-'3  4  0  ~/Videos/.gitignore
-|4,51,4,0,1766709243,"~/Videos/.gitignore"
-'4  5  6  ~/Videos/.gitignore
-|4,52,5,6,1766708835,"~/Videos/.gitignore"
+'3  2  4  ~/Downloads/.gitignore
+|4,51,2,4,1766709292,"~/Downloads/.gitignore"
+'4  4  0  ~/Videos/.gitignore
+|4,52,4,0,1766709243,"~/Videos/.gitignore"
 '5  5  6  ~/Videos/.gitignore
 |4,53,5,6,1766708835,"~/Videos/.gitignore"
-'6  7  5  ~/.gitignore
-|4,54,7,5,1766708751,"~/.gitignore"
-'7  3  6  ~/Videos/.gitignore
-|4,55,3,6,1766708386,"~/Videos/.gitignore"
-'8  3  6  ~/Videos/.gitignore
-|4,56,3,6,1766708386,"~/Videos/.gitignore"
+'6  5  6  ~/Videos/.gitignore
+|4,54,5,6,1766708835,"~/Videos/.gitignore"
+'7  7  5  ~/.gitignore
+|4,55,7,5,1766708751,"~/.gitignore"
+'8  7  5  ~/.gitignore
+|4,56,7,5,1766708751,"~/.gitignore"
 '9  3  6  ~/Videos/.gitignore
 |4,57,3,6,1766708386,"~/Videos/.gitignore"
 
 # Jumplist (newest first):
+-'  8  7  ~/.gitignore
+|4,39,8,7,1766709960,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1766709955,"~/.gitignore"
 -'  3  4  ~/Downloads/.gitignore
 |4,39,3,4,1766709311,"~/Downloads/.gitignore"
+-'  3  4  ~/Downloads/.gitignore
+|4,39,3,4,1766709311,"~/Downloads/.gitignore"
+-'  1  0  ~/Downloads/.gitignore
+|4,39,1,0,1766709307,"~/Downloads/.gitignore"
 -'  1  0  ~/Downloads/.gitignore
 |4,39,1,0,1766709307,"~/Downloads/.gitignore"
 -'  2  4  ~/Downloads/.gitignore
 |4,39,2,4,1766709292,"~/Downloads/.gitignore"
 -'  2  4  ~/Downloads/.gitignore
 |4,39,2,4,1766709292,"~/Downloads/.gitignore"
+-'  2  4  ~/Downloads/.gitignore
+|4,39,2,4,1766709292,"~/Downloads/.gitignore"
+-'  2  4  ~/Downloads/.gitignore
+|4,39,2,4,1766709292,"~/Downloads/.gitignore"
+-'  1  0  ~/Downloads/.gitignore
+|4,39,1,0,1766709284,"~/Downloads/.gitignore"
 -'  1  0  ~/Downloads/.gitignore
 |4,39,1,0,1766709284,"~/Downloads/.gitignore"
 -'  4  0  ~/Videos/.gitignore
@@ -204,6 +218,22 @@ $
 |4,39,4,0,1766709243,"~/Videos/.gitignore"
 -'  4  0  ~/Videos/.gitignore
 |4,39,4,0,1766709243,"~/Videos/.gitignore"
+-'  4  0  ~/Videos/.gitignore
+|4,39,4,0,1766709243,"~/Videos/.gitignore"
+-'  4  0  ~/Videos/.gitignore
+|4,39,4,0,1766709243,"~/Videos/.gitignore"
+-'  4  0  ~/Videos/.gitignore
+|4,39,4,0,1766709243,"~/Videos/.gitignore"
+-'  4  0  ~/Videos/.gitignore
+|4,39,4,0,1766709243,"~/Videos/.gitignore"
+-'  1  0  ~/Videos/.gitignore
+|4,39,1,0,1766709240,"~/Videos/.gitignore"
+-'  1  0  ~/Videos/.gitignore
+|4,39,1,0,1766709240,"~/Videos/.gitignore"
+-'  1  0  ~/Videos/.gitignore
+|4,39,1,0,1766709240,"~/Videos/.gitignore"
+-'  1  0  ~/Videos/.gitignore
+|4,39,1,0,1766709240,"~/Videos/.gitignore"
 -'  1  0  ~/Videos/.gitignore
 |4,39,1,0,1766709240,"~/Videos/.gitignore"
 -'  1  0  ~/Videos/.gitignore
@@ -228,6 +258,30 @@ $
 |4,39,5,6,1766708835,"~/Videos/.gitignore"
 -'  5  6  ~/Videos/.gitignore
 |4,39,5,6,1766708835,"~/Videos/.gitignore"
+-'  5  6  ~/Videos/.gitignore
+|4,39,5,6,1766708835,"~/Videos/.gitignore"
+-'  5  6  ~/Videos/.gitignore
+|4,39,5,6,1766708835,"~/Videos/.gitignore"
+-'  5  6  ~/Videos/.gitignore
+|4,39,5,6,1766708835,"~/Videos/.gitignore"
+-'  5  6  ~/Videos/.gitignore
+|4,39,5,6,1766708835,"~/Videos/.gitignore"
+-'  5  6  ~/Videos/.gitignore
+|4,39,5,6,1766708835,"~/Videos/.gitignore"
+-'  5  6  ~/Videos/.gitignore
+|4,39,5,6,1766708835,"~/Videos/.gitignore"
+-'  5  6  ~/Videos/.gitignore
+|4,39,5,6,1766708835,"~/Videos/.gitignore"
+-'  5  6  ~/Videos/.gitignore
+|4,39,5,6,1766708835,"~/Videos/.gitignore"
+-'  1  0  ~/Videos/.gitignore
+|4,39,1,0,1766708827,"~/Videos/.gitignore"
+-'  1  0  ~/Videos/.gitignore
+|4,39,1,0,1766708827,"~/Videos/.gitignore"
+-'  1  0  ~/Videos/.gitignore
+|4,39,1,0,1766708827,"~/Videos/.gitignore"
+-'  1  0  ~/Videos/.gitignore
+|4,39,1,0,1766708827,"~/Videos/.gitignore"
 -'  1  0  ~/Videos/.gitignore
 |4,39,1,0,1766708827,"~/Videos/.gitignore"
 -'  1  0  ~/Videos/.gitignore
@@ -268,6 +322,8 @@ $
 |4,39,7,5,1766708751,"~/.gitignore"
 -'  7  5  ~/.gitignore
 |4,39,7,5,1766708751,"~/.gitignore"
+-'  7  5  ~/.gitignore
+|4,39,7,5,1766708751,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1766708745,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -330,64 +386,16 @@ $
 |4,39,3,6,1766708386,"~/Videos/.gitignore"
 -'  3  6  ~/Videos/.gitignore
 |4,39,3,6,1766708386,"~/Videos/.gitignore"
--'  3  6  ~/Videos/.gitignore
-|4,39,3,6,1766708386,"~/Videos/.gitignore"
--'  1  0  ~/Videos/.gitignore
-|4,39,1,0,1766708372,"~/Videos/.gitignore"
--'  1  0  ~/Videos/.gitignore
-|4,39,1,0,1766708372,"~/Videos/.gitignore"
--'  1  0  ~/Videos/.gitignore
-|4,39,1,0,1766708372,"~/Videos/.gitignore"
--'  1  0  ~/Videos/.gitignore
-|4,39,1,0,1766708372,"~/Videos/.gitignore"
--'  1  0  ~/Videos/.gitignore
-|4,39,1,0,1766708372,"~/Videos/.gitignore"
--'  1  0  ~/Videos/.gitignore
-|4,39,1,0,1766708372,"~/Videos/.gitignore"
--'  1  0  ~/Videos/.gitignore
-|4,39,1,0,1766708372,"~/Videos/.gitignore"
--'  1  0  ~/Videos/.gitignore
-|4,39,1,0,1766708372,"~/Videos/.gitignore"
--'  1  8  ~/Videos/.gitignore
-|4,39,1,8,1766708326,"~/Videos/.gitignore"
--'  1  8  ~/Videos/.gitignore
-|4,39,1,8,1766708326,"~/Videos/.gitignore"
--'  1  8  ~/Videos/.gitignore
-|4,39,1,8,1766708326,"~/Videos/.gitignore"
--'  1  8  ~/Videos/.gitignore
-|4,39,1,8,1766708326,"~/Videos/.gitignore"
--'  1  8  ~/Videos/.gitignore
-|4,39,1,8,1766708326,"~/Videos/.gitignore"
--'  1  8  ~/Videos/.gitignore
-|4,39,1,8,1766708326,"~/Videos/.gitignore"
--'  1  8  ~/Videos/.gitignore
-|4,39,1,8,1766708326,"~/Videos/.gitignore"
--'  1  8  ~/Videos/.gitignore
-|4,39,1,8,1766708326,"~/Videos/.gitignore"
--'  4  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,4,0,1763188086,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  4  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,4,0,1763188086,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  4  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,4,0,1763188086,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  4  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,4,0,1763188086,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  4  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,4,0,1763188086,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  4  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,4,0,1763188086,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  4  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,4,0,1763188086,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  4  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,4,0,1763188086,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  4  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,4,0,1763188086,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  4  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,4,0,1763188086,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  4  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,4,0,1763188086,"~/Videos/xrated.ssh/m3u8_init.sh"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1766709958	0
+	"	8	7
+	^	8	8
+	.	8	7
+	+	7	6
+	+	8	7
 
 > ~/Downloads/.gitignore
 	*	1766709310	0
@@ -404,13 +412,6 @@ $
 	+	1	9
 	+	3	6
 	+	5	0
-
-> ~/.gitignore
-	*	1766708750	0
-	"	7	5
-	^	7	6
-	.	7	6
-	+	7	6
 
 > ~/Videos/xrated.ssh/m3u8_init.sh
 	*	1763188084	0
