@@ -1,8 +1,65 @@
+xmodmap:  unknown command on line /home/zzz/.Xmodmap:1
+xmodmap:  unknown command on line /home/zzz/.Xmodmap:2
+xmodmap:  unknown command on line /home/zzz/.Xmodmap:3
+xmodmap:  unknown command on line /home/zzz/.Xmodmap:4
+xmodmap:  unknown command on line /home/zzz/.Xmodmap:5
+xmodmap:  unknown command on line /home/zzz/.Xmodmap:6
+xmodmap:  unknown command on line /home/zzz/.Xmodmap:7
+xmodmap:  7 errors encountered, aborting.
 /bin/sh: line 1: /home/zzz/.screenlayout/monitor.sh: No such file or directory
 /bin/sh: line 1: xset: command not found
-Welcome app is disabled. To start it anyway, use option --enable (temporarily: --once).
-[Child 1689, MediaDecoderStateMachine #1] WARNING: Decoder=7f4273366d00 Decode error: NS_ERROR_ABORT (0x80004004) - Result<already_AddRefed<MediaRawData>, MediaResult> mozilla::SampleIterator::GetNext(): Sample data read failed: file /usr/src/debug/firefox/firefox-146.0.1/dom/media/MediaDecoderStateMachineBase.cpp:168
-nm-applet-Message: 07:59:39.017: No keyring secrets found for TP-LINK_2268/802-11-wireless-security; asking user.
+amixer: Unable to find simple control 'Master',0
 
-(xfce4-terminal:4052): xfce4-terminal-WARNING **: 07:59:47.613: Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
-Closing SHM log "/i3-log-795"
+amixer: Unable to find simple control 'Master',0
+
+Welcome app is disabled. To start it anyway, use option --enable (temporarily: --once).
+/bin/sh: line 1: source: .bashrc: file not found
+[277860] Sandbox: attempt to open unexpected file /sys/fs/cgroup/cpuset/chrome
+[277860] Sandbox: attempt to open unexpected file /sys/fs/cgroup/schedtune/chrome
+[0.602] [glfw error 65544]: process_desktop_settings: failed with error: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[14.154] [PARSE ERROR] Unknown char after ESC: 0x6b
+[14.154] [PARSE ERROR] Unknown char after ESC: 0x5c
+[29.967] [PARSE ERROR] Unknown char after ESC: 0x6b
+[29.967] [PARSE ERROR] Unknown char after ESC: 0x5c
+[0.314] [glfw error 65544]: process_desktop_settings: failed with error: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[74.415] [PARSE ERROR] Unknown DCS escape code: zz
+[74.415] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[125.238] [PARSE ERROR] Unknown char after ESC: 0x6b
+[125.238] [PARSE ERROR] Unknown char after ESC: 0x5c
+[131.533] [PARSE ERROR] Unknown char after ESC: 0x6b
+[131.534] [PARSE ERROR] Unknown char after ESC: 0x5c
+[134.900] [PARSE ERROR] Unknown DCS escape code: zz
+[134.900] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[141.563] [PARSE ERROR] Unknown char after ESC: 0x6b
+[141.563] [PARSE ERROR] Unknown char after ESC: 0x5c
+[144.050] [PARSE ERROR] Unknown char after ESC: 0x6b
+[144.051] [PARSE ERROR] Unknown char after ESC: 0x5c
+[145.926] [PARSE ERROR] Unknown DCS escape code: zz
+[145.926] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[149.558] [PARSE ERROR] Unknown char after ESC: 0x6b
+[149.558] [PARSE ERROR] Unknown char after ESC: 0x5c
+[161.997] [PARSE ERROR] Unknown char after ESC: 0x6b
+[161.997] [PARSE ERROR] Unknown char after ESC: 0x5c
+[244.418] [PARSE ERROR] Unknown char after ESC: 0x6b
+[244.418] [PARSE ERROR] Unknown char after ESC: 0x5c
+[330.732] [PARSE ERROR] Unknown char after ESC: 0x6b
+[330.732] [PARSE ERROR] Unknown char after ESC: 0x5c
+[335.578] [PARSE ERROR] Unknown DCS escape code: zz
+[335.578] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[421.351] [PARSE ERROR] Unknown DCS escape code: zz
+[421.351] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[461.976] [PARSE ERROR] Unknown char after ESC: 0x6b
+[461.976] [PARSE ERROR] Unknown char after ESC: 0x5c
+[477.941] [PARSE ERROR] Unknown char after ESC: 0x6b
+[477.941] [PARSE ERROR] Unknown char after ESC: 0x5c
+[504.421] [PARSE ERROR] Unknown char after ESC: 0x6b
+[504.421] [PARSE ERROR] Unknown char after ESC: 0x5c
+[520.368] [PARSE ERROR] Unknown char after ESC: 0x6b
+[520.368] [PARSE ERROR] Unknown char after ESC: 0x5c
+[529.001] [PARSE ERROR] Unknown char after ESC: 0x6b
+[529.001] [PARSE ERROR] Unknown char after ESC: 0x5c
+[531.787] [PARSE ERROR] Unknown DCS escape code: zz
+[531.787] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
+[538.074] [PARSE ERROR] Unknown char after ESC: 0x6b
+[538.075] [PARSE ERROR] Unknown char after ESC: 0x5c
+Closing SHM log "/i3-log-781"

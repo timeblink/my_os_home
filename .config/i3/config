@@ -408,6 +408,9 @@ exec --no-startup-id xset s 650 dpms 900 900 900
 # https://wiki.archlinux.org/title/Session_lock#xautolock
 #exec --no-startup-id xautolock -time 60 -locker "systemctl suspend"
 
+# source .bashrc
+exec --no-startup-id sleep 8 && source .bashrc
+
 
 # xscreensaver
 # https://www.jwz.org/xscreensaver
@@ -433,6 +436,7 @@ exec --no-startup-id /usr/bin/dunst
 #exec --no-startup-id sleep 7 && firefox https://github.com/endeavouros-team/endeavouros-i3wm-setup/blob/main/force-knowledge.md
 #exec --no-startup-id sleep 7 && thunar
 
+exec --no-startup-id sleep 10 && ibus-daemon -x -d
 exec --no-startup-id sleep 8 && source ~/.profile
 
 # exec --no-startup-id sleep 5 && xinput disable 11

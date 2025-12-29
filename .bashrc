@@ -10,11 +10,19 @@ alias grep='grep --color=auto'
 
 set -o emacs
 
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS=@im-fcitx
-export XIM=fcitx
-export XIM_PROGRAM=fcitx
+#export GTK_IM_MODULE=fcitx
+#export QT_IM_MODULE=fcitx
+#export XMODIFIERS=@im-fcitx
+#export XIM=fcitx
+#export XIM_PROGRAM=fcitx
+
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
+export XIM=ibus
+export XIM_PROGRAM=ibus
+export EDITOR=vim
+
 #eval `dbus-launch --sh-syntax --exit-with-session`
 #exec fcitx &
 
