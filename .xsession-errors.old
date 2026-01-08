@@ -14,52 +14,31 @@ amixer: Unable to find simple control 'Master',0
 
 Welcome app is disabled. To start it anyway, use option --enable (temporarily: --once).
 /bin/sh: line 1: source: .bashrc: file not found
-[277860] Sandbox: attempt to open unexpected file /sys/fs/cgroup/cpuset/chrome
-[277860] Sandbox: attempt to open unexpected file /sys/fs/cgroup/schedtune/chrome
-[0.602] [glfw error 65544]: process_desktop_settings: failed with error: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
-[14.154] [PARSE ERROR] Unknown char after ESC: 0x6b
-[14.154] [PARSE ERROR] Unknown char after ESC: 0x5c
-[29.967] [PARSE ERROR] Unknown char after ESC: 0x6b
-[29.967] [PARSE ERROR] Unknown char after ESC: 0x5c
-[0.314] [glfw error 65544]: process_desktop_settings: failed with error: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
-[74.415] [PARSE ERROR] Unknown DCS escape code: zz
-[74.415] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
-[125.238] [PARSE ERROR] Unknown char after ESC: 0x6b
-[125.238] [PARSE ERROR] Unknown char after ESC: 0x5c
-[131.533] [PARSE ERROR] Unknown char after ESC: 0x6b
-[131.534] [PARSE ERROR] Unknown char after ESC: 0x5c
-[134.900] [PARSE ERROR] Unknown DCS escape code: zz
-[134.900] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
-[141.563] [PARSE ERROR] Unknown char after ESC: 0x6b
-[141.563] [PARSE ERROR] Unknown char after ESC: 0x5c
-[144.050] [PARSE ERROR] Unknown char after ESC: 0x6b
-[144.051] [PARSE ERROR] Unknown char after ESC: 0x5c
-[145.926] [PARSE ERROR] Unknown DCS escape code: zz
-[145.926] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
-[149.558] [PARSE ERROR] Unknown char after ESC: 0x6b
-[149.558] [PARSE ERROR] Unknown char after ESC: 0x5c
-[161.997] [PARSE ERROR] Unknown char after ESC: 0x6b
-[161.997] [PARSE ERROR] Unknown char after ESC: 0x5c
-[244.418] [PARSE ERROR] Unknown char after ESC: 0x6b
-[244.418] [PARSE ERROR] Unknown char after ESC: 0x5c
-[330.732] [PARSE ERROR] Unknown char after ESC: 0x6b
-[330.732] [PARSE ERROR] Unknown char after ESC: 0x5c
-[335.578] [PARSE ERROR] Unknown DCS escape code: zz
-[335.578] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
-[421.351] [PARSE ERROR] Unknown DCS escape code: zz
-[421.351] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
-[461.976] [PARSE ERROR] Unknown char after ESC: 0x6b
-[461.976] [PARSE ERROR] Unknown char after ESC: 0x5c
-[477.941] [PARSE ERROR] Unknown char after ESC: 0x6b
-[477.941] [PARSE ERROR] Unknown char after ESC: 0x5c
-[504.421] [PARSE ERROR] Unknown char after ESC: 0x6b
-[504.421] [PARSE ERROR] Unknown char after ESC: 0x5c
-[520.368] [PARSE ERROR] Unknown char after ESC: 0x6b
-[520.368] [PARSE ERROR] Unknown char after ESC: 0x5c
-[529.001] [PARSE ERROR] Unknown char after ESC: 0x6b
-[529.001] [PARSE ERROR] Unknown char after ESC: 0x5c
-[531.787] [PARSE ERROR] Unknown DCS escape code: zz
-[531.787] [PARSE ERROR] Unknown CSI code: 'm' with start_modifier: '␀' and end_modifier: '%' and parameters: '0'
-[538.074] [PARSE ERROR] Unknown char after ESC: 0x6b
-[538.075] [PARSE ERROR] Unknown char after ESC: 0x5c
-Closing SHM log "/i3-log-781"
+[0.443] [glfw error 65544]: process_desktop_settings: failed with error: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+
+(xed:111927): libpeas-WARNING **: 06:42:41.810: Failed to load module 'python3loader': /usr/lib/libpeas-1.0/loaders/libpython3loader.so: cannot open shared object file: No such file or directory
+
+(xed:111927): libpeas-WARNING **: 06:42:41.810: Could not load plugin loader 'python3'
+
+** (xed:111927): WARNING **: 06:42:41.810: Failed to load builtin plugin: Text Size
+
+** (xed:111927): WARNING **: 06:42:41.810: Failed to load builtin plugin: Join Lines
+
+** (xed:111927): WARNING **: 06:42:41.810: Failed to load builtin plugin: Open URI
+
+(xed:111927): libenchant-WARNING **: 06:42:42.521: broker.vala:156: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:111927): libenchant-WARNING **: 06:42:42.526: broker.vala:156: Error loading plugin: libhunspell-1.7.so.0: cannot open shared object file: No such file or directory
+
+(xed:111927): libenchant-WARNING **: 06:42:42.527: broker.vala:156: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:111927): libenchant-WARNING **: 06:42:42.528: broker.vala:156: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+
+(xed:111927): libenchant-WARNING **: 06:42:42.528: broker.vala:156: Error loading plugin: libvoikko.so.1: cannot open shared object file: No such file or directory
+
+(xed:111927): libenchant-WARNING **: 06:42:42.529: broker.vala:156: Error loading plugin: libhunspell-1.7.so.0: cannot open shared object file: No such file or directory
+
+(xed:111927): libenchant-WARNING **: 06:42:42.529: broker.vala:156: Error loading plugin: libhspell.so.0: cannot open shared object file: No such file or directory
+
+(xed:111927): libenchant-WARNING **: 06:42:42.529: broker.vala:156: Error loading plugin: libnuspell.so.5: cannot open shared object file: No such file or directory
+Closing SHM log "/i3-log-783"

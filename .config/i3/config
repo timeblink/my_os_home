@@ -172,7 +172,7 @@ bindcode $mod+Shift+90 	 move container to workspace  $ws10
 ######################################
 
 # start a terminal
-#bindsym $mod+Return exec --no-startup-id xfce4-terminal
+#bindsym $mod+Return exec --no-startup-id kitty
 
 # kill focused window
 bindsym $mod+q kill
@@ -321,18 +321,20 @@ set $ws10 "10"
 #workspace $ws5 output HDMI-0
 
 # bind program to workspace and focus to them on startup:
-assign [class="Xfce4-terminal"] $ws1
+assign [class="kitty"] $ws1
 assign [class="(?i)firefox"] $ws2
 assign [class="Thunar"] $ws3
 assign [class="Subl"] $ws4
 assign [class="TelegramDesktop"] $ws5
+assign [class="xreader"] $ws1
 
 # automatic set focus new window if it opens on another workspace than the current:
-for_window [class=Xfce4-terminal] focus
+for_window [class=kitty] focus
 for_window [class=(?i)firefox] focus
 for_window [class=Thunar] focus
 for_window [class=Subl] focus
 for_window [class=TelegramDesktop] focus
+for_window [class=xreader] focus
 
 ##############
 # compositor #
@@ -396,7 +398,8 @@ exec --no-startup-id ~/.screenlayout/monitor.sh
 
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
-exec --no-startup-id sleep 1 && feh --bg-fill ~/.config/i3/backgrounds.png
+#exec --no-startup-id sleep 1 && feh --bg-fill ~/.config/i3/backgrounds.png
+exec --no-startup-id sleep 1 && feh --bg-fill ~/.config/i3/ecce04ac7a7e13c3103d3204afad8fc1.jpeg
 
 # set powersavings for display:
 exec --no-startup-id xset s 650 dpms 900 900 900
@@ -432,7 +435,7 @@ exec --no-startup-id /usr/bin/dunst
 #exec_always --no-startup-id autotiling
 
 # Autostart apps as you like
-#exec --no-startup-id sleep 5 && xfce4-terminal
+#exec --no-startup-id sleep 5 && kitty
 #exec --no-startup-id sleep 7 && firefox https://github.com/endeavouros-team/endeavouros-i3wm-setup/blob/main/force-knowledge.md
 #exec --no-startup-id sleep 7 && thunar
 
