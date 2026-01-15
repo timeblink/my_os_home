@@ -483,6 +483,7 @@ for_window [window_role="About"] floating enable
 
 #for_window [class="mpv"] floating enable #resize set 800 600
 for_window [class="mpv"] floating enable #resize set 640 480
+#for_window [class="kitty"] floating toggle
 
 # set border of floating window
 for_window [class="urxvt"] border pixel 1

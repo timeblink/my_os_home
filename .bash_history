@@ -1,383 +1,3 @@
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-touch 起信论-梦参长老.txt
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-rm 起信论-梦参长老-28-11.mp4
-rm 起信论-梦参长老-28-11.mp4
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-rm 起信论-梦参长老-28-11.mp4
-ls -lstrh
-ranger 
-pushd ~/Videos/电影/
-ssh -l zzz 192.168.12.104 ls Videos/电影
-popd 
-ls
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-rm 起信论-梦参长老-28-11.mp4
-mpv 起信论-梦参长老-28-02.mp4
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-rm 起信论-梦参长老-28-12.mp4
-ls
-pushd ~/Documents/阅藏知津/
-ls
-vim 五灯会元.txt
-ps aux | grep xed
-sudo kill -9 845179
-ip
-history | grep ip
-ifconfig
-ip a
-ip r
-ip r
-ip a
-popd 
-ls
-cd Downloads/
-ls
-cd 起信论-梦参长老
-ls
-ls -lstr
-ls -lstr
-ls -lstr
-wget 'https://mpvideo.qpic.cn/0b7834aayaaalmaeyk4kbjqfbx6dbtpqadaa.f10003.mp4?dis_k=3f1adeecbc0a99bd71160d2eecf0cae7&dis_t=1767097241&play_scene=10120&auth_info=WPuixIhQa1pK6d+6qxx5NglPcChoXmpNQ2RAe2V3GxtoekMuDB4UIDsRbE0cInUV&auth_key=13015d6c6cc604f72c8b325de6355559&vid=wxv_1846851871156584454&format_id=10003&support_redirect=0&mmversion=false'
-ls
-mv 0b7834aayaaalmaeyk4kbjqfbx6dbtpqadaa.f10003.mp4\?dis_k\=3f1adeecbc0a99bd71160d2eecf0cae7\&dis_t\=1767097241\&play_scene\=10120\&auth_info\=WPuixIhQa1pK6d+6qxx5NglPcChoXmpNQ2RAe2V3GxtoekMuDB4UIDsRbE0cInUV\&auth_key\=13015d6c6cc604f72c8b325de635555 起信论-梦参长老-28-12.mp4
-mpv 起信论-梦参长老-28-12.mp4
-wget 'https://mpvideo.qpic.cn/0b78cyaawaaauiaex4ukdfqfafwdbmlaacya.f10003.mp4?dis_k=98bd297a568dcc4f68d888401a917416&dis_t=1767097892&play_scene=10120&auth_info=DubWtFVeABe49ZHMd30RNE43Zho2E15yNl1SSmB+YgYoS14GICF6ZkBGZntJcTI=&auth_key=532be0c3d97a96769a1256d9b84a555d&vid=wxv_1846852678107119622&format_id=10003&support_redirect=0&mmversion=false' -o 起信论-梦参长老-28-13.mp4
-ls
-ls -lstr
-ls -lstrh
-ls -lh
-ls -lh
-wget -o 起信论-梦参长老-28-13.mp4 'https://mpvideo.qpic.cn/0b78cyaawaaauiaex4ukdfqfafwdbmlaacya.f10003.mp4?dis_k=98bd297a568dcc4f68d888401a917416&dis_t=1767097892&play_scene=10120&auth_info=DubWtFVeABe49ZHMd30RNE43Zho2E15yNl1SSmB+YgYoS14GICF6ZkBGZntJcTI=&auth_key=532be0c3d97a96769a1256d9b84a555d&vid=wxv_1846852678107119622&format_id=10003&support_redirect=0&mmversion=false'
-ls -lh
-ls -lh
-ls -lh
-ls -lh
-ls -lh
-ls -lh
-ls -lh
-touch 起信论-梦参长老-28-12.mp4
-ls -lh
-mpv 起信论-梦参长老-28-12.mp4
-wget -o 起信论-梦参长老-28-14.mp4 'https://mpvideo.qpic.cn/0b78eaaayaaa2iaez74kdzqfaigdbqqaadaa.f10003.mp4?dis_k=32b7f3bb6d82d0008415a2a97d1aeb72&dis_t=1767098382&play_scene=10120&auth_info=cNCyqtpnNEUOmrLG4ikrKXUwPhtNYm5IND0uG2goGWZASHMmfShLP39iATFVFycK&auth_key=045267957ad959a8bddde4ce572a1e90&vid=wxv_1846853708563726341&format_id=10003&support_redirect=0&mmversion=false'
-ls -lsh
-ls -lsh
-ls -lsh
-ls -lsh
-ls -lsh
-mpv 起信论-梦参长老-28-14.mp4
-ls -lsh
-ls
-cd Dow
-cd Downloads/
-ls
-cd 起信论-梦参长老
-ls
-ls -lstr
-ls -lstrh
-mpv 0b78cyaawaaauiaex4ukdfqfafwdbmlaacya.f10003.mp4\?dis_k\=98bd297a568dcc4f68d888401a917416\&dis_t\=1767097892\&play_scene\=10120\&auth_info\=DubWtFVeABe49ZHMd30RNE43Zho2E15yNl1SSmB+YgYoS14GICF6ZkBGZntJcTI\=\&auth_key\=532be0c3d97a96769a1256d9b84a555
-mpv 0b78cyaawaaauiaex4ukdfqfafwdbmlaacya.f10003.mp4\?dis_k\=98bd297a568dcc4f68d888401a917416\&dis_t\=1767097892\&play_scene\=10120\&auth_info\=DubWtFVeABe49ZHMd30RNE43Zho2E15yNl1SSmB+YgYoS14GICF6ZkBGZntJcTI\=\&auth_key\=532be0c3d97a96769a1256d9b84a555
-ls -lstrh
-rm 0b78cyaawaaauiaex4ukdfqfafwdbmlaacya.f10003.mp4\?dis_k\=98bd297a568dcc4f68d888401a917416\&dis_t\=1767097892\&play_scene\=10120\&auth_info\=DubWtFVeABe49ZHMd30RNE43Zho2E15yNl1SSmB+YgYoS14GICF6ZkBGZntJcTI\=\&auth_key\=532be0c3d97a96769a1256d9b84a555*
-ls
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-ls -lstrh
-mpv 起信论-梦参长老-28-16.mp4
-mpv 起信论-梦参长老-28-16.mp4
-ls -lstrh
-cd ..
-ls
-rm 无犯罪记录证明-印泽.jpg
-git status
-cd
-git status
-cd Downloads/
-ls
-vim .gitignore 
-mv Mozilla-Recovery-Key_2025-12-26_timeblink@icloud.com.pdf ../Documents/
-cd
-git status 
-ls Documents/
-cd Downloads/起信论-梦参长老/
-ls
-ls -lstr
-ls -lstrh
-ls
-cd Downloads/
-ls
-cd ..
-ls
-cd Documents/
-ls
-cd 阅藏知津
-ls
-mkdir -p 五灯会元
-mv 五灯会元.txt 五灯会元/
-ls
-cd 五灯会元/
-ls
-/usr/lib/ibus-sunpinyin/ibus-setup-sunpinyin 
-/usr/lib/ibus-sunpinyin/ibus-setup-sunpinyin 
-ibus-setup 
-ls
-cd .config/
-ls
-cd ibus/
-ls
-cd bus/
-ls
-cat 46bd7c2b88034bad98ce43e0e377b76d-unix-0 
-cd
-/usr/lib/ibus/ibus-dconf --help
-exit
-exit
-cd Downloads/
-ls
-cd 起信论-梦参长老
-pwd
-cd
-ls -lstrh Downloads/起信论-梦参长老
-man kitty
-man kitty.conf
-ls .config/i3/backgrounds.png 
-info .config/i3/backgrounds.png 
-file .config/i3/backgrounds.png 
-ls
-cd Downloads/
-ls
-feh -F downloaded-image.jpg 
-feh -F ecce04ac7a7e13c3103d3204afad8fc1.jpeg 
-rm downloaded-image.jpg 
-ls
-feh -F downloaded-image.jpg 
-feh -F 0efd9c47a1c53673ba6a5408ba2f0554.jpeg 
-rm downloaded-image.jpg 0efd9c47a1c53673ba6a5408ba2f0554.jpeg 
-ls
-feh -F 1dcf68e34f97d1b47df6e84a78c9b025.jpeg 
-feh -F ecce04ac7a7e13c3103d3204afad8fc1.jpeg 
-rm 1dcf68e34f97d1b47df6e84a78c9b025.jpeg 
-ls
-cd
-mv Downloads/ecce04ac7a7e13c3103d3204afad8fc1.jpeg ~/.config/i3/
-vim .config/i3/config 
-ls Downloads/
-ls Downloads/起信论-梦参长老
-ls Downloads/起信论-梦参长老 -lstrh
-ls Downloads/起信论-梦参长老 -lstrh
-ls Downloads/起信论-梦参长老 -lstrh
-feh -F Downloads/4ced3062a4d0f2b9d3816f0fc56e8657.jpeg 
-rm Downloads/4ced3062a4d0f2b9d3816f0fc56e8657.jpeg 
-feh -F Downloads/fa1ce702018541f94d43cc1a26d128d0.jpeg 
-rm Downloads/fa1ce702018541f94d43cc1a26d128d0.jpeg 
-ls Downloads/起信论-梦参长老 -lstrh
-ls Downloads/起信论-梦参长老 -lstrh
-ls Downloads/起信论-梦参长老 -lstrh
-ls Downloads/起信论-梦参长老 -lstrh
-ls Downloads/起信论-梦参长老 -lstrh
-ls Downloads/起信论-梦参长老 -lstrh
-ls Downloads/起信论-梦参长老 -lstrh
-cd Downloads/起信论-梦参长老
-ls
-wget 'https://mpvideo.qpic.cn/0bf2myacmaaadaahrfukgfqfazwdeztaajqa.f10003.mp4?dis_k=5257aea57def0f7359cd680284e5bf89&dis_t=1767527290&play_scene=10120&auth_info=IpevgN1cQwRhyoq/mHZDAmcbBkUmIjhWbwFHZEZ4MmYETWBiWFUeawM3OUVhUlQ4bQ==&auth_key=1a60144b9f2f0b0a0a7913fe84fe45dd&vid=wxv_1846980618622976000&format_id=10003&support_redirect=0&mmversion=false'
-ls
-mv 0bf2myacmaaadaahrfukgfqfazwdeztaajqa.f10003.mp4\?dis_k\=5257aea57def0f7359cd680284e5bf89\&dis_t\=1767527290\&play_scene\=10120\&auth_info\=IpevgN1cQwRhyoq%2FmHZDAmcbBkUmIjhWbwFHZEZ4MmYETWBiWFUeawM3OUVhUlQ4bQ\=\=\&auth_key\=1a60144b9f2f0b0a0a7913fe8 起信论-梦参长老-28-18.mp4
-ls
-ls -lshtr
-mpv 起信论-梦参长老-28-18.mp4
-wget -o 起信论-梦参长老-28-19.mp4 'https://mpvideo.qpic.cn/0bf26qacqaaacmahno4khzqfb5gdfd2aakaa.f10003.mp4?dis_k=04c62b70e6d29af37e9acf5b1e19923e&dis_t=1767527524&play_scene=10120&auth_info=Dcu1p+RfLEoZnvbsnFxREj9qH21jT2pEV245Ek5DJngrCTJNDFFxJXtjRRZleEYoNQ==&auth_key=bbce56a503b68511183f97d093ea6611&vid=wxv_1846982384475291653&format_id=10003&support_redirect=0&mmversion=false'
-ls
-ls -lstrh
-wget 'https://mpvideo.qpic.cn/0bf26qacqaaacmahno4khzqfb5gdfd2aakaa.f10003.mp4?dis_k=04c62b70e6d29af37e9acf5b1e19923e&dis_t=1767527524&play_scene=10120&auth_info=Dcu1p+RfLEoZnvbsnFxREj9qH21jT2pEV245Ek5DJngrCTJNDFFxJXtjRRZleEYoNQ==&auth_key=bbce56a503b68511183f97d093ea6611&vid=wxv_1846982384475291653&format_id=10003&support_redirect=0&mmversion=false'
-wget -O 起信论-梦参长老-28-19.mp4 'https://mpvideo.qpic.cn/0bf26qacqaaacmahno4khzqfb5gdfd2aakaa.f10003.mp4?dis_k=04c62b70e6d29af37e9acf5b1e19923e&dis_t=1767527524&play_scene=10120&auth_info=Dcu1p+RfLEoZnvbsnFxREj9qH21jT2pEV245Ek5DJngrCTJNDFFxJXtjRRZleEYoNQ==&auth_key=bbce56a503b68511183f97d093ea6611&vid=wxv_1846982384475291653&format_id=10003&support_redirect=0&mmversion=false'
-ls
-rm 0bf26qacqaaacmahno4khzqfb5gdfd2aakaa.f10003.mp4\?dis_k\=04c62b70e6d29af37e9acf5b1e19923e\&dis_t\=1767527524\&play_scene\=10120\&auth_info\=Dcu1p+RfLEoZnvbsnFxREj9qH21jT2pEV245Ek5DJngrCTJNDFFxJXtjRRZleEYoNQ\=\=\&auth_key\=bbce56a503b68511183f97d093e 
-ls -lstrh
-ls -lsh
-wget -O 起信论-梦参长老-28-20.mp4 'https://mpvideo.qpic.cn/0b78zuaawaaaomafi7mkarqfbtodbpgqacya.f10003.mp4?dis_k=e1a293802ce9be850967771acba01d99&dis_t=1767527628&play_scene=10120&auth_info=PMSm4YV5UUAY+dq8uAUbXDM1EBYwZRFgZytGaSgdNkgaJjFESncML3oEaUZBIQxmOQ==&auth_key=8e99c8237e0e257c8a72def8f001c7b6&vid=wxv_1846985982500257793&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78zuaawaaaomafi7mkarqfbtodbpgqacya.f10003.mp4?dis_k=e1a293802ce9be850967771acba01d99&dis_t=1767527628&play_scene=10120&auth_info=PMSm4YV5UUAY+dq8uAUbXDM1EBYwZRFgZytGaSgdNkgaJjFESncML3oEaUZBIQxmOQ==&auth_key=8e99c8237e0e257c8a72def8f001c7b6&vid=wxv_1846985982500257793&format_id=10003&support_redirect=0&mmversion=false'
-ls -lstrh
-mv 0b78zuaawaaaomafi7mkarqfbtodbpgqacya.f10003.mp4\?dis_k\=e1a293802ce9be850967771acba01d99\&dis_t\=1767527628\&play_scene\=10120\&auth_info\=PMSm4YV5UUAY+dq8uAUbXDM1EBYwZRFgZytGaSgdNkgaJjFESncML3oEaUZBIQxmOQ\=\=\&auth_key\=8e99c8237e0e257c8a72def8f00  起信论-梦参长老-28-20.mp4
-ls -lsh
-mpv 起信论-梦参长老-28-20.mp4
-wget 'https://mpvideo.qpic.cn/0bf2pyacmaaaa4aexiukgfqfa7wdez7aajqa.f10003.mp4?dis_k=8b3780197cfacec6fd115c8226eaa8c6&dis_t=1767527748&play_scene=10120&auth_info=B/ml5roJLhlDmvPpzV1ZQmlvEj1gHD4cD2RpQUYVdnkhWzREXgRzdiFnQBM0eU54Yw==&auth_key=349b3f09dd1515e343ae8751ae662ce9&vid=wxv_1847044949599436801&format_id=10003&support_redirect=0&mmversion=false'
-ls
-wget 'https://mpvideo.qpic.cn/0bf2pyacmaaaa4aexiukgfqfa7wdez7aajqa.f10003.mp4?dis_k=8b3780197cfacec6fd115c8226eaa8c6&dis_t=1767527748&play_scene=10120&auth_info=B/ml5roJLhlDmvPpzV1ZQmlvEj1gHD4cD2RpQUYVdnkhWzREXgRzdiFnQBM0eU54Yw==&auth_key=349b3f09dd1515e343ae8751ae662ce9&vid=wxv_1847044949599436801&format_id=10003&support_redirect=0&mmversion=false'
-ls -lsh
-mv 0bf2pyacmaaaa4aexiukgfqfa7wdez7aajqa.f10003.mp4\?dis_k\=8b3780197cfacec6fd115c8226eaa8c6\&dis_t\=1767527748\&play_scene\=10120\&auth_info\=B%2Fml5roJLhlDmvPpzV1ZQmlvEj1gHD4cD2RpQUYVdnkhWzREXgRzdiFnQBM0eU54Yw\=\=\&auth_key\=349b3f09dd1515e343ae8751a  起信论-梦参长老-28-21.mp4
-mpv 起信论-梦参长老-28-21.mp4
-wget 'https://mpvideo.qpic.cn/0b785eaawaaalaagnrukdbqfb2odbpuqacya.f10003.mp4?dis_k=9dacc351ad64fe0931d68bcca602479b&dis_t=1767527858&play_scene=10120&auth_info=Bcj4+gQlExbjvefYRXd3ahBGaQ0rMz8TUTVkAWVtPFM8M0IpIHh8dB4OHSFhYE1g&auth_key=0eb3c09de81c7b9afb557f065f0c6e70&vid=wxv_1847045887261261826&format_id=10003&support_redirect=0&mmversion=false'
-ls
-mv 0b785eaawaaalaagnrukdbqfb2odbpuqacya.f10003.mp4\?dis_k\=9dacc351ad64fe0931d68bcca602479b\&dis_t\=1767527858\&play_scene\=10120\&auth_info\=Bcj4+gQlExbjvefYRXd3ahBGaQ0rMz8TUTVkAWVtPFM8M0IpIHh8dB4OHSFhYE1g\&auth_key\=0eb3c09de81c7b9afb557f065f0c6e7 起信论-梦参长老-28-22.mp4
-mpv 起信论-梦参长老-28-22.mp4
-ls
-wget 'https://mpvideo.qpic.cn/0bf22qacqaaa3qaenq4kgbqfbvgdfdkaakaa.f10003.mp4?dis_k=486d4826d7a8aecd83caa04f3b66d520&dis_t=1767527929&play_scene=10120&auth_info=I/eHzaZXFnhJlvfD6G9mSEoLG3B0MgQ5QA4/CWY+P0UFNDUYeF9LFytrRDkRS3FyQA==&auth_key=0f8c7b98f8b6f57047a884ba1aa3887b&vid=wxv_1847047348657438722&format_id=10003&support_redirect=0&mmversion=false'
-ls
-mv 0bf22qacqaaa3qaenq4kgbqfbvgdfdkaakaa.f10003.mp4\?dis_k\=486d4826d7a8aecd83caa04f3b66d520\&dis_t\=1767527929\&play_scene\=10120\&auth_info\=I%2FeHzaZXFnhJlvfD6G9mSEoLG3B0MgQ5QA4%2FCWY+P0UFNDUYeF9LFytrRDkRS3FyQA\=\=\&auth_key\=0f8c7b98f8b6f57047a884b  起信论-梦参长老-28-23.mp4
-mpv 起信论-梦参长老-28-23.mp4
-wget 'https://mpvideo.qpic.cn/0bf2xeadgaaa7uaednekgrqfboodgo4qamya.f10003.mp4?dis_k=fddb1a6eb80438e52c51db5de968d096&dis_t=1767528047&play_scene=10120&auth_info=XKXx8WkzMmiHzZj0Bw1nb1R4OmlLQmc8ATduKEpoNQdlSwNtAm5dCnp+Yg0jGl1l&auth_key=3870f0a8b4223acea8dd636ed51eaeb5&vid=wxv_1847065540578623491&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0bf2xeadgaaa7uaednekgrqfboodgo4qamya.f10003.mp4?dis_k=fddb1a6eb80438e52c51db5de968d096&dis_t=1767528047&play_scene=10120&auth_info=XKXx8WkzMmiHzZj0Bw1nb1R4OmlLQmc8ATduKEpoNQdlSwNtAm5dCnp+Yg0jGl1l&auth_key=3870f0a8b4223acea8dd636ed51eaeb5&vid=wxv_1847065540578623491&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0bf2xeadgaaa7uaednekgrqfboodgo4qamya.f10003.mp4?dis_k=fddb1a6eb80438e52c51db5de968d096&dis_t=1767528047&play_scene=10120&auth_info=XKXx8WkzMmiHzZj0Bw1nb1R4OmlLQmc8ATduKEpoNQdlSwNtAm5dCnp+Yg0jGl1l&auth_key=3870f0a8b4223acea8dd636ed51eaeb5&vid=wxv_1847065540578623491&format_id=10003&support_redirect=0&mmversion=false'
-ls
-mv 0bf2xeadgaaa7uaednekgrqfboodgo4qamya.f10003.mp4\?dis_k\=fddb1a6eb80438e52c51db5de968d096\&dis_t\=1767528047\&play_scene\=10120\&auth_info\=XKXx8WkzMmiHzZj0Bw1nb1R4OmlLQmc8ATduKEpoNQdlSwNtAm5dCnp+Yg0jGl1l\&auth_key\=3870f0a8b4223acea8dd636ed51eaeb 起信论-梦参长老-28-24.mp4 
-mpv 起信论-梦参长老-28-24.mp4
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=dqm1xsUMHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=7ff5553f68b4ecb46402305e6e6a1cc1&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=dqm1xsUMHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=7ff5553f68b4ecb46402305e6e6a1cc1&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=dqm1xsUMHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=7ff5553f68b4ecb46402305e6e6a1cc1&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=dqm1xsUMHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=7ff5553f68b4ecb46402305e6e6a1cc1&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=dqm1xsUMHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=7ff5553f68b4ecb46402305e6e6a1cc1&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=dqm1xsUMHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=7ff5553f68b4ecb46402305e6e6a1cc1&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=dqm1xsUMHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=7ff5553f68b4ecb46402305e6e6a1cc1&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=dqm1xsUMHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=7ff5553f68b4ecb46402305e6e6a1cc1&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=dqm1xsUMHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=7ff5553f68b4ecb46402305e6e6a1cc1&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=dqm1xsUMHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=7ff5553f68b4ecb46402305e6e6a1cc1&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=dqm1xsUMHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=7ff5553f68b4ecb46402305e6e6a1cc1&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=dqm1xsUMHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=7ff5553f68b4ecb46402305e6e6a1cc1&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=dqm1xsUMHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=7ff5553f68b4ecb46402305e6e6a1cc1&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=dqm1xsUMHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=7ff5553f68b4ecb46402305e6e6a1cc1&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-ls -lsh
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=dqm1xsUMHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=7ff5553f68b4ecb46402305e6e6a1cc1&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=dqm1xsUMHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=7ff5553f68b4ecb46402305e6e6a1cc1&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=dqm1xsUMHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=7ff5553f68b4ecb46402305e6e6a1cc1&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=dqm1xsUMHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=7ff5553f68b4ecb46402305e6e6a1cc1&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=drX6xcQKHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=22fc22e7489c3a23958627393162a22a&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-wget 'https://mpvideo.qpic.cn/0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4?dis_k=24429baa18f7019cbe4c794b1ebd9ff8&dis_t=1767528182&play_scene=10120&auth_info=drX6xcQKHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg==&auth_key=22fc22e7489c3a23958627393162a22a&vid=wxv_1847067005951000577&format_id=10003&support_redirect=0&mmversion=false'
-ls
-mv 0b78bqaayaaas4ah4nekdzqfadgdbqgaadaa.f10003.mp4\?dis_k\=24429baa18f7019cbe4c794b1ebd9ff8\&dis_t\=1767528182\&play_scene\=10120\&auth_info\=drX6xcQKHSof5LvQlH5LMywsYAQ0GkloWTVoPlUYNjJQNGZlBAZARX0ZCCptWlwJJg\=\=\&auth_key\=22fc22e7489c3a2395862739316  起信论-梦参长老-28-25.mp4 
-mpv 起信论-梦参长老-28-25.mp4
-wget 'https://mpvideo.qpic.cn/0bf2ryacsaaad4affomkhzqfbdwdfghaakia.f10003.mp4?dis_k=af438a8da3e11208f2c4bdf763454149&dis_t=1767528301&play_scene=10120&auth_info=bOr4+U02Qw3H45Xle3p5djM5EE4zPExnKTwYJjUbaVdVczYLaWssbzpQbxxfbUN8&auth_key=5ccda99c6e4ea9df16f42aa115a90a92&vid=wxv_1847105486760820739&format_id=10003&support_redirect=0&mmversion=false'
-ls
-mv 0bf2ryacsaaad4affomkhzqfbdwdfghaakia.f10003.mp4\?dis_k\=af438a8da3e11208f2c4bdf763454149\&dis_t\=1767528301\&play_scene\=10120\&auth_info\=bOr4+U02Qw3H45Xle3p5djM5EE4zPExnKTwYJjUbaVdVczYLaWssbzpQbxxfbUN8\&auth_key\=5ccda99c6e4ea9df16f42aa115a90a9  起信论-梦参长老-28-26.mp4
-mpv 起信论-梦参长老-28-26.mp4
-wget 'https://mpvideo.qpic.cn/0bf2geacsaaafmaflbekh5qfamodfeyqakia.f10003.mp4?dis_k=7c2e142b474a34e5c5ae0587e79632da&dis_t=1767528355&play_scene=10120&auth_info=N6q2yZhpXwwS6KLAnyJwE2lGOmodYkVafCVHBApyJjwRNE5HJGcCY3AVETpmBmcpYw==&auth_key=f899934a477933ed1d8453146aa5da2b&vid=wxv_1847107781430984707&format_id=10003&support_redirect=0&mmversion=false'
-ls
-mv 0bf2geacsaaafmaflbekh5qfamodfeyqakia.f10003.mp4\?dis_k\=7c2e142b474a34e5c5ae0587e79632da\&dis_t\=1767528355\&play_scene\=10120\&auth_info\=N6q2yZhpXwwS6KLAnyJwE2lGOmodYkVafCVHBApyJjwRNE5HJGcCY3AVETpmBmcpYw\=\=\&auth_key\=f899934a477933ed1d8453146aa  起信论-梦参长老-28-27.mp4
-mpv 起信论-梦参长老-28-27.mp4
-wget 'https://mpvideo.qpic.cn/0bf22mab6aaajaagdymkazqfbu6dd7jqahya.f10003.mp4?dis_k=098853930520f9db4309842c92629015&dis_t=1767528402&play_scene=10120&auth_info=UY7y3gAlSxLlverfTSB+N0kdPw0nMW5CVTFkXTE2O1FoPEJ/cXgkcBgOECZpN0Q9&auth_key=1adc3a0e48da90b9888456eb082c2017&vid=wxv_1847118541179699202&format_id=10003&support_redirect=0&mmversion=false'
-ls
-mv 0bf22mab6aaajaagdymkazqfbu6dd7jqahya.f10003.mp4\?dis_k\=098853930520f9db4309842c92629015\&dis_t\=1767528402\&play_scene\=10120\&auth_info\=UY7y3gAlSxLlverfTSB+N0kdPw0nMW5CVTFkXTE2O1FoPEJ%2FcXgkcBgOECZpN0Q9\&auth_key\=1adc3a0e48da90b9888456eb082c2  起信论-梦参长老-28-28.mp4
-mpv 起信论-梦参长老-28-28.mp4
-ls
-ls
-ls
-cd Downloads/
-ls
-feh -F 518ba735143fa8ff716a430a87791cb7.jpeg 
-feh -F d28c09d80db53c3d2396129602823f0c.jpeg 
-file *.jpeg
-rm *.jpeg
-cd Downloads/
-ls
-feh -F bdd8b7d93668b6182c15b75db37f93c6.jpeg 
-rm bdd8b7d93668b6182c15b75db37f93c6.jpeg 
-ls
-cd Videos/
-ls
-cd 电影
-ls
-ssh -l zzz 192.168.12.104 ls Videos/电影
-ssh -l zzz 192.168.12.104 ls Videos/电影 -lsh
-ls
-cd Downloads/
-ls
-ssh -l zzz 192.168.12.104 ls Videos
-rsync -rav 起信论-梦参长老 zzz@192.168.12.104:Downloads/
-ls
-ls
-cd Videos/xrated.s
-cd Videos/
-ls
-cd xrated.ssh/
-ls
-vim rsync_main.sh 
-vim rsync_include.txt 
-vim 1.sh 
-head 1.sh 
-ping 192.168.12.104
-head 1.txt 
-awk -F'/' '{print $1}'
 awk -F'/' '{print $1}' 1.txt 
 awk -F'/' '{print $1}' 1.txt | sort | uniq
 awk -F'/' '{print "mkdir -p "$1}' 1.txt | sort | uniq
@@ -498,3 +118,383 @@ popd
 mpv --fs --volume=30 --shuffle --loop-playlist=inf --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
 mpv --fs --volume=30 --shuffle --loop-playlist=inf --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
 mpv --fs --volume=30 --shuffle --loop-playlist=inf --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
+mpv --fs --volume=30 --shuffle --loop-playlist=inf --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
+ranger 
+mpv Videos/电影/搏击俱乐部BD中英双字1024高清.mkv 
+mpv --fs --volume=30 --shuffle --loop-playlist=inf --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
+mpv Videos/电影/搏击俱乐部BD中英双字1024高清.mkv
+mpv Videos/电影/赌城风云.mkv
+mpv --fs --volume=30 --shuffle --loop-playlist=inf --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
+man mpv
+mpv --fs --volume=30 --shuffle --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
+rm /home/zzz/Videos/xrated.ssh/由爱可奈/1717819699.mp4
+mpv --fs --volume=30 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
+rm /home/zzz/Videos/xrated.ssh/天音唯/1706560018.mp4
+mpv --fs --volume=30 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
+rm /home/zzz/Videos/xrated.ssh/Unknow/1748721468.mp4
+mpv --fs --volume=30 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
+mpv --fs --volume=40 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
+ls
+rm /home/zzz/Videos/xrated.ssh/神笑诗织/1699143036.mp4
+mpv --fs --volume=40 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
+rm /home/zzz/Videos/xrated.ssh/明理紬/1682343366.mp4
+mpv --fs --volume=40 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
+rm /home/zzz/Videos/xrated.ssh/尾崎绘梨香/1746665847.mp4
+mpv --fs --volume=40 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
+rm /home/zzz/Videos/xrated.ssh/波姐/1742573487.mp4
+mpv --fs --volume=40 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
+rm /home/zzz/Videos/xrated.ssh/栗山莉绪/1747012337.mp4
+mpv --fs --volume=32 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
+rm /home/zzz/Videos/xrated.ssh/松本一花/1703752730.mp4
+mpv --fs --volume=32 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
+rm /home/zzz/Videos/xrated.ssh/枫花恋/1689719268.mp4
+ls
+cd Videos/xrated.ssh/
+ls
+git status
+ls
+ls -a
+vim ../.gitignore 
+rm *.m3u8
+ls ../xrated.cut/m3u8_init.sh 
+cat ../xrated.cut/m3u8_init.sh 
+cp ../xrated.cut/m3u8_init.sh  .
+vim m3u8_init.sh 
+ls
+sh m3u8_init.sh 
+ls
+rm playlist1.m3u8 
+vim m3u8_init.sh 
+sh m3u8_init.sh 
+mpv --fs --volume=32 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/希岛爱里/1713659465.mp4
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+head playlist.m3u8 
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/Comb/1659140147.mp4
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/夏目彩春/1700675518.mp4
+vim playlist.m3u8 
+vim playlist.m3u8 
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/西村理沙役/1742569833.mp4
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+vim playlist.m3u8 
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+vim playlist.m3u8 
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/桃乃木香奈/1758141814.mp4
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/松永纱奈/1712622348.mp4
+vim playlist.m3u8 
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/水卜樱/1690702757.mp4 /home/zzz/Videos/xrated.ssh/石川澪/1730002605.mp4
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/上坂芽衣/1732217040.mp4
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/山岸逢花/1662021035.mp4
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/三上优亚/1692554573.mp4
+vim playlist.m3u8 
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/明理紬/1739135838.mp4 /home/zzz/Videos/xrated.ssh/明理紬/1742574657.mp4
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/明理紬/1723716116.mp4
+vim playlist.m3u8 
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/美空未来/1739276481.mp4 /home/zzz/Videos/xrated.ssh/蓝芽水月/1746670881.mp4
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/久留木和蕾/1730096242.mp4
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/枫花恋/1723564894.mp4
+vim playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/枫花恋/1723564894.mp4
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/二宫光/1703144137.mp4
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+ls
+sh m3u8_init.sh 
+mpv --fs --volume=32 --no-shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+mpv --fs --volume=32 --shuffle --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/葵司/1703566972.mp4
+sh m3u8_init.sh 
+mpv --fs --volume=32 --shuffle --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+sh m3u8_init.sh 
+ls
+vim filelist.txt 
+vim 1.txt 
+vim 1.sh 
+cat playlist.m3u8 > 1.txt 
+vim 1.txt 
+head 1.txt 1.sh 
+awk -F'/' '{print "rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/"$1"/"$2" "$1"/"}' 1.txt 
+awk -F'/' '{print "rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/"$1"/"$2" "$1"/"}' 1.txt  > 1.sh 
+vim 1.sh 
+ls
+vim 2.sh 
+rm 2.sh 
+awk -F'/' '{print "mkdir -p "$1}' 1.txt
+awk -F'/' '{print "mkdir -p "$1}' 1.txt | tee -a 1.sh 
+vim 1.sh 
+ls
+find -type f -name '*.mp4'
+find -type f -name '*.mp4' -delete
+ls
+find -type d
+find -type d -delete
+ls
+cd ..
+ls
+vim .gitignore 
+git status
+cd
+ls
+git status
+vim .fehbg 
+vim .gitignore 
+git status
+git log -1
+git add -A . ; git commit -m 'reinstall EOS'
+ls
+git status
+ls
+cd Videos/
+ls
+du -sh .
+find -type f
+cd 电影
+ls
+ls
+ls -lshtr
+rm 千与千寻.mkv 龙纹身的女孩.BD1024高清中英双字.mkv 搏击俱乐部BD中英双字1024高清.mkv 布达佩斯饭店.mp4
+ls -lsth
+cd
+du -sh .
+du -sh *
+cd Videos/
+ls
+du -sh *
+cd
+ls
+ls
+du -sh *
+df -h
+ls
+cd .config/
+ls
+cd ranger/
+ls
+vim rc.conf 
+vim rc.conf 
+ranger 
+ranger 
+exit
+exit
+sudo pacman -S tmux
+man tmux
+man tmux
+ls /etc/tmux.conf
+ls .tmux.conf
+man tmux
+vim .tmux.conf
+tmux
+vim .tmux.conf
+tmux
+tmux -att
+tmux att
+tmux add
+vim ~/.bashrc 
+ls -a
+vim .bash_profile 
+vim .profile 
+source .profile 
+alias 
+tmux-load
+tmux-att
+source .profile 
+vim .profile 
+tmux-load
+ps aux | grep tmux
+vim .tmux.conf 
+tmux-load
+ps aux | grep tmux
+tmux-att
+ps aux | grep tmux
+vim .tmux.conf 
+man tmux
+rm .tmux.conf 
+ls ~/.config/tmux/tmux.conf
+touch --help
+mkdir -p ~/.config/tmux
+touch ~/.config/tmux/tmux.conf
+man tmux
+man tmux.conf
+man tmux
+vim ~/.config/tmux/tmux.conf
+tmux-load
+tmux-att
+vim ~/.config/tmux/tmux.conf
+tmux-load
+tmux-att
+ls
+ls Videos/
+find Videos/
+pushd Videos/电影
+ls
+mpv 赌城风云.mkv
+ls
+cd ..
+ls
+cd xrated.ssh/
+ls
+vim playlist.m3u8 
+cat 1.txt 
+cat playlist.m3u8 
+cat 1.sh 
+ls
+sh 1.sh
+vim ~/.config/i3/config 
+popd 
+man kitty
+vim ~/.config/i3/config 
+ls
+cd Videos/xrated.ssh/
+ls
+alias 
+mpv --fs --volume=32 --shuffle --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+popd 
+cd
+mpv Videos/电影/赌城风云.mkv
+mpv Videos/电影/商海通牒.mkv
+mpv Videos/电影/商海通牒.mkv
+mpv Videos/电影/斯隆女士.BD.720p.中英双字幕.mkv
+man kitty
+man kitty.conf
+vim .config/kitty/kitty.conf 
+ls
+man kitty.conf
+vim .config/kitty/kitty.conf 
+exit
+exit
+tmux display-popup 
+exit
+exit
+tmux display-popup 
+tmux display-popup 
+tmux-load
+alias 
+source ~/.bashrc 
+source ~/.profile 
+alias 
+tmux-load
+tmux display-popup 
+tmux
+tmux
+tmux display-popup 
+ps aux | grep tmux
+tmux
+tmux att 
+ps aux | grep tmux
+tmux att
+ps aux | grep tmux
+tmux -L self att
+ps aux | grep tmux
+ls
+cd Videos/电影/
+ls
+cd ../xrated.ssh/
+ls
+alias 
+vim ~/.profile 
+tmux --help
+man tmux
+man tmux
+ls
+find -type f -name '*.mp4'
+mpv --fs --volume=32 --shuffle --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+mpv --fs --volume=32 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+vim ~/.config/i3/config 
+sudo pacman -S debtap
+sudo pacman -S yay
+yay -S debtap
+sudo pacman -R yay
+sudo pacman -S alien
+sudo pacman -S rpm2cpio
+sudo pacman -S yum-utils
+sudo pacman -S baidupcs-go
+pacman --help
+man pacman 
+sudo pacman -Sv baidupcs-go
+baidupcs --help
+baidupcs login
+baidupcs login --help
+baidupcs login --username timeblink --password I7N3u8c5
+baidupcs login --username timeblink --password uT^484bwmR
+vim ~/.config/kitty/kitty.conf 
+ls
+vim ~/.config/i3/config 
+ls
+ls Videos/
+ls Videos/电影/
+mpv Videos/电影/斯隆女士.BD.720p.中英双字幕.mkv
+mpv --fs --volume=32 --shuffle --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+kitty +kitten themes 
+kitty +kitten themes 
+kitty +kitten themes 
+vim ~/.config/kitty/kitty.conf
+cd ~/.config/kitty/
+ls
+vimdiff kitty.conf kitty.conf.bak 
+vim current-theme.conf 
+vimdiff Adapta\ Nokto\ Maia.conf current-theme.conf 
+rm Adapta\ Nokto\ Maia.conf 
+ls
+cd
+kitty +kitten themes 
+cd ~/.config/kitty/
+ls
+vimdiff current-theme.conf Catppuccin-Mocha.conf 
+vim kitty.conf
+fg
+ls
+vimdiff kitty.conf kitty.conf.bak 
+ls
+kitty list-fonts
+kitty list-fonts --psnames
+ranger 
+ls
+mpv --fs --volume=32 --shuffle --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+tr
+tree
+ls
+sudo pacman -Q ibus
+sudo pacman -R ibus
+sudo pacman -R ibus ibus-libpinyin ibus-sunpinyin
+sudo pacman -S fcitx5 fcitx5-chinese-addons fcitx5-configtool fcitx5-gtk fcitx5-m17n fcitx5-lua fcitx5-pinyin-zhwiki 
+sudo pacman -S fcitx5 fcitx5-chinese-addons fcitx5-configtool fcitx5-pinyin-zhwiki sunpinyin
+sudo pacman -S fcitx5 fcitx5-chinese-addons fcitx5-configtool sunpinyin
+sudo pacman -S ibus ibus-chewing
+sudo pacman -S ibus ibus-chewing
+sudo vim /etc/pacman.d/mirrorlist 
+sudo vim /etc/pacman.conf 
+sudo vim /etc/pacman.d/mirrorlist 
+sudo pacman -Syyuu
+sudo vim /etc/pacman.conf 
+sudo pacman -Syyuu
+sudo vim /etc/pacman.d/mirrorlist 
+sudo vim /etc/pacman.conf 
+sudo pacman -Syyuu
+sudo vim /etc/pacman.d/mirrorlist 
+sudo pacman -Syyuu
+sudo pacman -S fcitx5 fcitx5-chinese-addons fcitx5-configtool sunpinyin
+vim ~/.bashrc 
+vim ~/.bashrc 
+sudo pacman -S fcitx5 fcitx5-chinese-addons fcitx5-configtool sunpinyin fcitx5-chewing
+vim ~/.config/i3/config 
+sudo pacman -R fcitx5 fcitx5-chinese-addons fcitx5-configtool sunpinyin fcitx5-chewing
+sudo pacman -R fcitx5 fcitx5-chinese-addons fcitx5-configtool sunpinyin fcitx5-chewing fcitx5-qt libime
+sudo pacman -S ibus ibus-libpinyin ibus-sunpinyin
+vim ~/.bashrc 
+source ~/.bashrc 

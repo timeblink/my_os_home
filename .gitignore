@@ -1,8 +1,13 @@
 .local
 .config/i3/backgrounds.png
 .config/i3/ecce04ac7a7e13c3103d3204afad8fc1.jpeg
+.sunpinyin
+.config/BaiduPCS-Go
+.config/fcitx5
+.config/ibus
 .cache
 .mozilla
 .xsession-errors
+.xsession-errors.old
 Downloads/xrated.sh/url_playlist_2.txt
 Downloads/xrated.sh/url_playlist.txt

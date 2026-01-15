@@ -6,3 +6,16 @@ echo "#EXTM3U" > playlist.m3u8
 find "$(pwd)" -type f -name '*.mp4' -printf '%p\n' \
 	| sort -t'c' -k1 -rk2 \
 	| tee -a playlist.m3u8
+
+rm rsync_playlist.sh
+touch rsync_playlist.sh
+chmod +x rsync_playlist.sh
+echo "\$!/bin/bash" | tee rsync_playlist.sh
+
+find -type f -name '*.mp4' -printf '%P\n' \
+    | awk -F'/' '{print "mkdir -p "$1}' | sort | uniq \
+    | tee -a rsync_playlist.sh
+
+find -type f -name '*.mp4' -printf '%P\n' \
+    | awk -F'/' '{print "rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/"$1"/"$2,$1"/"}' \
+    | tee -a rsync_playlist.sh

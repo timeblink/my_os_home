@@ -23,13 +23,13 @@ alias emacs="emacsclient"
 #setxkbmap -option ""
 #setxkbmap -option "caps:ctrl_modifier,ctrl:nocaps"
 
-#function tmux-load(){
-#  which tmux >/dev/null 2>&1 || exit 1
-#  tmux -L self start
-#  tmux -L self new -d -s hi -n sh
-#}
-#alias tmux-att='tmux -L self att'
-#alias tmux-www='tmux -L self att -t www'
+function tmux-load(){
+  which tmux >/dev/null 2>&1 || exit 1
+  tmux -L self start
+  tmux -L self new -d -s hi -n sh
+}
+alias tmux-att='tmux -L self att'
+alias tmux-www='tmux -L self att -t www'
 
 #export VISUAL="/usr/bin/subl"
 ##export VISUAL="gvim"
