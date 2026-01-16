@@ -20,12 +20,12 @@
 $
 
 # 命令行 历史记录 (从新到旧):
-:wq
-|2,0,1768484815,,"wq"
-:w
-|2,0,1768483942,,"w"
 :q
-|2,0,1768483828,,"q"
+|2,0,1768559619,,"q"
+:w
+|2,0,1768559406,,"w"
+:wq
+|2,0,1768546363,,"wq"
 :xa
 |2,0,1768307923,,"xa"
 :r .profile
@@ -133,373 +133,389 @@ $
 
 # 寄存器:
 "0	CHAR	0
-	rsync_playlist.sh
-|3,0,0,0,1,0,1768484066,"rsync_playlist.sh"
-"1	BLOCK	3
-		
-		
-|3,0,1,2,2,3,1768484149,"	","	"
-"2	CHAR	0
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/Unknow/1701618898.mp4 Unknow/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/渚光希/1759721193.mp4 渚光希/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/竹内夏希/1713541248.mp4 竹内夏希/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/中野阳子/1691697593.mp4 中野阳子/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/早美怜梦/1717473219.mp4 早美怜梦/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/由爱可奈/1673993654.mp4 由爱可奈/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/向井兰/1725357257.mp4 向井兰/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/西宫梦/1752187379.mp4 西宫梦/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/西宫梦/1681698545.mp4 西宫梦/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/希岛爱里/1686059101.mp4 希岛爱里/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/五芭/1746661784.mp4 五芭/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/深田咏美/1714538098.mp4 深田咏美/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/深田咏美/1694251364.mp4 深田咏美/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/深田咏美/1694248882.mp4 深田咏美/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/深田咏美/1687826323.mp4 深田咏美/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/深田咏美/1675132497.mp4 深田咏美/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/深田咏美/1665425456.mp4 深田咏美/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/上户真理/1752214156.mp4 上户真理/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/沙月芽衣/1739191301.mp4 沙月芽衣/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/濑户奈奈子/1713591229.mp4 濑户奈奈子/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/葵司/1695222138.mp4 葵司/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/岬奈奈美/1662091794.mp4 岬奈奈美/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/峰岸奈奈美/1728932155.mp4 峰岸奈奈美/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/波姐/1746681185.mp4 波姐/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/波姐/1746673001.mp4 波姐/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/波姐/1659134002.mp4 波姐/
-	rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/波姐/1658929511.mp4 波姐/
-	
-|3,0,2,0,28,0,1768483681,"rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/Unknow/1701618898.mp4 Unknow/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/渚光希/1759721193.mp4 渚光希/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/竹内夏希/1713541248.mp4 竹内夏希/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/中野阳子/1691697593.mp4 中野阳子/",>91
-|<"rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/早美怜梦/1717473219.mp4 早美怜梦/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/由爱可奈/1673993654.mp4 由爱可奈/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/向井兰/1725357257.mp4 向井兰/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/西宫梦/1752187379.mp4 西宫梦/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/西宫梦/1681698545.mp4 西宫梦/",>91
-|<"rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/希岛爱里/1686059101.mp4 希岛爱里/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/五芭/1746661784.mp4 五芭/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/深田咏美/1714538098.mp4 深田咏美/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/深田咏美/1694251364.mp4 深田咏美/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/深田咏美/1694248882.mp4 深田咏美/",>91
-|<"rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/深田咏美/1687826323.mp4 深田咏美/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/深田咏美/1675132497.mp4 深田咏美/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/深田咏美/1665425456.mp4 深田咏美/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/上户真理/1752214156.mp4 上户真理/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/沙月芽衣/1739191301.mp4 沙月芽衣/",>97
-|<"rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/濑户奈奈子/1713591229.mp4 濑户奈奈子/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/葵司/1695222138.mp4 葵司/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/岬奈奈美/1662091794.mp4 岬奈奈美/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/峰岸奈奈美/1728932155.mp4 峰岸奈奈美/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/波姐/1746681185.mp4 波姐/",>79
-|<"rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/波姐/1746673001.mp4 波姐/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/波姐/1659134002.mp4 波姐/","rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/波姐/1658929511.mp4 波姐/",""
-"3	CHAR	0
-	mkdir -p Unknow
-	mkdir -p 渚光希
-	mkdir -p 竹内夏希
-	mkdir -p 中野阳子
-	mkdir -p 早美怜梦
-	mkdir -p 由爱可奈
-	mkdir -p 向井兰
-	mkdir -p 西宫梦
-	mkdir -p 西宫梦
-	mkdir -p 希岛爱里
-	mkdir -p 五芭
-	mkdir -p 深田咏美
-	mkdir -p 深田咏美
-	mkdir -p 深田咏美
-	mkdir -p 深田咏美
-	mkdir -p 深田咏美
-	mkdir -p 深田咏美
-	mkdir -p 上户真理
-	mkdir -p 沙月芽衣
-	mkdir -p 濑户奈奈子
-	mkdir -p 葵司
-	mkdir -p 岬奈奈美
-	mkdir -p 峰岸奈奈美
-	mkdir -p 波姐
-	mkdir -p 波姐
-	mkdir -p 波姐
-	mkdir -p 波姐
-	mkdir -p 白峰美羽
-	
-	
-|3,0,3,0,30,0,1768483677,"mkdir -p Unknow","mkdir -p 渚光希","mkdir -p 竹内夏希","mkdir -p 中野阳子","mkdir -p 早美怜梦","mkdir -p 由爱可奈","mkdir -p 向井兰","mkdir -p 西宫梦","mkdir -p 西宫梦","mkdir -p 希岛爱里","mkdir -p 五芭","mkdir -p 深田咏美","mkdir -p 深田咏美","mkdir -p 深田咏美","mkdir -p 深田咏美","mkdir -p 深田咏美","mkdir -p 深田咏美","mkdir -p 上户真理","mkdir -p 沙月芽衣",>26
-|<"mkdir -p 濑户奈奈子","mkdir -p 葵司","mkdir -p 岬奈奈美","mkdir -p 峰岸奈奈美","mkdir -p 波姐","mkdir -p 波姐","mkdir -p 波姐","mkdir -p 波姐","mkdir -p 白峰美羽","",""
-"4	BLOCK	0
+	/*
+|3,0,0,0,1,0,1768546322,"/*"
+""1	LINE	0
+		| sort -t'/' -k1 -rk2 \
+|3,1,1,1,1,0,1768559404,"	| sort -t'/' -k1 -rk2 \\"
+"2	BLOCK	0
+	#
+	#
+|3,0,2,2,2,0,1768558370,"#","#"
+"3	BLOCK	0
 	#
 	#
 	#
 	#
 	#
-|3,0,4,2,5,0,1768449734,"#","#","#","#","#"
-"5	CHAR	0
-	export GTK_IM_MODULE=ibus
-	export XMODIFIERS=@im=ibus
-	export QT_IM_MODULE=ibus
-	export XIM=ibus
-	export XIM_PROGRAM=ibus
-	
-	
-|3,0,5,0,7,0,1768447605,"export GTK_IM_MODULE=ibus","export XMODIFIERS=@im=ibus","export QT_IM_MODULE=ibus","export XIM=ibus","export XIM_PROGRAM=ibus","",""
+	#
+	#
+|3,0,3,2,7,0,1768546363,"#","#","#","#","#","#","#"
+"4	BLOCK	9
+	--dry-run 
+	--dry-run 
+	--dry-run 
+	--dry-run 
+	--dry-run 
+	--dry-run 
+	--dry-run 
+|3,0,4,2,7,9,1768546347,"--dry-run ","--dry-run ","--dry-run ","--dry-run ","--dry-run ","--dry-run ","--dry-run "
+"5	BLOCK	0
+	#
+	#
+	#
+	#
+	#
+	#
+|3,0,5,2,6,0,1768546310,"#","#","#","#","#","#"
 "6	BLOCK	0
-	#
-	#
-	#
-	#
-	#
-|3,0,6,2,5,0,1768447602,"#","#","#","#","#"
+	h
+	h
+	h
+	h
+	h
+	h
+	h
+|3,0,6,2,7,0,1768546291,"h","h","h","h","h","h","h"
 "7	BLOCK	0
-	#
-	#
-	#
-	#
-	#
-|3,0,7,2,5,0,1768447564,"#","#","#","#","#"
-"8	LINE	0
-	# Adapta Nokto Maia
-|3,0,8,1,1,0,1768307898,"# Adapta Nokto Maia"
-"9	LINE	0
-	for_window [class="mpv"] floating enable #resize set 640 480
-|3,0,9,1,1,0,1768044233,"for_window [class=\"mpv\"] floating enable #resize set 640 480"
-""-	CHAR	0
 	/
-|3,1,36,0,1,0,1768484151,"/"
+	/
+	/
+	/
+	/
+	/
+	/
+|3,0,7,2,7,0,1768546147,"/","/","/","/","/","/","/"
+"8	BLOCK	27
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+	/home/zzz/Videos/xrated.ssh/
+|3,0,8,2,37,27,1768543174,"/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/",>30
+|<"/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/",>30
+|<"/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/","/home/zzz/Videos/xrated.ssh/"
+"9	BLOCK	1
+	  
+	  
+	  
+	  
+|3,0,9,2,4,1,1768536217,"  ","  ","  ","  "
+"-	CHAR	0
+	c
+|3,0,36,0,1,0,1768559327,"c"
 
 # 文件标记:
-'0  4  9  ~/.gitignore
-|4,48,4,9,1768484815,"~/.gitignore"
-'1  11  19  ~/.gitignore
-|4,49,11,19,1768484788,"~/.gitignore"
-'2  10  19  ~/.gitignore
-|4,50,10,19,1768484788,"~/.gitignore"
-'3  6  13  ~/.gitignore
-|4,51,6,13,1768484153,"~/.gitignore"
-'4  6  13  ~/.gitignore
-|4,52,6,13,1768484153,"~/.gitignore"
-'5  5  13  ~/.gitignore
-|4,53,5,13,1768484153,"~/.gitignore"
-'6  5  13  ~/.gitignore
-|4,54,5,13,1768484153,"~/.gitignore"
-'7  12  25  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,55,12,25,1768484068,"~/Videos/xrated.ssh/m3u8_init.sh"
-'8  13  42  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,56,13,42,1768484014,"~/Videos/xrated.ssh/m3u8_init.sh"
-'9  12  42  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,57,12,42,1768484014,"~/Videos/xrated.ssh/m3u8_init.sh"
+'0  1  0  ~/.config/kitty/kitty.conf
+|4,48,1,0,1768559619,"~/.config/kitty/kitty.conf"
+'1  7  4  ~/Videos/xrated.ssh/m3u8_init.sh
+|4,49,7,4,1768559408,"~/Videos/xrated.ssh/m3u8_init.sh"
+'2  7  11  ~/Videos/xrated.ssh/m3u8_init.sh
+|4,50,7,11,1768559331,"~/Videos/xrated.ssh/m3u8_init.sh"
+'3  14  0  ~/.config/mpv/mpv.conf
+|4,51,14,0,1768558383,"~/.config/mpv/mpv.conf"
+'4  12  0  ~/.config/mpv/mpv.conf
+|4,52,12,0,1768558376,"~/.config/mpv/mpv.conf"
+'5  12  0  ~/.config/mpv/mpv.conf
+|4,53,12,0,1768558376,"~/.config/mpv/mpv.conf"
+'6  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,54,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+'7  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-0
+|4,55,1,0,1768558224,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-0"
+'8  16  0  ~/Videos/xrated.ssh/rsync_filelist.sh
+|4,56,16,0,1768546363,"~/Videos/xrated.ssh/rsync_filelist.sh"
+'9  16  31  ~/Videos/xrated.ssh/rsync_filelist.sh
+|4,57,16,31,1768546349,"~/Videos/xrated.ssh/rsync_filelist.sh"
 
 # 跳转列表 (从新到旧):
--'  4  9  ~/.gitignore
-|4,39,4,9,1768484815,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1768484809,"~/.gitignore"
--'  11  19  ~/.gitignore
-|4,39,11,19,1768484788,"~/.gitignore"
--'  10  19  ~/.gitignore
-|4,39,10,19,1768484788,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1768484783,"~/.gitignore"
--'  6  13  ~/.gitignore
-|4,39,6,13,1768484153,"~/.gitignore"
--'  5  13  ~/.gitignore
-|4,39,5,13,1768484153,"~/.gitignore"
--'  5  13  ~/.gitignore
-|4,39,5,13,1768484153,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1768484142,"~/.gitignore"
--'  12  25  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,25,1768484068,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  25  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,25,1768484068,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  25  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,25,1768484068,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  25  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,25,1768484068,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  25  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,25,1768484068,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  25  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,25,1768484068,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  25  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,25,1768484068,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  25  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,25,1768484068,"~/Videos/xrated.ssh/m3u8_init.sh"
+-'  1  0  ~/.config/kitty/kitty.conf
+|4,39,1,0,1768559619,"~/.config/kitty/kitty.conf"
+-'  7  4  ~/Videos/xrated.ssh/m3u8_init.sh
+|4,39,7,4,1768559408,"~/Videos/xrated.ssh/m3u8_init.sh"
+-'  7  4  ~/Videos/xrated.ssh/m3u8_init.sh
+|4,39,7,4,1768559408,"~/Videos/xrated.ssh/m3u8_init.sh"
 -'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768484050,"~/Videos/xrated.ssh/m3u8_init.sh"
+|4,39,1,0,1768559390,"~/Videos/xrated.ssh/m3u8_init.sh"
 -'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768484050,"~/Videos/xrated.ssh/m3u8_init.sh"
+|4,39,1,0,1768559390,"~/Videos/xrated.ssh/m3u8_init.sh"
+-'  7  11  ~/Videos/xrated.ssh/m3u8_init.sh
+|4,39,7,11,1768559331,"~/Videos/xrated.ssh/m3u8_init.sh"
+-'  7  11  ~/Videos/xrated.ssh/m3u8_init.sh
+|4,39,7,11,1768559331,"~/Videos/xrated.ssh/m3u8_init.sh"
 -'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768484050,"~/Videos/xrated.ssh/m3u8_init.sh"
+|4,39,1,0,1768559315,"~/Videos/xrated.ssh/m3u8_init.sh"
 -'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768484050,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768484050,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768484050,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768484050,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768484050,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  13  42  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,13,42,1768484014,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  42  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,42,1768484014,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  13  42  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,13,42,1768484014,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  42  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,42,1768484014,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  13  42  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,13,42,1768484014,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  42  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,42,1768484014,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  13  42  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,13,42,1768484014,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  42  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,42,1768484014,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  13  42  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,13,42,1768484014,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  42  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,42,1768484014,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  13  42  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,13,42,1768484014,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  42  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,42,1768484014,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  13  42  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,13,42,1768484014,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  42  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,42,1768484014,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  13  42  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,13,42,1768484014,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  42  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,42,1768484014,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768484002,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768484002,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768484002,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768484002,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768484002,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768484002,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768484002,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768484002,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,0,1768483955,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,0,1768483955,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,0,1768483955,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,0,1768483955,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,0,1768483955,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,0,1768483955,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,0,1768483955,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  12  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,12,0,1768483955,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768483847,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768483847,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768483847,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768483847,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768483847,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768483847,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768483847,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768483847,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_main.sh
-|4,39,1,0,1768483828,"~/Videos/xrated.ssh/rsync_main.sh"
+|4,39,1,0,1768559315,"~/Videos/xrated.ssh/m3u8_init.sh"
+-'  14  0  ~/.config/mpv/mpv.conf
+|4,39,14,0,1768558383,"~/.config/mpv/mpv.conf"
+-'  14  0  ~/.config/mpv/mpv.conf
+|4,39,14,0,1768558383,"~/.config/mpv/mpv.conf"
+-'  14  0  ~/.config/mpv/mpv.conf
+|4,39,14,0,1768558383,"~/.config/mpv/mpv.conf"
+-'  14  0  ~/.config/mpv/mpv.conf
+|4,39,14,0,1768558383,"~/.config/mpv/mpv.conf"
+-'  14  0  ~/.config/mpv/mpv.conf
+|4,39,14,0,1768558383,"~/.config/mpv/mpv.conf"
+-'  14  0  ~/.config/mpv/mpv.conf
+|4,39,14,0,1768558383,"~/.config/mpv/mpv.conf"
+-'  14  0  ~/.config/mpv/mpv.conf
+|4,39,14,0,1768558383,"~/.config/mpv/mpv.conf"
+-'  14  0  ~/.config/mpv/mpv.conf
+|4,39,14,0,1768558383,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1768558377,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1768558377,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1768558377,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1768558377,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1768558377,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1768558377,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1768558377,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1768558377,"~/.config/mpv/mpv.conf"
+-'  12  0  ~/.config/mpv/mpv.conf
+|4,39,12,0,1768558376,"~/.config/mpv/mpv.conf"
+-'  12  0  ~/.config/mpv/mpv.conf
+|4,39,12,0,1768558376,"~/.config/mpv/mpv.conf"
+-'  12  0  ~/.config/mpv/mpv.conf
+|4,39,12,0,1768558376,"~/.config/mpv/mpv.conf"
+-'  12  0  ~/.config/mpv/mpv.conf
+|4,39,12,0,1768558376,"~/.config/mpv/mpv.conf"
+-'  12  0  ~/.config/mpv/mpv.conf
+|4,39,12,0,1768558376,"~/.config/mpv/mpv.conf"
+-'  12  0  ~/.config/mpv/mpv.conf
+|4,39,12,0,1768558376,"~/.config/mpv/mpv.conf"
+-'  12  0  ~/.config/mpv/mpv.conf
+|4,39,12,0,1768558376,"~/.config/mpv/mpv.conf"
+-'  12  0  ~/.config/mpv/mpv.conf
+|4,39,12,0,1768558376,"~/.config/mpv/mpv.conf"
+-'  12  0  ~/.config/mpv/mpv.conf
+|4,39,12,0,1768558376,"~/.config/mpv/mpv.conf"
+-'  12  0  ~/.config/mpv/mpv.conf
+|4,39,12,0,1768558376,"~/.config/mpv/mpv.conf"
+-'  12  0  ~/.config/mpv/mpv.conf
+|4,39,12,0,1768558376,"~/.config/mpv/mpv.conf"
+-'  12  0  ~/.config/mpv/mpv.conf
+|4,39,12,0,1768558376,"~/.config/mpv/mpv.conf"
+-'  12  0  ~/.config/mpv/mpv.conf
+|4,39,12,0,1768558376,"~/.config/mpv/mpv.conf"
+-'  12  0  ~/.config/mpv/mpv.conf
+|4,39,12,0,1768558376,"~/.config/mpv/mpv.conf"
+-'  12  0  ~/.config/mpv/mpv.conf
+|4,39,12,0,1768558376,"~/.config/mpv/mpv.conf"
+-'  12  0  ~/.config/mpv/mpv.conf
+|4,39,12,0,1768558376,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1768558349,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1768558349,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1768558349,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1768558349,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1768558349,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1768558349,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1768558349,"~/.config/mpv/mpv.conf"
+-'  1  0  ~/.config/mpv/mpv.conf
+|4,39,1,0,1768558349,"~/.config/mpv/mpv.conf"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  2  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,2,0,1768558231,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
+-'  1  0  ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+|4,39,1,0,1768558228,"~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0"
 
 # 文件内的标记历史记录 (从新到旧):
 
-> ~/.gitignore
-	*	1768484812	0
-	"	4	9
-	^	4	10
-	.	4	9
-	+	8	6
-	+	9	7
-	+	1	5
-	+	10	15
-	+	9	0
-	+	12	0
-	+	14	0
-	+	3	47
-	+	12	0
-	+	14	0
-	+	7	12
+> ~/.config/kitty/kitty.conf
+	*	1768559510	0
+	"	1	0
+	^	14	29
+	.	14	28
+	+	14	20
+	+	15	11
+	+	14	11
+	+	21	24
+	+	22	0
+	+	19	23
+	+	20	25
+	+	21	24
+	+	20	25
+	+	21	24
+	+	1	0
+	+	11	65
+	+	16	27
+	+	11	15
+	+	1	15
+	+	12	15
+	+	36	18
+	+	15	24
+	+	36	18
+	+	37	24
+	+	29	29
+	+	30	23
+	+	19	27
+	+	20	26
+	+	19	27
+	+	20	26
+	+	19	27
+	+	45	42
+	+	19	27
+	+	20	27
+	+	19	27
+	+	20	27
+	+	1	19
+	+	4	0
+	+	1	13
+	+	7	34
+	+	6	25
+	+	7	24
+	+	9	22
+	+	10	18
 	+	6	0
-	+	5	19
-	+	6	14
-	+	11	19
-	+	4	9
+	+	14	28
 
 > ~/Videos/xrated.ssh/m3u8_init.sh
-	*	1768484067	0
-	"	12	25
-	^	12	9
-	.	12	9
+	*	1768559406	0
+	"	7	4
+	^	7	27
+	.	7	0
 	+	3	11
 	+	4	14
 	+	5	25
@@ -518,6 +534,184 @@ $
 	+	13	42
 	+	22	0
 	+	12	9
+	+	7	11
+	+	7	0
+
+> ~/.config/mpv/mpv.conf
+	*	1768558382	0
+	"	14	0
+	^	10	1
+	.	14	0
+	+	3	7
+	+	6	12
+	+	5	8
+	+	6	13
+	+	5	8
+	+	4	7
+	+	14	0
+	+	11	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	12	0
+	+	14	0
+
+> ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0
+	*	1768558230	0
+	"	2	0
+
+> ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-0
+	*	1768558218	0
+	"	1	0
+
+> ~/Videos/xrated.ssh/rsync_filelist.sh
+	*	1768546362	0
+	"	16	0
+	^	9	1
+	.	16	0
+	+	9	30
+	+	12	17
+	+	13	38
+	+	8	12
+	+	12	0
+	+	10	3
+	+	11	3
+	+	12	16
+	+	10	0
+	+	22	9
+	+	17	0
+	+	16	93
+	+	17	92
+	+	18	0
+	+	18	92
+	+	19	86
+	+	20	89
+	+	21	86
+	+	22	89
+	+	19	90
+	+	20	91
+	+	21	90
+	+	22	91
+	+	17	0
+	+	16	120
+	+	9	0
+	+	17	0
+	+	10	0
+	+	16	0
+
+> ~/Videos/xrated.ssh/rsync_include.txt
+	*	1768546325	0
+	"	7	13
+	^	1	17
+	.	7	12
+	+	1	0
+	+	8	0
+	+	1	0
+	+	8	9
+	+	1	16
+	+	8	12
+	+	8	15
+	+	8	9
+	+	8	12
+	+	8	9
+	+	8	12
+	+	1	15
+	+	2	12
+	+	3	15
+	+	4	9
+	+	5	12
+	+	6	9
+	+	7	12
+	+	8	0
+	+	2	0
+	+	1	16
+	+	2	12
+	+	3	15
+	+	4	9
+	+	5	12
+	+	6	9
+	+	7	12
+
+> ~/Videos/xrated.ssh/rsync_playlist.sh
+	*	1768543637	0
+	"	46	0
+
+> ~/Videos/xrated.ssh/rsync_all.txt
+	*	1768543623	0
+	"	1	0
+
+> ~/Videos/xrated.ssh/rsync_exclude.txt
+	*	1768543617	0
+	"	1	0
+	.	48	0
+	+	1	0
+	+	138	0
+	+	166	0
+	+	176	0
+	+	183	0
+	+	189	0
+	+	1	0
+	+	1	1
+	+	1	5
+	+	1	4
+	+	1	0
+	+	1	5
+	+	3	4
+	+	5	0
+	+	31	0
+	+	40	0
+	+	45	0
+	+	48	0
+
+> ~/.gitignore
+	*	1768543201	0
+	"	7	0
+	.	8	0
+	+	8	6
+	+	9	7
+	+	1	5
+	+	10	15
+	+	9	0
+	+	12	0
+	+	14	0
+	+	3	47
+	+	12	0
+	+	14	0
+	+	7	12
+	+	6	0
+	+	5	19
+	+	6	14
+	+	11	19
+	+	4	9
+	+	8	0
+
+> ~/Videos/xrated.ssh/filelist.txt
+	*	1768543175	0
+	"	1	0
+	^	37	58
+	.	1	0
+	+	36	51
+	+	33	37
+	+	35	31
+	+	37	57
+	+	1	0
+
+> ~/.config/ranger/rc.conf
+	*	1768510423	0
+	"	1	0
+	^	9	20
+	.	9	19
+	+	10	0
+	+	3	30
+	+	1	0
+	+	2	0
+	+	4	25
+	+	2	0
+	+	5	34
+	+	6	36
+	+	9	19
 
 > ~/Videos/xrated.ssh/rsync_main.sh
 	*	1768483819	0
@@ -688,54 +882,6 @@ $
 	+	332	30
 	+	486	0
 
-> ~/.config/kitty/kitty.conf
-	*	1768307921	0
-	"	1	0
-	^	14	29
-	.	14	28
-	+	14	20
-	+	15	11
-	+	14	11
-	+	21	24
-	+	22	0
-	+	19	23
-	+	20	25
-	+	21	24
-	+	20	25
-	+	21	24
-	+	1	0
-	+	11	65
-	+	16	27
-	+	11	15
-	+	1	15
-	+	12	15
-	+	36	18
-	+	15	24
-	+	36	18
-	+	37	24
-	+	29	29
-	+	30	23
-	+	19	27
-	+	20	26
-	+	19	27
-	+	20	26
-	+	19	27
-	+	45	42
-	+	19	27
-	+	20	27
-	+	19	27
-	+	20	27
-	+	1	19
-	+	4	0
-	+	1	13
-	+	7	34
-	+	6	25
-	+	7	24
-	+	9	22
-	+	10	18
-	+	6	0
-	+	14	28
-
 > ~/.config/kitty/kitty.conf.bak
 	*	1768307921	0
 	"	1	0
@@ -819,21 +965,6 @@ $
 	*	1767875686	0
 	"	1	0
 
-> ~/.config/ranger/rc.conf
-	*	1767875628	0
-	"	9	19
-	^	9	20
-	.	9	19
-	+	10	0
-	+	3	30
-	+	1	0
-	+	2	0
-	+	4	25
-	+	2	0
-	+	5	34
-	+	6	36
-	+	9	19
-
 > ~/.fehbg
 	*	1767873783	0
 	"	1	0
@@ -862,16 +993,6 @@ $
 	"	1	0
 	.	1	0
 	+	1	0
-
-> ~/Videos/xrated.ssh/filelist.txt
-	*	1767873560	0
-	"	1	0
-	^	37	58
-	.	37	57
-	+	36	51
-	+	33	37
-	+	35	31
-	+	37	57
 
 > ~/Downloads/起信论-梦参长老/起信论-梦参长老.txt
 	*	1767796410	0
@@ -918,13 +1039,6 @@ $
 	^	37	52
 	.	37	51
 	+	37	51
-
-> ~/Videos/xrated.ssh/rsync_include.txt
-	*	1767747492	0
-	"	88	0
-	.	89	0
-	+	1	0
-	+	89	0
 
 > ~/Documents/阅藏知津/五灯会元.txt
 	*	1767085714	0
@@ -1099,10 +1213,6 @@ $
 	+	9	15
 	+	10	14
 	+	11	15
-
-> ~/Videos/xrated.ssh/rsync_all.txt
-	*	1766710221	0
-	"	2	0
 
 > ~/Videos/xrated.ssh/files.txt
 	*	1763182181	0
@@ -1317,29 +1427,6 @@ $
 	*	1763072953	0
 	"	1	0
 
-> ~/Videos/xrated.ssh/rsync_exclude.txt
-	*	1763039503	0
-	"	48	0
-	.	48	0
-	+	1	0
-	+	138	0
-	+	166	0
-	+	176	0
-	+	183	0
-	+	189	0
-	+	1	0
-	+	1	1
-	+	1	5
-	+	1	4
-	+	1	0
-	+	1	5
-	+	3	4
-	+	5	0
-	+	31	0
-	+	40	0
-	+	45	0
-	+	48	0
-
 > ~/Videos/xrated.ssh/rsync
 	*	1763038802	0
 	"	1	0
@@ -1446,17 +1533,6 @@ $
 	+	1	0
 	+	2	0
 
-> ~/.config/mpv/mpv.conf
-	*	1762475973	0
-	"	5	8
-	^	5	9
-	.	5	8
-	+	3	7
-	+	6	12
-	+	5	8
-	+	6	13
-	+	5	8
-
 > ~/.config/worker/lvconf
 	*	1762425034	0
 	"	1	0
@@ -1514,19 +1590,3 @@ $
 > ~/.config/Thunar/accels.scm
 	*	1762398458	0
 	"	109	0
-
-> ~/.config/sublime-text/Local/Session.sublime_session
-	*	1762395045	0
-	"	56	0
-
-> ~/.config/sublime-text/Packages/User/Preferences.sublime-settings
-	*	1762394983	0
-	"	10	0
-
-> ~/.config/i3/scripts/bandwidth2
-	*	1762345741	0
-	"	104	0
-
-> ~/.config/i3/scripts/battery1
-	*	1762345706	0
-	"	2	0

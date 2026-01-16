@@ -1,154 +1,3 @@
-awk -F'/' '{print $1}' 1.txt 
-awk -F'/' '{print $1}' 1.txt | sort | uniq
-awk -F'/' '{print "mkdir -p "$1}' 1.txt | sort | uniq
-awk -F'/' '{print "mkdir -p "$1}' 1.txt | sort | uniq | tee 2.sh
-vim 2.sh 
-sh 2.sh 
-ls
-sh 1.sh 
-ls
-alias 
-mpv --fs --volume=20 --shuffle --loop-playlist=inf --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-ls
-cd Videos/电影/
-ls
-cd ..
-ls
-cd Videos/电影/
-ls
-ls -lhstr
-cd ..
-ls
-cd ..
-ls
-ls Videos/电影/
-cat Videos/电影/rsync_main.sh 
-rsync -rav --partial --update --dry-run --include-from=rsync_include.txt --exclude '*' zzz@192.168.12.104:Videos/电影/* /home/zzz/Videos/电影/
-cd Videos/电影
-ls
-rsync -rav --partial --update --dry-run --include-from=rsync_include.txt --exclude '*' zzz@192.168.12.104:Videos/电影/* /home/zzz/Videos/电影/
-ls
-mpv --fs --volume=30 --shuffle --loop-playlist=inf --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-cd Videos/xrated.ssh/
-ls
-ls ../xrated.txt/
-cd
-ls Videos/电影
-mpv --fs --volume=20 --shuffle --loop-playlist=inf --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-ls
-cd Videos/xrated.ssh/
-ls
-wc -l *.m3u8
-python
-ls
-diff playlist1.m3u8 playlist2.m3u8 
-diff playlist2.m3u8 playlist3.m3u8 
-diff playlist2.m3u8 playlist3.m3u8 
-diff playlist1.m3u8 playlist3.m3u8 
-diff playlist1.m3u8 playlist2.m3u8 
-mpv /home/zzz/Videos/xrated.ssh/波姐/1658929511.mp4
-ls
-vimdiff filelist.txt playlist2.m3u8 
-ls
-mpv --fs --volume=20 --shuffle --loop-playlist=inf --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-ls
-find -type f -name '*.mp4'
-find -type f -name '*.mp4' -delete
-cd ..
-ls
-cd 电影
-ls
-ssh -l zzz 192.168.12.104 ls Videos/电影
-ls
-ls ../xrated.ssh/rsync_*.txt
-cp ../xrated.ssh/rsync_*.txt .
-ls
-vim rsync_all.txt 
-rm rsync_all.txt 
-vim rsync_exclude.txt 
-vim rsync_include.txt 
-cp ../xrated.ssh/rsync_main.sh .
-cat rsync_main.sh 
-vim rsync_main.sh 
-vim rsync_include.txt 
-pwd
-vim rsync_main.sh 
-vim rsync_main.sh 
-sh rsync_main.sh 
-ls
-cd ../xrated.ssh/
-ls
-vim rsync_main.sh 
-sh rsync_main.sh 
-ls
-vim rsync_main.sh 
-vim 1.sh 
-vim 2.sh 
-find -type d 
-find -type d -delete
-ls
-sh 2.sh 
-ls
-sh 1.sh 
-alias 
-mpv --fs --volume=30 --shuffle --loop-playlist=inf --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-ranger 
-ls ../
-ls ../xrated.script/
-ls ../xrated.script/2jpeg.sh 
-vim ../xrated.script/2jpeg.sh 
-cd
-ls
-ls Downloads/
-ls Downloads/起信论-梦参长老
-vim Downloads/起信论-梦参长老/起信论-梦参长老.txt
-rm -rf Downloads/起信论-梦参长老
-ls
-ls Documents/
-pushd Documents/蔡志忠漫画
-ls
-rm 34册六朝怪谈HD新.pdf
-xreader 22册静思语.pdf
-vim ~/.config/i3/config 
-ls
-xreader 22册静思语.pdf
-xreader 11册孟子说.pdf
-xreader 13册唐诗说.pdf
-popd 
-mpv --fs --volume=30 --shuffle --loop-playlist=inf --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-mpv --fs --volume=30 --shuffle --loop-playlist=inf --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-mpv --fs --volume=30 --shuffle --loop-playlist=inf --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-mpv --fs --volume=30 --shuffle --loop-playlist=inf --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-ranger 
-mpv Videos/电影/搏击俱乐部BD中英双字1024高清.mkv 
-mpv --fs --volume=30 --shuffle --loop-playlist=inf --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-mpv Videos/电影/搏击俱乐部BD中英双字1024高清.mkv
-mpv Videos/电影/赌城风云.mkv
-mpv --fs --volume=30 --shuffle --loop-playlist=inf --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-man mpv
-mpv --fs --volume=30 --shuffle --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-rm /home/zzz/Videos/xrated.ssh/由爱可奈/1717819699.mp4
-mpv --fs --volume=30 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-rm /home/zzz/Videos/xrated.ssh/天音唯/1706560018.mp4
-mpv --fs --volume=30 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-rm /home/zzz/Videos/xrated.ssh/Unknow/1748721468.mp4
-mpv --fs --volume=30 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-mpv --fs --volume=40 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-ls
-rm /home/zzz/Videos/xrated.ssh/神笑诗织/1699143036.mp4
-mpv --fs --volume=40 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-rm /home/zzz/Videos/xrated.ssh/明理紬/1682343366.mp4
-mpv --fs --volume=40 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-rm /home/zzz/Videos/xrated.ssh/尾崎绘梨香/1746665847.mp4
-mpv --fs --volume=40 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-rm /home/zzz/Videos/xrated.ssh/波姐/1742573487.mp4
-mpv --fs --volume=40 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-rm /home/zzz/Videos/xrated.ssh/栗山莉绪/1747012337.mp4
-mpv --fs --volume=32 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-rm /home/zzz/Videos/xrated.ssh/松本一花/1703752730.mp4
-mpv --fs --volume=32 --shuffle --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist1.m3u8 
-rm /home/zzz/Videos/xrated.ssh/枫花恋/1689719268.mp4
-ls
 cd Videos/xrated.ssh/
 ls
 git status
@@ -498,3 +347,154 @@ sudo pacman -R fcitx5 fcitx5-chinese-addons fcitx5-configtool sunpinyin fcitx5-c
 sudo pacman -S ibus ibus-libpinyin ibus-sunpinyin
 vim ~/.bashrc 
 source ~/.bashrc 
+ls
+cd Documents/
+ls
+cd 
+xreader Documents/蔡志忠漫画/09册列子说.pdf
+alias 
+mpv --fs --volume=32 --shuffle --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/Unknow/1701618898.mp4
+mpv --fs --volume=32 --shuffle --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/波姐/1746681185.mp4
+mpv --fs --volume=32 --shuffle --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/西宫梦/1752187379.mp4
+mpv --fs --volume=32 --shuffle --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+cd Videos/xrated.ssh/
+ls
+vim 1.sh 
+vim rsync_main.sh 
+vim m3u8_init.sh 
+sh m3u8_init.sh 
+find -type d
+find -type d -printf '%P\n'
+cat 1.
+cat 1.sh 
+vim 1.sh 
+find -type f -name '*.mp4' -printf '%P\n'
+find -type f -name '*.mp4' -printf '%P\n' | awk -F'/' '{print $1}'
+find -type f -name '*.mp4' -printf '%P\n' | awk -F'/' '{print "mkdir -p "$1}' | sort | uniq
+find -type f -name '*.mp4' -printf '%P\n' | awk -F'/' '{print "mkdir -p "$1}' | sort | uniq | tee -a 1.sh 
+vim 1.sh 
+cat 1.sh 
+find -type f -name '*.mp4' -printf '%P\n' 
+find -type f -name '*.mp4' -printf '%P\n' | awk -F'/' '{print "rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/"$1"/"$2,$1"/"}'
+find -type f -name '*.mp4' -printf '%P\n' | awk -F'/' '{print "rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/"$1"/"$2,$1"/"}' | tee 1.sh 
+vim 1.sh 
+history 
+ls
+vim m3u8_init.sh 
+vim rsync_main.sh 
+mv rsync_main.sh rsync_filelist.sh
+vim m3u8_init.sh 
+fg
+echo "$!/bin/bash"
+echo "\$\!/bin/bash"
+echo "\$!/bin/bash"
+cat rsync_filelist.sh 
+vim m3u8_init.sh 
+sh m3u8_init.sh 
+ls
+cat rsync_filelist.sh 
+cat rsync_playlist.sh 
+sh m3u8_init.sh 
+sh m3u8_init.sh 
+vim m3u8_init.sh 
+sh m3u8_init.sh 
+ls
+cat 1.txt 
+cat 1.sh 
+rm 1.txt 1.sh 
+ls
+cd
+git status
+rm Downloads/baidunetdisk_4.17.7_x86_64.rpm 
+ls
+vim .gitignore 
+git status
+history
+history | grep git
+git rm --help
+ls
+git status
+cat .gitignore 
+git rm -r --cached .config/BaiduPCS-Go .config/fcitx5 .config/ibus
+git rm -r --cached .config/fcitx5 .config/ibus
+ls .config/
+git status
+vim .gitignore 
+git rm -r --cached .xsession-errors .xsession-errors.old
+vim .gitignore 
+git rm -r --cached .sunpinyin
+git add -A . ; git commit -m 'reinstall EOS'
+git status
+mpv --fs --volume=32 --shuffle --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+ls
+cd Videos/xrated.s
+cd Videos/xrated.ssh/
+ls
+vim rsync_exclude.txt 
+vim rsync_all.txt 
+cat rsync_filelist.sh 
+vim rsync_include.txt 
+cat rsync_all.txt 
+vim rsync_include.txt 
+ls
+vim rsync_filelist.sh 
+sh rsync_filelist.sh 
+sh rsync_filelist.sh 
+vim rsync_filelist.sh 
+vim rsync_include.txt 
+rh rsync_filelist.sh 
+sh rsync_filelist.sh 
+ls
+ls 小岛南
+cat rsync_filelist.sh 
+rsync -rav --partial --update zzz@192.168.12.104:Videos/xrated.ssh/小岛南/* /home/zzz/Videos/xrated.ssh/小岛南/
+ls
+ls 小岛南
+ls
+cd Videos/xrated.ssh/
+rsync -rav --partial --update zzz@192.168.12.104:Videos/xrated.ssh/小岛南/* /home/zzz/Videos/xrated.ssh/小岛南/
+pushd Videos/xrated.ssh/
+ls
+sh m3u8_init.sh 
+mpv --fs --volume=32 --loop-playlist=2 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/小岛南/1748724316.mp4
+ranger 
+vim ~/.config/mpv/mpv.conf 
+man mpv.conf
+man mpv
+ranger 
+ls 
+ranger 小岛南
+vim ~/.config/ranger/rc.conf 
+ranger 小岛南
+ls -a
+cd
+ls
+ls -a
+ls .cache/
+ls .local/
+ls .local/state/
+find .local/ 
+find .cache/
+find .cache/ | more
+popd 
+pushd ~/Videos/xrated.ssh/
+ls
+ranger 小岛南
+pushd ~/
+ls .local/share/
+popd 
+ranger 小岛南
+ls .local/share/
+ls ~/.local/share/
+vim ~/.config/mpv/mpv.conf 
+ranger 小岛南
+vim ~/.config/mpv/mpv.conf 
+ranger 小岛南
+mpv --fs --volume=32 --loop-playlist=2 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+popd 
+top
+top
