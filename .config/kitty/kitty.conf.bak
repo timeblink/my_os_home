@@ -8,3 +8,8 @@ enable_audio_bell no
 
 focus_follows_mouse yes
 mouse_hide_wait 2.0
+
+
+# BEGIN_KITTY_THEME
+include Catppuccin-Mocha.conf
+# END_KITTY_THEME

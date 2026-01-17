@@ -1,6 +1,7 @@
 .local
 .config/i3/backgrounds.png
 .config/i3/ecce04ac7a7e13c3103d3204afad8fc1.jpeg
+.config/i3/*.jpg
 .sunpinyin
 .config/BaiduPCS-Go
 .config/fcitx5

@@ -1,13 +1,17 @@
 #!/bin/bash
 
-# # filelist.txt filelist2.txt
-# cat filelist.txt \
-#     | awk -F'/' '{print "rsync -rav zzz@192.168.12.104:Videos/xrated.ssh/"$6"/"$7"  "$6"/"}' \
-#     | tee -a rsync.sh && exit 0
+#rm tmp.sh
+#touch tmp.sh
+#chmod +x tmp.sh
+#echo "\$!/bin/bash" | tee tmp.sh
+#cat rsync_include.txt \
+#    | awk '{print "rsync -rav --partial --update zzz@192.168.12.104:Videos/xrated.ssh/"$1,"."}' \
+#    | tee -a tmp.sh
 
-# --dry-run \
+#exit 0
+
+#    --dry-run \
 rsync -rav --partial --update \
-    --dry-run \
     --include-from=rsync_include.txt \
     --exclude '*/' \
     zzz@192.168.12.104:Videos/xrated.ssh/ \

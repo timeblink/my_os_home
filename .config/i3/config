@@ -399,7 +399,8 @@ exec --no-startup-id ~/.screenlayout/monitor.sh
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
 #exec --no-startup-id sleep 1 && feh --bg-fill ~/.config/i3/backgrounds.png
-exec --no-startup-id sleep 1 && feh --bg-fill ~/.config/i3/ecce04ac7a7e13c3103d3204afad8fc1.jpeg
+#exec --no-startup-id sleep 1 && feh --bg-fill ~/.config/i3/ecce04ac7a7e13c3103d3204afad8fc1.jpeg
+exec --no-startup-id sleep 1 && feh --bg-fill ~/.config/i3/eb9f5256183907db94d31fc5ff23663e.jpg
 
 # set powersavings for display:
 exec --no-startup-id xset s 650 dpms 900 900 900
