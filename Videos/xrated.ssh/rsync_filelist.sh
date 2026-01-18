@@ -10,10 +10,12 @@
 
 #exit 0
 
+#    --exclude '*/' \
 #    --dry-run \
 rsync -rav --partial --update \
+    --dry-run \
     --include-from=rsync_include.txt \
-    --exclude '*/' \
+    --exclude-from=rsync_exclude.txt \
     zzz@192.168.12.104:Videos/xrated.ssh/ \
     /home/zzz/Videos/xrated.ssh
 

@@ -1,171 +1,3 @@
-vim rsync_include.txt 
-vim rsync_include.txt 
-vim rsync_filelist.sh 
-vim rsync_include.txt 
-vim rsync_filelist.sh 
-sh rsync_filelist.sh 
-ls
-sh m3u8_init.sh 
-mpv --fs --volume=32 --loop-playlist=2 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
-mpv --fs --volume=32 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
-mpv /home/zzz/Videos/xrated.ssh/小岛南/1716467804.mp4
-rm /home/zzz/Videos/xrated.ssh/小岛南/1716467804.mp4
-ls
-sh m3u8_init.sh 
-mpv --fs --volume=32 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
-ls
-vim filelist.txt 
-cd
-git status
-vim .gitignore 
-git rm -r --cached .config/ibus
-git status
-ls .config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-0
-popd 
-pushd ~/Videos/xrated.ssh/
-ls
-mpv --fs --volume=32 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
-ls
-vim rsync_include.txt 
-vim rsync_exclude.txt 
-vim rsync_all.txt 
-vim rsync_filelist.sh 
-vim rsync_playlist.sh 
-pwd
-a=$(pwd)
-echo ${a}
-vim m3u8_init.sh 
-mpv --fs --volume=32 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
-vim ~/.config/mpv/mpv.conf 
-mpv --fs --volume=32 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
-mpv --fs --volume=32 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
-ls
-vim rsync_include.txt 
-mpv --fs --volume=32 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
-ls
-sleep 1 & echo "hello"
-sleep 1 && echo "hello"
-ls
-vim rsync_filelist.sh 
-vim rsync_filelist.sh 
-sh rsync_filelist.sh 
-sh rsync_filelist.sh 
-vim rsync_filelist.sh 
-sh rsync_filelist.sh 
-vim rsync_filelist.sh 
-sh rsync_filelist.sh 
-vim rsync_filelist.sh 
-vim rsync_include.txt 
-sh rsync_filelist.sh 
-vim rsync_include.txt 
-cat rsync_include.txt 
-vim rsync_filelist.sh 
-sh rsync_filelist.sh 
-vim rsync_filelist.sh 
-vim rsync_include.txt 
-sh rsync_filelist.sh 
-vim rsync_filelist.sh 
-sh rsync_filelist.sh 
-ls
-vim rsync_filelist.sh 
-sh rsync_filelist.sh 
-ls
-sh m3u8_init.sh 
-ls
-ranger 
-ls
-find -type f -name '*.txt'
-find -type f -name '1*.txt'
-find -type f -name '1*.txt' -delete
-find -type f -name '*.txt'
-ranger 
-ls ~/.config/
-ls ~/.config/ibus/
-ls ~/.config/ibus/bus/
-ls ~/.config/ibus/bus/ -lstr
-ls ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-0 
-file ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-0 
-vim ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-0 
-vim ~/.config/ibus/bus/46bd7c2b88034bad98ce43e0e377b76d-unix-wayland-0 
-ranger 
-vim ~/.config/mpv/mpv.conf 
-vim ~/.config/mpv/mpv.conf 
-ranger 
-ls
-sh m3u8_init.sh 
-vim m3u8_init.sh 
-cat m3u8_init.sh 
-find "$(pwd)" -type f -name '*.mp4' -printf '%p\n' | sort -t'/' -k1 -rk2 
-find "$(pwd)" -type f -name '*.mp4' -printf '%p\n' | sort -t'/' -rk7 -rk6
-find "$(pwd)" -type f -name '*.mp4' -printf '%p\n' | sort -t'/' -rk7 -rk6
-ind "$(pwd)" -type f -name '*.mp4' -printf '%p\n' | sort -t'/' -rk7 -k6
-vim m3u8_init.sh 
-vim ~/.config/kitty/kitty.conf
-man ranger 
-sudo vim /etc/hosts 
-popd 
-git status
-git add -A . ; git commit -m 'reinstall EOS'
-git remote  -v
-git push origin main
-git push origin main
-ls
-ls .config/
-ls -a
-git rm -r --cached .mozilla
-pwd
-ls -a
-git log -1
-vim .gitignore 
-ls
-git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch .mozilla/firefox/a767out6.default-release-1740796065734/storage/default/https+++weread.qq.com/idb/413474761wdeare.sqlite ' --prune-empty --tag-name-filter cat -- --all
-git status
-git add -A . ; git commit -m 'reinstall EOS'
-git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch .mozilla/firefox/a767out6.default-release-1740796065734/storage/default/https+++weread.qq.com/idb/413474761wdeare.sqlite ' --prune-empty --tag-name-filter cat -- --all
-git status
-git push origin main
-git push --ff origin main
-git-push --help
-git help push
-git push -f origin main
-ls
-ls .git/refs/original/
-ls .git/refs/original/refs/
-ls .git/refs/original/refs/remotes/
-ls .git/refs/original/refs/remotes/origin/
-ls .git/refs/original/refs/remotes/origin/main 
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-git push origin --force --all
-cd ~/Videos/xrated.ssh/
-ls
-ranger 
-ls
-sh m3u8_init.sh 
-ls
-cat ~/.config/mpv/mpv.conf 
-mpv --autofit=45% --fs --volume=32 --loop-playlist=2 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
-mpv --autofit=45% --fs --volume=32 --loop-playlist=2 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
-vim rsync_filelist.sh 
-mpv --autofit=45% --fs --volume=32 --loop-playlist=2 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
-mpv --autofit=45% --fs --volume=32 --loop-playlist=2 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
-mpv --autofit=45% --fs --volume=32 --loop-playlist=2 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
-man mpv
-man mpv
-vim ~/.config/mpv/input.conf 
-vim ~/.config/mpv/input.conf 
-vim ~/.config/mpv/script-opts/autoload.conf 
-vim ~/.config/mpv/scripts/autoload.lua 
-man mpv
-vim ~/.config/mpv/input.conf 
-mpv --autofit=45% --fs --volume=32 --loop-playlist=2 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
-man mpv
-man mpv
-vim ~/.config/mpv/input.conf 
-mpv --autofit=45% --fs --volume=32 --loop-playlist=2 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
-man mpv
-vim ~/.config/mpv/input.conf 
-mpv --autofit=45% --fs --volume=32 --loop-playlist=2 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
 vim ~/.config/mpv/input.conf 
 mpv --autofit=45% --fs --volume=32 --loop-playlist=2 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
 mpv --autofit=45% --fs --volume=32 --loop-playlist=2 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
@@ -498,3 +330,171 @@ feh -F 9da4af9bb9ca56b30dd75db734170475.jpg
 feh -F bcb59c19f2bf44c92d731394e9261c78.jpg
 feh -F eb9f5256183907db94d31fc5ff23663e.jpg
 vim config 
+ls
+cd Videos/xrated.ssh/
+ls
+vim m3u8_init.sh 
+git status
+git diff m3u8_init.sh
+git status
+ls
+chmod +x m3u8_init.sh 
+ls -lhstr
+rm m3u8_init.sh filelist.txt
+ls
+git status
+ls
+vim newer.sh 
+rm newer.sh newer.m3u8 
+git status
+git log -1
+git log -1 filelist.txt
+git show f73476fa40e464034d9252409c4fa84ecea57e0b:filelist.txt
+git cat-file f73476fa40e464034d9252409c4fa84ecea57e0b:filelist.txt
+git show --help
+git log -1 --name-status 
+git status
+vim rsync_filelist.sh 
+vim rsync_include.txt 
+git --help
+man git-catfile
+man git-cat
+man git
+git-cat-file --help
+git help cat-file
+git cat-file f73476fa40e464034d9252409c4fa84ecea57e0b:filelist.txt
+git cat-file f73476fa40e464034d9252409c4fa84ecea57e0b filelist.txt
+git cat-file f73476fa40e464034d9252409c4fa84ecea57e0b
+git help show
+git cat-file f73476fa40e464034d9252409c4fa84ecea57e0b:filelist.txt
+git cat-file f73476fa40e464034d9252409c4fa84ecea57e0b
+git show f73476fa40e464034d9252409c4fa84ecea57e0b:filelist.txt
+git log -1
+git log -3
+git show HEAD:filelist.txt
+git show HEAD^:filelist.txt
+ls
+git status
+ls
+rm playlist1.m3u8 playlist2.m3u8 playlist3.m3u8
+git log -1
+git log -1 --name-status 
+git log -2 --name-status 
+git show HEAD:Videos/xrated.ssh/filelist.txt
+git status
+git show HEAD:Videos/xrated.ssh/m3u8_init.sh
+git show HEAD:Videos/xrated.ssh/m3u8_init.sh | tee m3u8_init.sh
+ls
+git status
+vim m3u8_init.sh 
+git show HEAD:Videos/xrated.ssh/filelist.txt
+git show HEAD:Videos/xrated.ssh/filelist.txt | tee filelist.txt
+ls
+cd
+git status
+vim .gitignore 
+git status
+cd Videos/xrated.ssh/
+ls
+ls -a
+cd ..
+ls
+ls -a
+vim .gitignore 
+cd xrated.ssh/
+ls
+ls -a
+find -type d -printf '%P\n'
+find -type d -printf '%P\n' | tee .gitignore
+cd
+git status
+cd Music/
+ls
+ls -a
+vim .gitignore 
+cd 
+cd Downloads/
+ls
+ls -a
+vim .gitignore 
+git status
+cd
+git status
+git add -A . ; git commit -m 'reinstall EOS'
+git push origin --force --all
+git push origin --all
+vim ~/.config/kitty/kitty.conf
+ls
+ls
+cd Videos/xrated.ssh/
+ls
+vim rsync_exclude.txt 
+vim rsync_filelist.sh 
+vim rsync_exclude.txt 
+cat rsync_include.txt 
+ls
+git status
+mpv --autofit=80% --fs --volume=28 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+mpv --autofit=80% --fs --volume=28 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+rm /home/zzz/Videos/xrated.ssh/濑户奈奈子/1713591229.mp4
+mpv --autofit=80% --fs --volume=28 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+ls
+cd Videos/xrated.ssh/
+ls
+vim m3u8_init.sh 
+ranger 
+vim ~/.config/mpv/input.conf 
+ranger 
+ls
+find -type f -name '1*.txt'
+ranger 
+mpv --autofit=80% --fs --volume=28 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+gq
+mpv --autofit=80% --fs --volume=28 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+vim ~/.config/mpv/mpv.conf 
+mpv --autofit=80% --fs --volume=28 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+vim ~/.config/mpv/input.conf 
+mpv --autofit=80% --fs --volume=28 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+vim ~/.config/mpv/input.conf 
+mpv --autofit=80% --fs --volume=28 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+vim ~/.config/mpv/input.conf 
+mpv --autofit=80% --fs --volume=28 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+vim ~/.config/mpv/input.conf 
+mpv --autofit=80% --fs --volume=28 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+vim ~/.config/mpv/input.conf 
+mpv --autofit=80% --fs --volume=28 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+vim ~/.config/mpv/input.conf 
+mpv --autofit=80% --fs --volume=28 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+vim ~/.config/mpv/input.conf 
+mpv --autofit=80% --fs --volume=28 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+vim ~/.config/mpv/input.conf 
+mpv --autofit=80% --fs --volume=28 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8 
+ls
+cd Videos/xrated.ssh/
+ls
+vim rsync_include.txt 
+vim rsync_all.txt 
+sed -n'92,117p' rsync_all.txt 
+awk -n'92,117p' rsync_all.txt 
+sed -n '92,117p' rsync_all.txt 
+vim rsync_all.txt +92
+sed -n '92,117p' rsync_all.txt 
+cat rsync_include.txt 
+sed -n '92,117p' rsync_all.txt | tee -a rsync_include.txt 
+ls
+vim rsync_include.txt 
+vim rsync_filelist.sh 
+sh rsync_filelist.sh 
+ls
+rm tmp.sh 
+vim rsync_filelist.sh 
+sh rsync_filelist.sh 
+vim rsync_filelist.sh 
+sh rsync_filelist.sh 
+ls
+vim rsync_filelist.sh 
+sh rsync_filelist.sh 
+vim rsync_filelist.sh 
+sh rsync_filelist.sh 
+vim rsync_include.txt 
+vim ~/.config/i3/config 
