@@ -327,6 +327,7 @@ assign [class="Thunar"] $ws3
 assign [class="Subl"] $ws4
 assign [class="TelegramDesktop"] $ws5
 assign [class="xreader"] $ws1
+assign [class="Emacs"] $ws7
 
 # automatic set focus new window if it opens on another workspace than the current:
 for_window [class=kitty] focus
@@ -335,6 +336,7 @@ for_window [class=Thunar] focus
 for_window [class=Subl] focus
 for_window [class=TelegramDesktop] focus
 for_window [class=xreader] focus
+for_window [class=Emacs] focus
 
 ##############
 # compositor #
@@ -399,8 +401,7 @@ exec --no-startup-id ~/.screenlayout/monitor.sh
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
 #exec --no-startup-id sleep 1 && feh --bg-fill ~/.config/i3/backgrounds.png
-#exec --no-startup-id sleep 1 && feh --bg-fill ~/.config/i3/ecce04ac7a7e13c3103d3204afad8fc1.jpeg
-exec --no-startup-id sleep 1 && feh --bg-fill ~/.config/i3/eb9f5256183907db94d31fc5ff23663e.jpg
+exec --no-startup-id sleep 1 && feh --bg-fill ~/.config/i3/7a9c3c0f9ae09855c77de391ff193f61.jpeg
 
 # set powersavings for display:
 exec --no-startup-id xset s 650 dpms 900 900 900

@@ -7,6 +7,8 @@ find "$(pwd)" -type f -name '*.mp4' -printf '%p\n' \
     | sort -t'/' -rk7 -k6 \
 	| tee -a playlist.m3u8
 
+exit 0
+
 rm rsync_playlist.sh
 touch rsync_playlist.sh
 chmod +x rsync_playlist.sh

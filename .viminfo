@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # 最后 搜索模式:
-~MSle0~/for_window
+~MSle0~/emacs
 
 # 最后 替换 搜索模式:
 ~MSle0&\s\.
@@ -20,20 +20,24 @@
 $
 
 # 命令行 历史记录 (从新到旧):
-:q
-|2,0,1768708978,,"q"
 :wq
-|2,0,1768702045,,"wq"
+|2,0,1769166370,,"wq"
 :w
-|2,0,1768658043,,"w"
+|2,0,1769166279,,"w"
+:q
+|2,0,1769129188,,"q"
 :xa
-|2,0,1768647981,,"xa"
+|2,0,1768907816,,"xa"
+:n
+|2,0,1768907750,,"n"
+:r rsync_all.txt
+|2,0,1768894487,,"r rsync_all.txt"
+:%s/
+|2,0,1768883760,,"%s/"
 :redo
 |2,0,1768618903,,"redo"
 :r .profile
 |2,0,1763121246,,"r .profile"
-:r rsync_all.txt
-|2,0,1763039476,,"r rsync_all.txt"
 :%s/\s\.//gc
 |2,0,1763038711,,"%s/\\s\\.//gc"
 :%`
@@ -60,6 +64,18 @@ $
 |2,0,1762339300,,"r Downloads/Backup/home/tmp/.bashrc"
 
 # 查找字符串 历史记录 (从新到旧):
+?/emacs
+|2,1,1769154906,47,"emacs"
+?/pan
+|2,1,1768883875,47,"pan"
+?/pacdo
+|2,1,1768883870,47,"pacdo"
+?/xetex
+|2,1,1768883852,47,"xetex"
+?/feh
+|2,1,1768867042,47,"feh"
+?/width
+|2,1,1768826973,47,"width"
 ?/for_window
 |2,1,1768702035,47,"for_window"
 ?/font
@@ -86,8 +102,6 @@ $
 |2,1,1768618721,47,"gif"
 ?/kitty
 |2,1,1768449571,47,"kitty"
-?/feh
-|2,1,1767446453,47,"feh"
 ?/back
 |2,1,1767446448,47,"back"
 ?/termi
@@ -157,518 +171,682 @@ $
 
 # 寄存器:
 "0	CHAR	0
-	#    --dry-run \
-|3,0,0,0,1,0,1768659145,"#    --dry-run \\"
+	set $ws9 "9"
+|3,0,0,0,1,0,1769166360,"set $ws9 \"9\""
 "1	LINE	0
-	岬奈奈美
-|3,0,1,1,1,0,1768659186,"岬奈奈美"
-"2	LINE	0
-	上原亚衣
-|3,0,2,1,1,0,1768659184,"上原亚衣"
-"3	CHAR	0
-	白桃花
-	坂道美琉
-	初川南
-	加美杏奈
-	末広纯
-	三宫椿
-	沙月芽衣
-	纱纱原百合
-	天海翼
-	香椎花乃
-	新名爱明
-	伊贺真子
-	由良加奈
-	仓本堇
-	架乃由羅
-	南乃空
-	上户真理
-	相泽南
-	
-|3,0,3,0,19,0,1768659182,"白桃花","坂道美琉","初川南","加美杏奈","末広纯","三宫椿","沙月芽衣","纱纱原百合","天海翼","香椎花乃","新名爱明","伊贺真子","由良加奈","仓本堇","架乃由羅","南乃空","上户真理","相泽南",""
-"4	CHAR	0
-	seek 3
-	
-|3,0,4,0,2,0,1768658032,"seek 3",""
-"5	LINE	0
-	    --dry-run \
-|3,0,5,1,1,0,1768656092,"    --dry-run \\"
-"6	LINE	0
-	
-|3,0,6,1,1,0,1768655997,""
-"7	LINE	0
-	
-|3,0,7,1,1,0,1768655995,""
-"8	CHAR	0
-	白桃花
-	坂道美琉
-	初川南
-	加美杏奈
-	末広纯
-	三宫椿
-	沙月芽衣
-	纱纱原百合
-	天海翼
-	香椎花乃
-	新名爱明
-	伊贺真子
-	由良加奈
-	仓本堇
-	架乃由羅
-	南乃空
-	上户真理
-	相泽南
-	乙白纱耶香
-	古川伊织
-	岬奈奈美
-	上原亚衣
-	通野未帆
-	西宫梦
-	衣吹花音
-	由爱可奈
-	二宫光
-	桃乃木香奈
-	竹内夏希
-	川上奈奈美
-	明理紬
-	希岛爱里
-	椎名空
-	夏目彩春
-	枫花恋
-	松本一花
-	波姐
-	小岛南
-	Unknow
-	葵司
-	Comb
-	三上优亚
-	深田咏美
-	向井兰
-|3,0,8,0,44,0,1768655994,"白桃花","坂道美琉","初川南","加美杏奈","末広纯","三宫椿","沙月芽衣","纱纱原百合","天海翼","香椎花乃","新名爱明","伊贺真子","由良加奈","仓本堇","架乃由羅","南乃空","上户真理","相泽南","乙白纱耶香","古川伊织","岬奈奈美","上原亚衣","通野未帆","西宫梦","衣吹花音","由爱可奈","二宫光","桃乃木香奈","竹内夏希","川上奈奈美",>11
-|<"明理紬","希岛爱里","椎名空","夏目彩春","枫花恋","松本一花","波姐","小岛南","Unknow","葵司","Comb","三上优亚","深田咏美","向井兰"
-"9	LINE	0
-	#    --dry-run \
-|3,0,9,1,1,0,1768654615,"#    --dry-run \\"
+	set $ws0 "0"
+|3,0,1,1,1,0,1769166357,"set $ws0 \"0\""
+"2	BLOCK	0
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+|3,0,2,2,9,0,1769166269,"1","2","3","4","5","6","7","8","9"
+"3	BLOCK	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+	0
+|3,0,3,2,9,0,1769166266,"0","0","0","0","0","0","0","0","0"
+"4	BLOCK	0
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+|3,0,4,2,9,0,1769166263,"1","2","3","4","5","6","7","8","9"
+"5	BLOCK	0
+	0
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+|3,0,5,2,10,0,1769166200,"0","1","2","3","4","5","6","7","8","9"
+"6	BLOCK	0
+	0
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+|3,0,6,2,10,0,1769166183,"0","1","2","3","4","5","6","7","8","9"
+"7	BLOCK	0
+	0
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+|3,0,7,2,10,0,1769166173,"0","1","2","3","4","5","6","7","8","9"
+"8	BLOCK	0
+	0
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+|3,0,8,2,10,0,1769166164,"0","1","2","3","4","5","6","7","8","9"
+"9	BLOCK	0
+	0
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+|3,0,9,2,10,0,1769166148,"0","1","2","3","4","5","6","7","8","9"
 ""-	CHAR	0
-	#
-|3,1,36,0,1,0,1768702043,"#"
+	9
+|3,1,36,0,1,0,1769166368,"9"
 
 # 文件标记:
-'0  2  0  ~/.fehbg
-|4,48,2,0,1768708978,"~/.fehbg"
-'1  487  0  ~/.config/i3/config
-|4,49,487,0,1768702045,"~/.config/i3/config"
-'2  3  0  ~/Videos/xrated.ssh/rsync_include.txt
-|4,50,3,0,1768659191,"~/Videos/xrated.ssh/rsync_include.txt"
-'3  16  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,51,16,0,1768659149,"~/Videos/xrated.ssh/rsync_filelist.sh"
-'4  2  11  ~/.config/mpv/input.conf
-|4,52,2,11,1768658047,"~/.config/mpv/input.conf"
-'5  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,53,1,0,1768657981,"~/Videos/xrated.ssh/m3u8_init.sh"
-'6  17  4  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,54,17,4,1768656094,"~/Videos/xrated.ssh/rsync_filelist.sh"
-'7  16  4  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,55,16,4,1768656094,"~/Videos/xrated.ssh/rsync_filelist.sh"
-'8  17  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,56,17,0,1768656041,"~/Videos/xrated.ssh/rsync_filelist.sh"
-'9  16  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,57,16,0,1768656041,"~/Videos/xrated.ssh/rsync_filelist.sh"
+'0  312  8  ~/.config/i3/config
+|4,48,312,8,1769166370,"~/.config/i3/config"
+'1  303  10  ~/.config/i3/config
+|4,49,303,10,1769166296,"~/.config/i3/config"
+'2  303  10  ~/.config/i3/config
+|4,50,303,10,1769166296,"~/.config/i3/config"
+'3  339  18  ~/.config/i3/config
+|4,51,339,18,1769154914,"~/.config/i3/config"
+'4  339  18  ~/.config/i3/config
+|4,52,339,18,1769154914,"~/.config/i3/config"
+'5  339  18  ~/.config/i3/config
+|4,53,339,18,1769154914,"~/.config/i3/config"
+'6  339  18  ~/.config/i3/config
+|4,54,339,18,1769154914,"~/.config/i3/config"
+'7  339  22  ~/.config/i3/config
+|4,55,339,22,1769154876,"~/.config/i3/config"
+'8  339  22  ~/.config/i3/config
+|4,56,339,22,1769154876,"~/.config/i3/config"
+'9  339  22  ~/.config/i3/config
+|4,57,339,22,1769154876,"~/.config/i3/config"
 
 # 跳转列表 (从新到旧):
--'  2  0  ~/.fehbg
-|4,39,2,0,1768708978,"~/.fehbg"
--'  1  0  ~/.fehbg
-|4,39,1,0,1768708973,"~/.fehbg"
--'  487  0  ~/.config/i3/config
-|4,39,487,0,1768702045,"~/.config/i3/config"
--'  487  0  ~/.config/i3/config
-|4,39,487,0,1768702045,"~/.config/i3/config"
--'  337  0  ~/.config/i3/config
-|4,39,337,0,1768702038,"~/.config/i3/config"
--'  336  0  ~/.config/i3/config
-|4,39,336,0,1768702038,"~/.config/i3/config"
--'  335  0  ~/.config/i3/config
-|4,39,335,0,1768702038,"~/.config/i3/config"
--'  334  0  ~/.config/i3/config
-|4,39,334,0,1768702038,"~/.config/i3/config"
--'  337  0  ~/.config/i3/config
-|4,39,337,0,1768702038,"~/.config/i3/config"
--'  336  0  ~/.config/i3/config
-|4,39,336,0,1768702038,"~/.config/i3/config"
--'  335  0  ~/.config/i3/config
-|4,39,335,0,1768702038,"~/.config/i3/config"
--'  334  0  ~/.config/i3/config
-|4,39,334,0,1768702038,"~/.config/i3/config"
--'  333  0  ~/.config/i3/config
-|4,39,333,0,1768702037,"~/.config/i3/config"
--'  332  0  ~/.config/i3/config
-|4,39,332,0,1768702037,"~/.config/i3/config"
--'  333  0  ~/.config/i3/config
-|4,39,333,0,1768702037,"~/.config/i3/config"
--'  332  0  ~/.config/i3/config
-|4,39,332,0,1768702037,"~/.config/i3/config"
--'  35  0  ~/.config/i3/config
-|4,39,35,0,1768702035,"~/.config/i3/config"
--'  35  0  ~/.config/i3/config
-|4,39,35,0,1768702035,"~/.config/i3/config"
+-'  312  8  ~/.config/i3/config
+|4,39,312,8,1769166370,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1768702031,"~/.config/i3/config"
+|4,39,1,0,1769166323,"~/.config/i3/config"
+-'  303  10  ~/.config/i3/config
+|4,39,303,10,1769166296,"~/.config/i3/config"
+-'  303  10  ~/.config/i3/config
+|4,39,303,10,1769166296,"~/.config/i3/config"
+-'  304  11  ~/.config/i3/config
+|4,39,304,11,1769166264,"~/.config/i3/config"
+-'  313  0  ~/.config/i3/config
+|4,39,313,0,1769166215,"~/.config/i3/config"
+-'  313  0  ~/.config/i3/config
+|4,39,313,0,1769166215,"~/.config/i3/config"
+-'  247  10  ~/.config/i3/config
+|4,39,247,10,1769166214,"~/.config/i3/config"
+-'  247  10  ~/.config/i3/config
+|4,39,247,10,1769166214,"~/.config/i3/config"
 -'  1  0  ~/.config/i3/config
-|4,39,1,0,1768702031,"~/.config/i3/config"
--'  3  0  ~/Videos/xrated.ssh/rsync_include.txt
-|4,39,3,0,1768659191,"~/Videos/xrated.ssh/rsync_include.txt"
--'  3  0  ~/Videos/xrated.ssh/rsync_include.txt
-|4,39,3,0,1768659191,"~/Videos/xrated.ssh/rsync_include.txt"
--'  3  0  ~/Videos/xrated.ssh/rsync_include.txt
-|4,39,3,0,1768659191,"~/Videos/xrated.ssh/rsync_include.txt"
--'  3  0  ~/Videos/xrated.ssh/rsync_include.txt
-|4,39,3,0,1768659191,"~/Videos/xrated.ssh/rsync_include.txt"
--'  1  0  ~/Videos/xrated.ssh/rsync_include.txt
-|4,39,1,0,1768659175,"~/Videos/xrated.ssh/rsync_include.txt"
--'  1  0  ~/Videos/xrated.ssh/rsync_include.txt
-|4,39,1,0,1768659175,"~/Videos/xrated.ssh/rsync_include.txt"
--'  1  0  ~/Videos/xrated.ssh/rsync_include.txt
-|4,39,1,0,1768659175,"~/Videos/xrated.ssh/rsync_include.txt"
--'  1  0  ~/Videos/xrated.ssh/rsync_include.txt
-|4,39,1,0,1768659175,"~/Videos/xrated.ssh/rsync_include.txt"
--'  16  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,39,16,0,1768659149,"~/Videos/xrated.ssh/rsync_filelist.sh"
--'  16  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,39,16,0,1768659149,"~/Videos/xrated.ssh/rsync_filelist.sh"
--'  16  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,39,16,0,1768659149,"~/Videos/xrated.ssh/rsync_filelist.sh"
--'  16  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,39,16,0,1768659149,"~/Videos/xrated.ssh/rsync_filelist.sh"
--'  16  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,39,16,0,1768659149,"~/Videos/xrated.ssh/rsync_filelist.sh"
--'  16  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,39,16,0,1768659149,"~/Videos/xrated.ssh/rsync_filelist.sh"
--'  16  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,39,16,0,1768659149,"~/Videos/xrated.ssh/rsync_filelist.sh"
--'  16  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,39,16,0,1768659149,"~/Videos/xrated.ssh/rsync_filelist.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,39,1,0,1768659140,"~/Videos/xrated.ssh/rsync_filelist.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,39,1,0,1768659140,"~/Videos/xrated.ssh/rsync_filelist.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,39,1,0,1768659140,"~/Videos/xrated.ssh/rsync_filelist.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,39,1,0,1768659140,"~/Videos/xrated.ssh/rsync_filelist.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,39,1,0,1768659140,"~/Videos/xrated.ssh/rsync_filelist.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,39,1,0,1768659140,"~/Videos/xrated.ssh/rsync_filelist.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,39,1,0,1768659140,"~/Videos/xrated.ssh/rsync_filelist.sh"
--'  1  0  ~/Videos/xrated.ssh/rsync_filelist.sh
-|4,39,1,0,1768659140,"~/Videos/xrated.ssh/rsync_filelist.sh"
--'  2  11  ~/.config/mpv/input.conf
-|4,39,2,11,1768658047,"~/.config/mpv/input.conf"
--'  2  11  ~/.config/mpv/input.conf
-|4,39,2,11,1768658047,"~/.config/mpv/input.conf"
--'  2  11  ~/.config/mpv/input.conf
-|4,39,2,11,1768658047,"~/.config/mpv/input.conf"
--'  2  11  ~/.config/mpv/input.conf
-|4,39,2,11,1768658047,"~/.config/mpv/input.conf"
--'  2  11  ~/.config/mpv/input.conf
-|4,39,2,11,1768658047,"~/.config/mpv/input.conf"
--'  2  11  ~/.config/mpv/input.conf
-|4,39,2,11,1768658047,"~/.config/mpv/input.conf"
--'  2  11  ~/.config/mpv/input.conf
-|4,39,2,11,1768658047,"~/.config/mpv/input.conf"
--'  2  11  ~/.config/mpv/input.conf
-|4,39,2,11,1768658047,"~/.config/mpv/input.conf"
--'  2  11  ~/.config/mpv/input.conf
-|4,39,2,11,1768658047,"~/.config/mpv/input.conf"
--'  2  11  ~/.config/mpv/input.conf
-|4,39,2,11,1768658047,"~/.config/mpv/input.conf"
--'  2  11  ~/.config/mpv/input.conf
-|4,39,2,11,1768658047,"~/.config/mpv/input.conf"
--'  2  11  ~/.config/mpv/input.conf
-|4,39,2,11,1768658047,"~/.config/mpv/input.conf"
--'  2  11  ~/.config/mpv/input.conf
-|4,39,2,11,1768658047,"~/.config/mpv/input.conf"
--'  2  11  ~/.config/mpv/input.conf
-|4,39,2,11,1768658047,"~/.config/mpv/input.conf"
--'  2  11  ~/.config/mpv/input.conf
-|4,39,2,11,1768658047,"~/.config/mpv/input.conf"
--'  2  11  ~/.config/mpv/input.conf
-|4,39,2,11,1768658047,"~/.config/mpv/input.conf"
--'  4  0  ~/.config/mpv/input.conf
-|4,39,4,0,1768658033,"~/.config/mpv/input.conf"
--'  4  0  ~/.config/mpv/input.conf
-|4,39,4,0,1768658033,"~/.config/mpv/input.conf"
--'  4  0  ~/.config/mpv/input.conf
-|4,39,4,0,1768658033,"~/.config/mpv/input.conf"
--'  4  0  ~/.config/mpv/input.conf
-|4,39,4,0,1768658033,"~/.config/mpv/input.conf"
--'  4  0  ~/.config/mpv/input.conf
-|4,39,4,0,1768658033,"~/.config/mpv/input.conf"
--'  4  0  ~/.config/mpv/input.conf
-|4,39,4,0,1768658033,"~/.config/mpv/input.conf"
--'  4  0  ~/.config/mpv/input.conf
-|4,39,4,0,1768658033,"~/.config/mpv/input.conf"
--'  4  0  ~/.config/mpv/input.conf
-|4,39,4,0,1768658033,"~/.config/mpv/input.conf"
--'  4  0  ~/.config/mpv/input.conf
-|4,39,4,0,1768658033,"~/.config/mpv/input.conf"
--'  4  0  ~/.config/mpv/input.conf
-|4,39,4,0,1768658033,"~/.config/mpv/input.conf"
--'  4  0  ~/.config/mpv/input.conf
-|4,39,4,0,1768658033,"~/.config/mpv/input.conf"
--'  4  0  ~/.config/mpv/input.conf
-|4,39,4,0,1768658033,"~/.config/mpv/input.conf"
--'  4  0  ~/.config/mpv/input.conf
-|4,39,4,0,1768658033,"~/.config/mpv/input.conf"
--'  4  0  ~/.config/mpv/input.conf
-|4,39,4,0,1768658033,"~/.config/mpv/input.conf"
--'  4  0  ~/.config/mpv/input.conf
-|4,39,4,0,1768658033,"~/.config/mpv/input.conf"
--'  4  0  ~/.config/mpv/input.conf
-|4,39,4,0,1768658033,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1768658024,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1768658024,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1768658024,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1768658024,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1768658024,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1768658024,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1768658024,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1768658024,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1768658024,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1768658024,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1768658024,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1768658024,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1768658024,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1768658024,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1768658024,"~/.config/mpv/input.conf"
--'  1  0  ~/.config/mpv/input.conf
-|4,39,1,0,1768658024,"~/.config/mpv/input.conf"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768657981,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768657981,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768657981,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768657981,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768657981,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768657981,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768657981,"~/Videos/xrated.ssh/m3u8_init.sh"
--'  1  0  ~/Videos/xrated.ssh/m3u8_init.sh
-|4,39,1,0,1768657981,"~/Videos/xrated.ssh/m3u8_init.sh"
+|4,39,1,0,1769166109,"~/.config/i3/config"
+-'  339  18  ~/.config/i3/config
+|4,39,339,18,1769154914,"~/.config/i3/config"
+-'  339  18  ~/.config/i3/config
+|4,39,339,18,1769154914,"~/.config/i3/config"
+-'  339  18  ~/.config/i3/config
+|4,39,339,18,1769154914,"~/.config/i3/config"
+-'  34  0  ~/.config/i3/config
+|4,39,34,0,1769154906,"~/.config/i3/config"
+-'  34  0  ~/.config/i3/config
+|4,39,34,0,1769154906,"~/.config/i3/config"
+-'  34  0  ~/.config/i3/config
+|4,39,34,0,1769154906,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1769154902,"~/.config/i3/config"
+-'  339  22  ~/.config/i3/config
+|4,39,339,22,1769154876,"~/.config/i3/config"
+-'  75  35  ~/.config/i3/config
+|4,39,75,35,1769154701,"~/.config/i3/config"
+-'  75  35  ~/.config/i3/config
+|4,39,75,35,1769154701,"~/.config/i3/config"
+-'  75  35  ~/.config/i3/config
+|4,39,75,35,1769154701,"~/.config/i3/config"
+-'  75  35  ~/.config/i3/config
+|4,39,75,35,1769154701,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1769154613,"~/.config/i3/config"
+-'  62  27  ~/.config/i3/i3blocks.conf
+|4,39,62,27,1769154609,"~/.config/i3/i3blocks.conf"
+-'  62  27  ~/.config/i3/i3blocks.conf
+|4,39,62,27,1769154609,"~/.config/i3/i3blocks.conf"
+-'  62  27  ~/.config/i3/i3blocks.conf
+|4,39,62,27,1769154609,"~/.config/i3/i3blocks.conf"
+-'  62  27  ~/.config/i3/i3blocks.conf
+|4,39,62,27,1769154609,"~/.config/i3/i3blocks.conf"
+-'  62  27  ~/.config/i3/i3blocks.conf
+|4,39,62,27,1769154609,"~/.config/i3/i3blocks.conf"
+-'  62  27  ~/.config/i3/i3blocks.conf
+|4,39,62,27,1769154609,"~/.config/i3/i3blocks.conf"
+-'  62  27  ~/.config/i3/i3blocks.conf
+|4,39,62,27,1769154609,"~/.config/i3/i3blocks.conf"
+-'  62  27  ~/.config/i3/i3blocks.conf
+|4,39,62,27,1769154609,"~/.config/i3/i3blocks.conf"
+-'  62  27  ~/.config/i3/i3blocks.conf
+|4,39,62,27,1769154609,"~/.config/i3/i3blocks.conf"
+-'  62  27  ~/.config/i3/i3blocks.conf
+|4,39,62,27,1769154609,"~/.config/i3/i3blocks.conf"
+-'  62  27  ~/.config/i3/i3blocks.conf
+|4,39,62,27,1769154609,"~/.config/i3/i3blocks.conf"
+-'  62  27  ~/.config/i3/i3blocks.conf
+|4,39,62,27,1769154609,"~/.config/i3/i3blocks.conf"
+-'  62  27  ~/.config/i3/i3blocks.conf
+|4,39,62,27,1769154609,"~/.config/i3/i3blocks.conf"
+-'  62  27  ~/.config/i3/i3blocks.conf
+|4,39,62,27,1769154609,"~/.config/i3/i3blocks.conf"
+-'  62  27  ~/.config/i3/i3blocks.conf
+|4,39,62,27,1769154609,"~/.config/i3/i3blocks.conf"
+-'  62  27  ~/.config/i3/i3blocks.conf
+|4,39,62,27,1769154609,"~/.config/i3/i3blocks.conf"
+-'  64  0  ~/.config/i3/i3blocks.conf
+|4,39,64,0,1769154593,"~/.config/i3/i3blocks.conf"
+-'  64  0  ~/.config/i3/i3blocks.conf
+|4,39,64,0,1769154593,"~/.config/i3/i3blocks.conf"
+-'  64  0  ~/.config/i3/i3blocks.conf
+|4,39,64,0,1769154593,"~/.config/i3/i3blocks.conf"
+-'  64  0  ~/.config/i3/i3blocks.conf
+|4,39,64,0,1769154593,"~/.config/i3/i3blocks.conf"
+-'  64  0  ~/.config/i3/i3blocks.conf
+|4,39,64,0,1769154593,"~/.config/i3/i3blocks.conf"
+-'  64  0  ~/.config/i3/i3blocks.conf
+|4,39,64,0,1769154593,"~/.config/i3/i3blocks.conf"
+-'  64  0  ~/.config/i3/i3blocks.conf
+|4,39,64,0,1769154593,"~/.config/i3/i3blocks.conf"
+-'  64  0  ~/.config/i3/i3blocks.conf
+|4,39,64,0,1769154593,"~/.config/i3/i3blocks.conf"
+-'  64  0  ~/.config/i3/i3blocks.conf
+|4,39,64,0,1769154593,"~/.config/i3/i3blocks.conf"
+-'  64  0  ~/.config/i3/i3blocks.conf
+|4,39,64,0,1769154593,"~/.config/i3/i3blocks.conf"
+-'  64  0  ~/.config/i3/i3blocks.conf
+|4,39,64,0,1769154593,"~/.config/i3/i3blocks.conf"
+-'  64  0  ~/.config/i3/i3blocks.conf
+|4,39,64,0,1769154593,"~/.config/i3/i3blocks.conf"
+-'  64  0  ~/.config/i3/i3blocks.conf
+|4,39,64,0,1769154593,"~/.config/i3/i3blocks.conf"
+-'  64  0  ~/.config/i3/i3blocks.conf
+|4,39,64,0,1769154593,"~/.config/i3/i3blocks.conf"
+-'  64  0  ~/.config/i3/i3blocks.conf
+|4,39,64,0,1769154593,"~/.config/i3/i3blocks.conf"
+-'  64  0  ~/.config/i3/i3blocks.conf
+|4,39,64,0,1769154593,"~/.config/i3/i3blocks.conf"
+-'  1  0  ~/.config/i3/i3blocks.conf
+|4,39,1,0,1769154565,"~/.config/i3/i3blocks.conf"
+-'  1  0  ~/.config/i3/i3blocks.conf
+|4,39,1,0,1769154565,"~/.config/i3/i3blocks.conf"
+-'  1  0  ~/.config/i3/i3blocks.conf
+|4,39,1,0,1769154565,"~/.config/i3/i3blocks.conf"
+-'  1  0  ~/.config/i3/i3blocks.conf
+|4,39,1,0,1769154565,"~/.config/i3/i3blocks.conf"
+-'  1  0  ~/.config/i3/i3blocks.conf
+|4,39,1,0,1769154565,"~/.config/i3/i3blocks.conf"
+-'  1  0  ~/.config/i3/i3blocks.conf
+|4,39,1,0,1769154565,"~/.config/i3/i3blocks.conf"
+-'  1  0  ~/.config/i3/i3blocks.conf
+|4,39,1,0,1769154565,"~/.config/i3/i3blocks.conf"
+-'  1  0  ~/.config/i3/i3blocks.conf
+|4,39,1,0,1769154565,"~/.config/i3/i3blocks.conf"
+-'  1  0  ~/.config/i3/i3blocks.conf
+|4,39,1,0,1769154565,"~/.config/i3/i3blocks.conf"
+-'  1  0  ~/.config/i3/i3blocks.conf
+|4,39,1,0,1769154565,"~/.config/i3/i3blocks.conf"
+-'  1  0  ~/.config/i3/i3blocks.conf
+|4,39,1,0,1769154565,"~/.config/i3/i3blocks.conf"
+-'  1  0  ~/.config/i3/i3blocks.conf
+|4,39,1,0,1769154565,"~/.config/i3/i3blocks.conf"
+-'  1  0  ~/.config/i3/i3blocks.conf
+|4,39,1,0,1769154565,"~/.config/i3/i3blocks.conf"
+-'  1  0  ~/.config/i3/i3blocks.conf
+|4,39,1,0,1769154565,"~/.config/i3/i3blocks.conf"
+-'  1  0  ~/.config/i3/i3blocks.conf
+|4,39,1,0,1769154565,"~/.config/i3/i3blocks.conf"
+-'  1  0  ~/.config/i3/i3blocks.conf
+|4,39,1,0,1769154565,"~/.config/i3/i3blocks.conf"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
+-'  4  16  ~/.gitignore
+|4,39,4,16,1769129188,"~/.gitignore"
 
 # 文件内的标记历史记录 (从新到旧):
 
-> ~/.fehbg
-	*	1768708974	0
-	"	2	0
-	^	2	1
-	.	2	0
-	+	3	73
-	+	2	0
-
 > ~/.config/i3/config
-	*	1768702044	0
-	"	487	0
-	^	402	1
-	.	487	0
-	+	465	81
-	+	466	0
-	+	460	0
-	+	333	26
-	+	347	22
-	+	413	75
-	+	413	47
-	+	270	0
-	+	278	0
-	+	394	79
-	+	395	0
-	+	429	41
-	+	347	40
-	+	336	33
-	+	333	0
-	+	347	0
-	+	336	22
+	*	1769166369	0
+	"	312	8
+	^	312	9
+	.	312	8
+	+	334	0
+	+	349	0
+	+	337	22
 	+	324	19
 	+	175	45
-	+	455	37
-	+	336	25
-	+	431	12
-	+	432	25
-	+	334	26
-	+	348	22
-	+	334	15
-	+	348	0
-	+	348	25
+	+	456	37
+	+	337	25
+	+	432	12
+	+	433	25
+	+	335	26
+	+	350	22
+	+	335	15
+	+	350	0
+	+	350	25
 	+	326	32
-	+	335	0
+	+	336	0
 	+	325	0
 	+	326	0
 	+	325	26
-	+	330	0
 	+	331	0
-	+	348	0
-	+	349	0
-	+	338	0
+	+	332	0
+	+	350	0
+	+	351	0
 	+	340	0
-	+	344	0
-	+	345	0
-	+	348	0
-	+	341	0
-	+	344	0
-	+	333	0
+	+	342	0
+	+	346	0
+	+	347	0
+	+	350	0
+	+	343	0
+	+	346	0
+	+	334	0
 	+	327	0
-	+	330	0
+	+	331	0
 	+	328	18
-	+	343	21
-	+	443	49
-	+	415	16
-	+	416	32
+	+	345	21
+	+	444	49
+	+	416	16
+	+	417	32
 	+	324	19
-	+	332	22
+	+	333	22
 	+	175	46
-	+	439	37
-	+	330	0
-	+	402	95
-	+	402	59
-	+	404	0
-	+	401	0
+	+	440	37
+	+	331	0
+	+	404	95
+	+	404	59
+	+	405	0
+	+	403	0
 	+	329	21
-	+	337	24
-	+	338	0
-	+	332	31
-	+	338	0
-	+	332	30
-	+	487	0
-	+	403	94
-	+	403	59
+	+	338	24
+	+	340	0
+	+	333	31
+	+	340	0
+	+	333	30
+	+	488	0
+	+	404	94
+	+	404	59
+	+	405	0
 	+	404	0
-	+	402	0
-	+	487	0
+	+	488	0
+	+	404	0
+	+	404	95
+	+	404	59
+	+	75	34
+	+	74	34
+	+	83	35
+	+	86	30
+	+	98	35
+	+	110	58
+	+	122	61
+	+	134	57
+	+	303	11
+	+	311	10
+	+	330	19
+	+	339	22
+	+	330	15
+	+	339	18
+	+	74	34
+	+	83	34
+	+	86	30
+	+	98	35
+	+	110	58
+	+	122	61
+	+	134	57
+	+	303	10
+	+	303	0
+	+	303	10
+	+	303	0
+	+	311	10
+	+	303	10
+	+	303	0
+	+	311	11
+	+	303	10
+	+	83	35
+	+	95	30
+	+	107	35
+	+	119	58
+	+	131	61
+	+	143	57
+	+	303	0
+	+	312	8
 
-> ~/Videos/xrated.ssh/rsync_include.txt
-	*	1768659190	0
-	"	3	0
+> ~/.config/i3/i3blocks.conf
+	*	1769154608	0
+	"	62	27
+	^	62	28
+	.	62	27
+	+	79	0
+	+	57	26
+	+	89	0
+	+	38	0
+	+	54	27
+	+	54	0
+	+	45	0
+	+	54	0
+	+	44	0
+	+	54	0
+	+	54	42
+	+	54	0
+	+	47	27
+	+	54	0
+	+	74	0
+	+	78	0
+	+	74	3
+	+	75	12
+	+	77	29
+	+	75	10
+	+	64	0
+	+	73	0
+	+	67	27
+	+	65	14
+	+	64	5
+	+	55	13
+	+	54	4
+	+	50	16
+	+	49	10
+	+	49	8
+	+	44	5
+	+	45	14
+	+	75	17
+	+	74	7
+	+	54	7
+	+	55	16
+	+	55	0
+	+	80	0
+	+	46	0
+	+	56	0
+	+	66	0
+	+	76	0
+	+	66	0
+	+	56	0
+	+	50	16
+	+	45	14
+	+	65	12
+	+	68	0
+	+	69	6
+	+	70	16
+	+	72	29
+	+	59	0
+	+	60	14
+	+	64	7
+	+	59	7
+	+	62	27
+
+> ~/.gitignore
+	*	1769129182	0
+	"	4	16
+	^	4	17
+	.	4	16
+	+	14	6
+	+	15	7
+	+	1	5
+	+	16	15
+	+	15	0
+	+	18	0
+	+	20	0
+	+	6	47
+	+	18	0
+	+	20	0
+	+	11	12
+	+	10	0
+	+	9	19
+	+	10	14
+	+	17	19
+	+	8	9
+	+	14	0
+	+	7	15
+	+	6	0
+	+	12	19
+	+	2	10
+	+	3	12
+	+	13	17
+	+	4	16
+
+> ~/Videos/.gitignore
+	*	1769129131	0
+	"	4	0
+	^	4	1
+	.	4	0
+	+	1	9
+	+	2	6
+	+	6	0
+	+	4	6
+	+	1	0
+	+	4	0
+
+> ~/.bashrc
+	*	1769128897	0
+	"	6	0
+	^	24	47
+	.	21	0
+	+	43	0
+	+	40	0
+	+	43	0
+	+	22	0
+	+	21	0
+	+	25	0
+	+	43	0
+	+	27	0
+	+	37	0
+	+	43	0
+	+	41	0
+	+	33	0
+	+	27	0
+	+	22	23
+	+	23	33
+	+	25	45
+	+	23	45
+	+	25	44
+	+	24	45
+	+	23	46
+	+	24	46
+	+	23	65
+	+	25	46
+	+	23	44
+	+	25	44
+	+	22	16
+	+	25	14
+	+	22	21
+	+	23	0
+	+	13	26
+	+	29	0
+	+	27	23
+	+	29	0
+	+	30	0
+	+	28	24
+	+	29	14
+	+	21	12
+	+	13	0
+	+	27	0
+	+	28	0
+	+	13	0
+	+	21	0
+	+	27	0
+	+	26	25
+	+	27	1
+	+	28	0
+	+	29	0
+	+	26	0
+	+	27	0
+	+	25	0
+	+	28	0
+	+	13	0
+	+	11	3
+	+	43	0
+	+	15	23
+	+	20	0
+	+	16	14
+	+	17	22
+	+	13	0
+	+	19	16
+	+	13	0
+	+	18	0
+	+	19	0
+	+	14	0
+	+	13	0
+	+	20	0
+	+	13	26
+	+	13	25
+	+	13	27
+	+	13	16
+	+	13	24
+	+	13	0
+	+	24	107
+	+	24	0
+	+	26	0
+	+	26	11
+	+	26	55
+	+	26	0
+	+	14	0
+	+	11	0
+	+	12	9
+	+	24	0
+	+	24	35
+	+	11	0
+	+	12	0
+	+	24	0
+	+	21	0
+
+> ~/Videos/1悬崖/playlist.m3u8
+	*	1769080237	0
+	"	3	17
+	^	2	18
 	.	3	0
-	+	1	0
-	+	1	9
-	+	1	16
-	+	1	12
-	+	1	15
-	+	1	9
-	+	1	12
-	+	1	9
-	+	1	12
-	+	1	15
-	+	1	12
-	+	1	15
-	+	1	9
-	+	1	12
-	+	1	9
-	+	1	12
-	+	1	0
-	+	1	16
-	+	1	12
-	+	1	15
-	+	1	9
-	+	1	12
-	+	1	9
-	+	1	12
-	+	1	15
-	+	1	12
-	+	1	15
-	+	1	9
-	+	1	12
-	+	1	9
-	+	1	12
-	+	1	0
-	+	2	0
 	+	3	0
 
-> ~/Videos/xrated.ssh/rsync_filelist.sh
-	*	1768659147	0
-	"	16	0
-	^	16	0
-	.	16	0
-	+	15	30
-	+	18	17
-	+	19	38
-	+	14	12
-	+	18	0
-	+	17	3
-	+	18	16
-	+	17	0
-	+	23	9
-	+	23	0
-	+	22	93
-	+	23	92
-	+	23	0
-	+	23	92
-	+	23	86
-	+	23	89
-	+	23	86
-	+	23	89
-	+	23	90
-	+	23	91
-	+	23	90
-	+	23	91
-	+	23	0
-	+	22	120
-	+	15	0
-	+	23	0
-	+	17	0
-	+	22	0
-	+	18	0
-	+	19	41
-	+	23	0
-	+	22	0
-	+	15	0
-	+	7	0
-	+	8	35
-	+	11	5
-	+	12	0
-	+	9	21
-	+	7	21
-	+	8	89
-	+	9	15
-	+	3	8
-	+	6	31
-	+	11	0
+> ~/Videos/悬崖/playlist.m3u8
+	*	1769080195	0
+	"	1	0
+	.	2	0
+	+	2	0
+
+> ~/Videos/xrated.ssh/2
+	*	1768907875	0
+	"	2	0
+	^	1	7
+	.	2	0
+	+	38	0
+	+	1	0
+	+	2	0
 	+	4	0
-	+	17	0
-	+	14	0
-	+	17	0
-	+	18	0
-	+	13	0
-	+	18	31
-	+	17	0
-	+	16	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	15	0
+	+	22	0
+	+	23	0
+	+	31	0
+	+	35	0
+	+	36	0
+	+	2	0
+
+> ~/Videos/xrated.ssh/1
+	*	1768907758	0
+	"	28	0
 
 > ~/.config/mpv/input.conf
-	*	1768658043	0
-	"	2	11
-	^	2	12
-	.	2	11
+	*	1768907463	0
+	"	15	18
+	^	15	19
+	.	15	18
 	+	1	9
 	+	21	6
 	+	1	14
@@ -740,58 +918,233 @@ $
 	+	2	0
 	+	3	12
 	+	2	11
+	+	13	19
+	+	15	18
 
 > ~/Videos/xrated.ssh/m3u8_init.sh
-	*	1768657957	0
-	"	1	0
-	^	7	27
-	.	7	0
+	*	1768898988	0
+	"	11	0
+	^	11	0
+	.	11	0
 	+	3	11
 	+	4	14
 	+	5	25
 	+	8	18
-	+	11	14
-	+	10	16
-	+	11	19
-	+	14	0
-	+	15	114
-	+	18	0
-	+	19	153
-	+	16	3
-	+	20	3
-	+	21	3
-	+	17	3
-	+	13	42
-	+	22	0
-	+	12	9
+	+	13	14
+	+	12	16
+	+	13	19
+	+	16	0
+	+	17	114
+	+	20	0
+	+	21	153
+	+	18	3
+	+	22	3
+	+	23	3
+	+	19	3
+	+	15	42
+	+	24	0
+	+	14	9
 	+	7	11
 	+	7	0
+	+	10	5
+	+	11	0
 
-> ~/Videos/xrated.ssh/rsync_exclude.txt
-	*	1768655999	0
-	"	1	0
-	^	4	2
+> ~/Videos/xrated.ssh/.gitignore
+	*	1768894507	0
+	"	132	0
+	.	133	0
+	+	1	0
+	+	133	0
+	+	1	0
+	+	90	0
+	+	116	0
+	+	124	0
+	+	129	0
+	+	133	0
+
+> ~/Documents/南山八大部校释/5济缘记/1.sh
+	*	1768893780	0
+	"	1	56
+	^	5	31
+	.	1	56
+	+	7	0
+	+	5	0
+	+	1	3
+	+	2	0
+	+	5	41
+	+	1	56
+
+> ~/Documents/南山八大部校释/4行宗记/1.sh
+	*	1768893621	0
+	"	3	40
+	^	5	0
+	.	1	0
+	+	2	0
+	+	1	40
+	+	3	0
+	+	5	0
+	+	1	0
+
+> ~/Documents/南山八大部校释/3行事钞/正文/1.sh
+	*	1768893405	0
+	"	1	37
+	.	1	0
+	+	1	0
+
+> ~/Videos/xrated.ssh/rsync_filelist.sh
+	*	1768891724	0
+	"	16	4
+	.	16	0
+	+	15	30
+	+	17	17
+	+	18	38
+	+	14	12
+	+	17	0
+	+	16	3
+	+	17	16
+	+	16	0
+	+	22	9
+	+	22	0
+	+	21	93
+	+	22	92
+	+	22	0
+	+	22	92
+	+	22	86
+	+	22	89
+	+	22	86
+	+	22	89
+	+	22	90
+	+	22	91
+	+	22	90
+	+	22	91
+	+	22	0
+	+	21	120
+	+	15	0
+	+	22	0
+	+	16	0
+	+	21	0
+	+	17	0
+	+	18	41
+	+	22	0
+	+	21	0
+	+	15	0
+	+	7	0
+	+	8	35
+	+	11	5
+	+	12	0
+	+	9	21
+	+	7	21
+	+	8	89
+	+	9	15
+	+	3	8
+	+	6	31
+	+	11	0
+	+	4	0
+	+	16	0
+	+	14	0
+	+	16	0
+	+	17	0
+	+	13	0
+	+	17	31
+	+	16	0
+
+> ~/Videos/xrated.ssh/rsync_include.txt
+	*	1768891678	0
+	"	82	0
 	.	5	0
 	+	1	0
-	+	94	0
-	+	122	0
-	+	132	0
-	+	139	0
-	+	145	0
+	+	1	9
+	+	1	16
+	+	1	12
+	+	1	15
+	+	1	9
+	+	1	12
+	+	1	9
+	+	1	12
+	+	1	15
+	+	1	12
+	+	1	15
+	+	1	9
+	+	1	12
+	+	1	9
+	+	1	12
 	+	1	0
-	+	1	1
-	+	1	5
-	+	1	4
+	+	1	16
+	+	1	12
+	+	1	15
+	+	1	9
+	+	1	12
+	+	1	9
+	+	1	12
+	+	1	15
+	+	1	12
+	+	1	15
+	+	1	9
+	+	1	12
+	+	1	9
+	+	1	12
 	+	1	0
-	+	1	5
-	+	3	4
-	+	5	0
-	+	4	1
+	+	83	0
+	+	1	0
+	+	83	0
+	+	1	0
+	+	83	0
+	+	1	0
+	+	63	0
+	+	79	0
+	+	83	0
+	+	17	0
 	+	5	0
 
+> ~/Videos/xrated.ssh/1.txt
+	*	1768891672	0
+	"	26	0
+	.	1	0
+	+	1	0
+
+> ~/Documents/南山八大部校释/6资持记/1.sh
+	*	1768884676	0
+	"	1	40
+	^	1	38
+	.	1	40
+	+	4	0
+	+	1	37
+	+	2	0
+	+	1	40
+
+> ~/Downloads/1.sh
+	*	1768883889	0
+	"	151	1
+	^	1	16
+	.	151	0
+	+	1	15
+	+	2	1
+	+	17	0
+	+	243	0
+	+	242	8
+	+	150	0
+	+	151	0
+
+> ~/Downloads/2.txt
+	*	1768883761	0
+	"	2	0
+	.	2	0
+	+	1	15
+	+	1	29
+	+	1	0
+	+	1	16
+	+	2	0
+
+> ~/Downloads/1.txt
+	*	1768883643	0
+	"	246	84
+	^	246	85
+	.	246	84
+	+	246	84
+
 > ~/.config/kitty/kitty.conf
-	*	1768655791	0
-	"	11	0
+	*	1768866911	0
+	"	108	24
 	^	108	25
 	.	108	24
 	+	494	25
@@ -884,6 +1237,52 @@ $
 	+	108	26
 	+	107	25
 	+	108	24
+	+	12	0
+	+	18	0
+	+	22	0
+	+	107	25
+	+	18	0
+	+	19	0
+	+	107	25
+	+	108	24
+
+> ~/Music/.gitignore
+	*	1768826688	0
+	"	3	0
+	^	3	0
+	.	2	33
+	+	1	6
+	+	2	33
+
+> ~/.fehbg
+	*	1768708974	0
+	"	2	0
+	^	2	1
+	.	2	0
+	+	3	73
+	+	2	0
+
+> ~/Videos/xrated.ssh/rsync_exclude.txt
+	*	1768655999	0
+	"	1	0
+	^	4	2
+	.	5	0
+	+	1	0
+	+	94	0
+	+	122	0
+	+	132	0
+	+	139	0
+	+	145	0
+	+	1	0
+	+	1	1
+	+	1	5
+	+	1	4
+	+	1	0
+	+	1	5
+	+	3	4
+	+	5	0
+	+	4	1
+	+	5	0
 
 > ~/Downloads/.gitignore
 	*	1768655587	0
@@ -894,48 +1293,6 @@ $
 	+	3	4
 	+	4	19
 	+	5	30
-
-> ~/Music/.gitignore
-	*	1768655571	0
-	"	1	6
-	^	1	9
-	.	1	6
-	+	1	6
-
-> ~/Videos/.gitignore
-	*	1768655527	0
-	"	1	0
-	^	5	0
-	.	1	0
-	+	1	9
-	+	2	6
-	+	6	0
-	+	4	6
-	+	1	0
-
-> ~/.gitignore
-	*	1768655502	0
-	"	3	15
-	^	4	16
-	.	4	15
-	+	9	6
-	+	10	7
-	+	1	5
-	+	11	15
-	+	10	0
-	+	13	0
-	+	15	0
-	+	3	47
-	+	13	0
-	+	15	0
-	+	8	12
-	+	7	0
-	+	6	19
-	+	7	14
-	+	12	19
-	+	5	9
-	+	9	0
-	+	4	15
 
 > ~/Videos/xrated.ssh/newer.sh
 	*	1768654743	0
@@ -1079,88 +1436,6 @@ $
 	+	3	0
 	+	4	0
 
-> ~/.bashrc
-	*	1768449735	0
-	"	25	0
-	^	19	1
-	.	25	0
-	+	61	0
-	+	58	0
-	+	61	0
-	+	37	0
-	+	36	0
-	+	42	0
-	+	61	0
-	+	45	0
-	+	55	0
-	+	61	0
-	+	59	0
-	+	51	0
-	+	45	0
-	+	37	23
-	+	38	33
-	+	40	45
-	+	38	45
-	+	40	44
-	+	39	45
-	+	38	46
-	+	39	46
-	+	38	65
-	+	40	46
-	+	38	44
-	+	40	44
-	+	37	16
-	+	41	14
-	+	37	21
-	+	38	0
-	+	15	26
-	+	47	0
-	+	45	23
-	+	47	0
-	+	48	0
-	+	46	24
-	+	47	14
-	+	34	12
-	+	16	0
-	+	45	0
-	+	46	0
-	+	16	0
-	+	33	0
-	+	34	0
-	+	45	0
-	+	44	25
-	+	45	1
-	+	46	0
-	+	47	0
-	+	44	0
-	+	45	0
-	+	43	0
-	+	46	0
-	+	14	0
-	+	13	0
-	+	11	3
-	+	61	0
-	+	27	23
-	+	32	0
-	+	28	14
-	+	29	22
-	+	14	0
-	+	31	16
-	+	13	0
-	+	30	0
-	+	31	0
-	+	26	0
-	+	18	0
-	+	19	0
-	+	32	0
-	+	19	26
-	+	20	25
-	+	21	27
-	+	22	16
-	+	23	24
-	+	20	0
-	+	25	0
-
 > ~/.config/kitty/Catppuccin-Mocha.conf
 	*	1768307877	0
 	"	1	0
@@ -1235,12 +1510,6 @@ $
 	*	1767873676	0
 	"	1	0
 
-> ~/Videos/xrated.ssh/1.txt
-	*	1767873608	0
-	"	1	0
-	.	1	0
-	+	1	0
-
 > ~/Downloads/起信论-梦参长老/起信论-梦参长老.txt
 	*	1767796410	0
 	"	2	0
@@ -1307,63 +1576,6 @@ $
 	+	2	18
 	+	3	37
 	+	5	15
-
-> ~/.config/i3/i3blocks.conf
-	*	1766992990	0
-	"	67	29
-	^	67	30
-	.	67	29
-	+	74	0
-	+	57	26
-	+	84	0
-	+	38	0
-	+	54	27
-	+	54	0
-	+	45	0
-	+	54	0
-	+	44	0
-	+	54	0
-	+	54	42
-	+	54	0
-	+	47	27
-	+	54	0
-	+	69	0
-	+	73	0
-	+	69	3
-	+	70	12
-	+	72	29
-	+	70	10
-	+	59	0
-	+	68	0
-	+	62	27
-	+	60	14
-	+	59	5
-	+	55	13
-	+	54	4
-	+	50	16
-	+	49	10
-	+	49	8
-	+	44	5
-	+	45	14
-	+	70	17
-	+	69	7
-	+	54	7
-	+	55	16
-	+	55	0
-	+	75	0
-	+	46	0
-	+	56	0
-	+	61	0
-	+	71	0
-	+	61	0
-	+	56	0
-	+	50	16
-	+	45	14
-	+	60	12
-	+	63	0
-	+	64	6
-	+	65	16
-	+	67	29
 
 > ~/Documents/蔡志忠漫画合集36册/1.sh
 	*	1766992867	0
@@ -1729,73 +1941,3 @@ $
 	"	75	28
 	.	1	0
 	+	1	0
-
-> ~/.config/yazi/yazi-default.toml
-	*	1762692744	0
-	"	147	23
-
-> ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml
-	*	1762686098	0
-	"	1	0
-
-> ~/.config/yazi/theme-dark.toml
-	*	1762685214	0
-	"	281	0
-
-> ~/.config/yazi/theme-light.toml
-	*	1762684563	0
-	"	270	0
-	^	270	1
-
-> ~/Downloads/#1.txt#
-	*	1762684406	0
-	"	1	0
-
-> ~/Videos/xrated.ssh/2
-	*	1762675140	0
-	"	4	0
-	^	3	9
-	.	4	0
-	+	1	0
-	+	124	0
-	+	1	10
-	+	4	0
-
-> ~/Videos/xrated.ssh/1
-	*	1762674184	0
-	"	2	0
-	^	129	12
-	.	2	0
-	+	1	0
-	+	141	0
-	+	1	0
-	+	130	0
-	+	133	0
-	+	137	0
-	+	138	0
-	+	141	0
-	+	1	4
-	+	129	9
-	+	2	0
-	+	1	0
-	+	2	0
-
-> ~/.config/worker/lvconf
-	*	1762425034	0
-	"	1	0
-
-> ~/.config/worker/config
-	*	1762425025	0
-	"	73	2
-
-> ~/Videos/xrated.ssh/rm.sh
-	*	1762418239	0
-	"	1	0
-
-> ~/Videos/xrated.ssh/delete.sh
-	*	1762418232	0
-	"	1	0
-
-> ~/.config/i3/scripts/volume
-	*	1762416603	0
-	"	1	0
