@@ -1,6 +1,7 @@
 .local
 .Xauthority
 .bash_history
+.viminfo
 .config/xarchiver
 .config/i3/backgrounds.png
 .config/i3/*.jpeg
@@ -11,6 +12,7 @@
 .config/ibus
 .config/libreoffice
 .config/dconf/user
+.config/xed
 .cache
 .mozilla
 .xsession-errors
