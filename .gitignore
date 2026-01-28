@@ -8,6 +8,7 @@
 .config/i3/*.jpg
 .sunpinyin
 .config/BaiduPCS-Go
+.config/QtProject.conf
 .config/fcitx5
 .config/ibus
 .config/libreoffice

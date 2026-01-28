@@ -22,8 +22,8 @@ export EDITOR=vim
 setxkbmap -option ""
 setxkbmap -option "caps:ctrl_modifier,ctrl:nocaps"
 
-alias x0='mpv --autofit=45% --fs=no --volume=20 --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8'
-alias gq='mpv --no-fs --volume=80 --shuffle --loop-playlist=inf --playlist=/home/zzz/Music/老八张/playlist.m3u8'
+alias x0='mpv --autofit=70% --fs=no --shuffle --volume=20 --loop-playlist=1 --playlist=~/Videos/xrated.ssh/playlist.m3u8'
+alias gq='mpv --no-fs --volume=70 --shuffle --loop-playlist=inf --playlist=/home/zzz/Music/老八张/playlist.m3u8'
 
 export LANG=zh_CN.UTF-8
 export LC_ALL=zh_CN.UTF-8

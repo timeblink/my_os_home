@@ -326,8 +326,9 @@ assign [class="(?i)firefox"] $ws2
 assign [class="Thunar"] $ws3
 assign [class="Subl"] $ws4
 assign [class="TelegramDesktop"] $ws5
-assign [class="xreader"] $ws1
+assign [class="Xreader"] $ws4
 assign [class="Emacs"] $ws7
+assign [class="Xed"] $ws3
 
 # automatic set focus new window if it opens on another workspace than the current:
 for_window [class=kitty] focus
@@ -335,8 +336,9 @@ for_window [class=(?i)firefox] focus
 for_window [class=Thunar] focus
 for_window [class=Subl] focus
 for_window [class=TelegramDesktop] focus
-for_window [class=xreader] focus
+for_window [class=Xreader] focus
 for_window [class=Emacs] focus
+for_window [class=Xed] focus
 
 ##############
 # compositor #
@@ -414,7 +416,10 @@ exec --no-startup-id xset s 650 dpms 900 900 900
 #exec --no-startup-id xautolock -time 60 -locker "systemctl suspend"
 
 # source .bashrc
-exec --no-startup-id sleep 8 && source .bashrc
+#exec --no-startup-id sleep 8 && source .bashrc
+
+# open kitty
+exec --no-startup-id sleep 2 && kitty
 
 
 # xscreensaver
