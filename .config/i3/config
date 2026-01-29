@@ -337,7 +337,7 @@ for_window [class=Thunar] focus
 for_window [class=Subl] focus
 for_window [class=TelegramDesktop] focus
 for_window [class=Xreader] focus
-for_window [class=Emacs] focus
+for_window [class=Emacs] floating enable focus
 for_window [class=Xed] focus
 
 ##############

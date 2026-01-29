@@ -15,6 +15,7 @@
 .config/dconf/user
 .config/xed
 .cache
+.emacs.d
 .mozilla
 .xsession-errors
 .xsession-errors.old
