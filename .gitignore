@@ -14,10 +14,10 @@
 .config/libreoffice
 .config/dconf/user
 .config/xed
+.config/ghc
 .cache
 .emacs.d
 .mozilla
 .xsession-errors
 .xsession-errors.old
-Downloads/xrated.sh/url_playlist_2.txt
-Downloads/xrated.sh/url_playlist.txt
+.w3m

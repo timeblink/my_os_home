@@ -5,8 +5,11 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-#alias ls='ls --color=auto'
-#alias grep='grep --color=auto'
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias feh='feh -F -Z'
+alias mpv='mpv --autofit=70% --fs=no'
+alias xreader='xreader -f'
 
 set -o emacs
 
