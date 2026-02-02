@@ -8,7 +8,7 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias feh='feh -F -Z'
-alias mpv='mpv --autofit=70% --fs=no'
+alias mpv='mpv --autofit=80% --fs=no --volume=70'
 alias xreader='xreader -f'
 
 set -o emacs
@@ -27,6 +27,7 @@ setxkbmap -option "caps:ctrl_modifier,ctrl:nocaps"
 
 alias x0='mpv --autofit=70% --fs=yes --shuffle --volume=20 --loop-playlist=3 --playlist=~/Videos/xrated.ssh/playlist.m3u8'
 alias gq='mpv --fs=no --volume=70 --shuffle --loop-playlist=inf --playlist=/home/zzz/Music/老八张/playlist.m3u8'
+alias baidu='baidupcs login --bduss=dadHVqbFJifjBUZVl6ZkdjaWFrRHJMM0FUOTQ4UjZUZlVuYlg2cW1GZThsSHBwSVFBQUFBJCQAAAAAAAAAAAEAAADxZYYMdGltZWJsaW5rAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALwHU2m8B1NpMl'
 
 export LANG=zh_CN.UTF-8
 export LC_ALL=zh_CN.UTF-8
