@@ -29,9 +29,9 @@ function onecolumn(){
   printf " | 中行定期: %17.2f  |\n",b1
   printf " |     活期: %17.2f  |\n",b2
   printf " +------------------------------+\n"
-  printf " | 现金存款: %17.2f  |\n",balance-a1-a2-b1-b2
+  printf " | 现金存款: %17.2f  |\n",a0+bottomline-a1-a2-b1-b2
   printf " +------------------------------+\n"
-  printf " | %s = %16.2f  |\n","本期平衡",balance
+  printf " | %s = %16.2f  |\n","本期平衡",a0+bottomline
   printf " +------------------------------+\n"
 }
 
@@ -76,13 +76,13 @@ function mulcolumn(){
   printf "------------------------+\n"
   printf " |      %s = %10.2f","收入",i1+i2+i3+i4+i5
   printf " |      %s = %10.2f","支出",o1+o2+o3+o4+o5+o6+o7+o8+o9
-  printf " | %s = %11.2f |\n","现金存款",balance-a1-a2-b1-b2
+  printf " | %s = %11.2f |\n","现金存款",a0+bottomline-a1-a2-b1-b2
   printf " +------------------------+"
   printf "------------------------+"
   printf "------------------------+\n"
   printf " |   %s = %10.2f","总收入",a0+i1+i2+i3+i4+i5
   printf " |%23s",""
-  printf " | %s = %11.2f |\n","本期平衡",balance
+  printf " | %s = %11.2f |\n","本期平衡",a0+bottomline
   printf " +------------------------+"
   printf "------------------------+"
   printf "------------------------+\n"

@@ -1,7 +1,7 @@
 BEGIN{
   FS=","
   db_date = ""
-  balance = 0#收支平衡
+  bottomline = 0#净利润
   a0 = 0#上期余额
   a1 = 0#建行定存
   a2 = 0#建行活
@@ -27,27 +27,27 @@ BEGIN{
 
 { db_date = substr($1,1,7) }
 
-$2 ~ /A0/ { a0 = $5 ; balance += $5 }
+$2 ~ /A0/ { a0 = $5 }
 $2 ~ /A1/ { a1 = $5 }
 $2 ~ /A2/ { a2 = $5 }
 $2 ~ /B1/ { b1 = $5 }
 $2 ~ /B2/ { b2 = $5 }
 
-$2 ~ /I0/ { i0 += $3 ; balance += $3 }
-$2 ~ /I1/ { i1 += $3 ; balance += $3 }
-$2 ~ /I2/ { i2 += $3 ; balance += $3 }
-$2 ~ /I3/ { i3 += $3 ; balance += $3 }
-$2 ~ /I4/ { i4 += $3 ; balance += $3 }
-$2 ~ /I5/ { i5 += $3 ; balance += $3 }
+$2 ~ /I0/ { i0 += $3 ; bottomline += $3 }
+$2 ~ /I1/ { i1 += $3 ; bottomline += $3 }
+$2 ~ /I2/ { i2 += $3 ; bottomline += $3 }
+$2 ~ /I3/ { i3 += $3 ; bottomline += $3 }
+$2 ~ /I4/ { i4 += $3 ; bottomline += $3 }
+$2 ~ /I5/ { i5 += $3 ; bottomline += $3 }
 
-$2 ~ /O0/ { o0 += $4 ; balance -= $4 }
-$2 ~ /O1/ { o1 += $4 ; balance -= $4 }
-$2 ~ /O2/ { o2 += $4 ; balance -= $4 }
-$2 ~ /O3/ { o3 += $4 ; balance -= $4 }
-$2 ~ /O4/ { o4 += $4 ; balance -= $4 }
-$2 ~ /O5/ { o5 += $4 ; balance -= $4 }
-$2 ~ /O6/ { o6 += $4 ; balance -= $4 }
-$2 ~ /O7/ { o7 += $4 ; balance -= $4 }
-$2 ~ /O8/ { o8 += $4 ; balance -= $4 }
-$2 ~ /O9/ { o9 += $4 ; balance -= $4 }
+$2 ~ /O0/ { o0 += $4 ; bottomline -= $4 }
+$2 ~ /O1/ { o1 += $4 ; bottomline -= $4 }
+$2 ~ /O2/ { o2 += $4 ; bottomline -= $4 }
+$2 ~ /O3/ { o3 += $4 ; bottomline -= $4 }
+$2 ~ /O4/ { o4 += $4 ; bottomline -= $4 }
+$2 ~ /O5/ { o5 += $4 ; bottomline -= $4 }
+$2 ~ /O6/ { o6 += $4 ; bottomline -= $4 }
+$2 ~ /O7/ { o7 += $4 ; bottomline -= $4 }
+$2 ~ /O8/ { o8 += $4 ; bottomline -= $4 }
+$2 ~ /O9/ { o9 += $4 ; bottomline -= $4 }
 

@@ -3,5 +3,6 @@
 @include "functions.awk"
 
 END{
+  #onecolumn()
   mulcolumn()
 }
