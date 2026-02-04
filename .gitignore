@@ -21,3 +21,5 @@
 .xsession-errors
 .xsession-errors.old
 .w3m
+.wget-hsts
+.python_history
