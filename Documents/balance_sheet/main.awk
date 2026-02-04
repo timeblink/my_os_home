@@ -3,6 +3,5 @@
 @include "functions.awk"
 
 END{
-  monthrow()
+  mulcolumn()
 }
-
