@@ -17,13 +17,15 @@ mkdir -p ${trashd}
 
 LIMIT_RATE=
 h=`date +'%H'`
-LIMIT_RATE="100"
-[ $h == '00' ] && LIMIT_RATE="1024"
-[ $h == '01' ] && LIMIT_RATE="1024"
-[ $h == '02' ] && LIMIT_RATE="1024"
-[ $h == '03' ] && LIMIT_RATE="1024"
-[ $h == '04' ] && LIMIT_RATE="1024"
-[ $h == '23' ] && LIMIT_RATE="1024"
+LIMIT_RATE="128"
+[ $h == '00' ] && LIMIT_RATE="2048"
+[ $h == '01' ] && LIMIT_RATE="2048"
+[ $h == '02' ] && LIMIT_RATE="2048"
+[ $h == '03' ] && LIMIT_RATE="2048"
+[ $h == '04' ] && LIMIT_RATE="2048"
+[ $h == '21' ] && LIMIT_RATE="2048"
+[ $h == '22' ] && LIMIT_RATE="2048"
+[ $h == '23' ] && LIMIT_RATE="2048"
 
 #pushd ${tsdir}
 rm -f *.ts playlist.m3u8

@@ -8,7 +8,7 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias feh='feh -F -Z'
-alias mpv='mpv --autofit=80% --fs=no --volume=70'
+alias mpv='mpv --autofit=80% --fs=no --volume=20'
 alias xreader='xreader -f'
 
 set -o emacs

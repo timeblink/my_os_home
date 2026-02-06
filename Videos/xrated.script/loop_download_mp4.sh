@@ -15,7 +15,7 @@ mkdir -p ${ucdir}
 trashd=${HOME}/Videos/xrated.trash
 mkdir -p ${trashd}
 
-exehome=${HOME}/Desktop/my_os_home/Downloads/xrated.sh
+exehome=${HOME}/Videos/xrated.script
 
 w_count=0
 i_sleep=45
