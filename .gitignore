@@ -18,7 +18,7 @@
 .config/sublime-text/Local/Auto Save Session.sublime_session
 .config/sublime-text/Local/Session.sublime_session
 .cache
-.emacs.d
+.emacs.*
 .mozilla
 .xsession-errors
 .xsession-errors.old
