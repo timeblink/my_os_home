@@ -1,0 +1,35 @@
+#!/bin/bash
+
+ones_place()
+{
+    printf "%5s %5s %5s %5s %5s %5s %5s %5s %5s %5s %5s %5s\n" \
+        "-----" "-----" "-----" "-----" \
+        "-----" "-----" "-----" "-----" \
+        "-----" "-----" "-----" "-----"
+    printf "%5s %5s %5s %5s %5s %5s %5s %5s %5s %5s %5s %5s\n" \
+        $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) \
+        $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) \
+        $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) \
+        $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1)
+    printf "%5s %5s %5s %5s %5s %5s %5s %5s %5s %5s %5s %5s\n" \
+        $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) \
+        $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) \
+        $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) \
+        $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1)
+    printf "%5s %5s %5s %5s %5s %5s %5s %5s %5s %5s %5s %5s\n" \
+        "-$(shuf -i 1-10 -n 1)" "-$(shuf -i 1-10 -n 1)" "-$(shuf -i 1-10 -n 1)" \
+        "-$(shuf -i 1-10 -n 1)" "-$(shuf -i 1-10 -n 1)" "-$(shuf -i 1-10 -n 1)" \
+        "-$(shuf -i 1-10 -n 1)" "-$(shuf -i 1-10 -n 1)" "-$(shuf -i 1-10 -n 1)" \
+        "-$(shuf -i 1-10 -n 1)" "-$(shuf -i 1-10 -n 1)" "-$(shuf -i 1-10 -n 1)"
+    printf "%5s %5s %5s %5s %5s %5s %5s %5s %5s %5s %5s %5s\n" \
+        $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) \
+        $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) \
+        $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) \
+        $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1) $(shuf -i 1-10 -n 1)
+}
+
+ones_place
+
+ones_place
+
+ones_place

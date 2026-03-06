@@ -17,6 +17,11 @@
 .config/ghc
 .config/sublime-text/Local/Auto Save Session.sublime_session
 .config/sublime-text/Local/Session.sublime_session
+.config/nitrogen
+.config/picom.conf
+.config/polybar
+.config/systemd/user/containerd.service
+.config/systemd/user/default.target.wants/containerd.service
 .cache
 .emacs.*
 .mozilla

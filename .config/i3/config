@@ -402,8 +402,7 @@ exec --no-startup-id ~/.screenlayout/monitor.sh
 
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
-#exec --no-startup-id sleep 1 && feh --bg-fill ~/.config/i3/backgrounds.png
-exec --no-startup-id sleep 1 && feh --bg-fill ~/.config/i3/7a9c3c0f9ae09855c77de391ff193f61.jpeg
+exec --no-startup-id sleep 1 && feh --bg-fill ~/.config/i3/abstract-2.jpg
 
 # set powersavings for display:
 exec --no-startup-id xset s 650 dpms 900 900 900
@@ -446,7 +445,7 @@ exec --no-startup-id /usr/bin/dunst
 #exec --no-startup-id sleep 7 && firefox https://github.com/endeavouros-team/endeavouros-i3wm-setup/blob/main/force-knowledge.md
 #exec --no-startup-id sleep 7 && thunar
 
-exec --no-startup-id sleep 10 && ibus-daemon -x -d
+exec --no-startup-id sleep 10 && fcitx5 -r -d
 exec --no-startup-id sleep 8 && source ~/.profile
 
 # exec --no-startup-id sleep 5 && xinput disable 11
