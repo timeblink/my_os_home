@@ -45,6 +45,7 @@ xdg-user-dirs-gtk
 xed
 xorg-xbacklight
 xorg-xdpyinfo
+xorg-xset
 xorg-xsetroot
 7zip
 fcitx5
