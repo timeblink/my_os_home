@@ -26,11 +26,12 @@
 .config/sublime-text/Local/Auto Save Session.sublime_session
 .config/sublime-text/Local/Session.sublime_session
 .config/nitrogen
-.config/picom.conf
-.config/polybar
 .config/systemd/user/containerd.service
 .config/systemd/user/default.target.wants/containerd.service
 .config/xfce4
+.config/polybar/forest
+.config/polybar/panels
+.config/polybar/eos-default
 .cache
 .emacs.*
 .mozilla

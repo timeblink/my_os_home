@@ -38,7 +38,9 @@ sh ~/.screenlayout/monitor.sh &
 # Bar
 ~/.config/polybar/launch.sh &
 #~/.config/polybar/material/scripts/pywal.sh ~/.config/wallpapers
-#~/.config/polybar/launch.sh --material
+#~/.config/polybar/launch.sh --forest
+#~/.config/polybar/launch.sh --panels
+
 # Notifications
 /usr/bin/dunst &
 
