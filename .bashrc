@@ -14,17 +14,16 @@ export GLFW_IM_MODULE=fcitx
 export INPUT_METHOD=fcitx
 export XIM=fcitx
 export XIM_PROGRAM=fcitx
-
 export EDITOR=vim
-
-#setxkbmap -option ""
-#setxkbmap -option "caps:ctrl_modifier,ctrl:nocaps"
 
 export LANG=zh_CN.UTF-8
 export LC_ALL=zh_CN.UTF-8
 #export LANG=en_US.UTF-8
 #export LANGUAGE=en_US:en
 #export LC_ALL=C
+
+setxkbmap -option ""
+setxkbmap -option "caps:ctrl_modifier,ctrl:nocaps"
 
 
 # export TEXMFHOME=/home/zzz/texlive

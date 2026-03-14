@@ -29,7 +29,7 @@
 .config/systemd/user/containerd.service
 .config/systemd/user/default.target.wants/containerd.service
 .config/xfce4
-.config/polybar
+.config/polybar-themes
 .cache
 .emacs.*
 .mozilla

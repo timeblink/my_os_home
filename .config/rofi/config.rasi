@@ -4,26 +4,28 @@
  *******************************************************/
 
 configuration {
-    font:				"Sourcecode Pro Regular 10";
+    font:				    "Sourcecode Pro Regular 10";
     show-icons:				true;
     icon-theme:				"Arc-X-D";
     display-drun:			"Apps";
-    drun-display-format:		"{name}";
+    drun-display-format:	"{name}";
     scroll-method:			0;
-    disable-history:			false;
+    disable-history:		false;
     sidebar-mode:			false;
 }
 
-@import "~/.config/rofi/arc_dark_transparent_colors.rasi"
+/*@import "~/.config/rofi/arc_dark_transparent_colors.rasi"*/
 
 window {
     background-color: @background;
     border:           0;
     padding:          30;
+    y-offset:         0%;
+    x-offset:         0%;
 }
 listview {
-    lines:                          10;
-    columns:                        3;
+    lines:   10;
+    columns: 3;
 }
 mainbox {
     border:  0;
@@ -134,3 +136,5 @@ textbox-prompt-colon {
     margin:     0px 0.3em 0em 0em ;
     text-color: @normal-foreground;
 }
+
+@theme "~/.config/rofi/themes/Paper.rasi"

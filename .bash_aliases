@@ -1,4 +1,5 @@
 
+alias df='df -h'
 alias ls='ls --color=auto'
 alias ll='ls -sh'
 alias grep='grep -n --color=auto'
@@ -14,3 +15,4 @@ alias x9='mpv --loop-playlist=1 --playlist=~/Videos/XRated/.xrated.cut/playlist.
 alias gq='mpv --volume=75 --fs=no --shuffle --playlist=/home/zzz/Music/老八张/playlist.m3u8'
 alias baidu='baidupcs login --bduss=${BDUSS}'
 
+alias mount_sdb1_to_public='sudo mount -o uid=1000,gid=1000 /dev/sdb1 ~/Public'

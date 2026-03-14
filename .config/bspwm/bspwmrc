@@ -22,6 +22,9 @@ bspc rule -a firefox desktop='^2'
 bspc rule -a mplayer2 state=floating
 bspc rule -a kitty desktop='^1' state=floating focus=on
 bspc rule -a mpv state=floating focus=on
+bspc rule -a xed desktop='^7' focus=on
+bspc rule -a xreader desktop='^8' focus=on
+bspc rule -a emacs desktop='^9' focus=on
 bspc rule -a Yad state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
@@ -59,5 +62,6 @@ xsetroot -cursor_name left_ptr &
 # Low battery notifier
 ~/.config/bspwm/scripts/low_bat_notifier.sh
 
-setxkbmap -option "caps:ctrl_modifier,ctrl:nocaps"
+setxkbmap -option "" &
+setxkbmap -option "caps:ctrl_modifier,ctrl:nocaps" &
 
