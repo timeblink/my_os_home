@@ -2,6 +2,11 @@
 */*.mp4
 */*/*.mp4
 */*/*/*.mp4
+*.m3u8
+*/*.m3u8
+*/*/*.m3u8
+XRated/.xrated.ssh/copy*.sh
+XRated/.xrated.ssh/delete*.sh
 大电影
 肇论
 起信论

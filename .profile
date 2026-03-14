@@ -20,8 +20,8 @@ alias emacs="emacsclient"
 #xmodmap -e "pointer = 3 2 1 5 4" # mouse like mac wiwth left hand
 #xmodmap -e "pointer = 1 2 3 4 5" # mouse like window
 #xmodmap -e "clear lock" #disable caps lock switch
-#setxkbmap -option ""
-#setxkbmap -option "caps:ctrl_modifier,ctrl:nocaps"
+setxkbmap -option ""
+setxkbmap -option "caps:ctrl_modifier,ctrl:nocaps"
 
 function tmux-load(){
   which tmux >/dev/null 2>&1 || exit 1

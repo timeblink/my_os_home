@@ -1,0 +1,11 @@
+
+ln -s -f -t ~/.config/polybar ~/.config/polybar-themes/endeavouros/default/*
+
+ln -f -t ~/.config/polybar ~/.config/polybar-themes/prcxzm/candy/*
+ln -f -t ~/.config/polybar ~/.config/polybar-themes/prcxzm/nordic/*
+ln -f -t ~/.config/polybar ~/.config/polybar-themes/prcxzm/midnight/*
+
+ln -f -t ~/.config/polybar ~/.config/polybar-themes/kiddae/classic/*
+ln -f -t ~/.config/polybar ~/.config/polybar-themes/kiddae/material_one/*
+ln -f -t ~/.config/polybar ~/.config/polybar-themes/kiddae/material_bitmap/*
+

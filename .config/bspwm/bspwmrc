@@ -20,6 +20,8 @@ bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a Chromium desktop='^2'
 bspc rule -a firefox desktop='^2'
 bspc rule -a mplayer2 state=floating
+bspc rule -a kitty desktop='^1' state=floating focus=on
+bspc rule -a mpv state=floating focus=on
 bspc rule -a Yad state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
@@ -37,16 +39,13 @@ bspc config active_border_color         "#073642"
 sh ~/.screenlayout/monitor.sh &
 # Bar
 ~/.config/polybar/launch.sh &
-#~/.config/polybar/material/scripts/pywal.sh ~/.config/wallpapers
-#~/.config/polybar/launch.sh --forest
-#~/.config/polybar/launch.sh --panels
 
 # Notifications
 /usr/bin/dunst &
 
 # Wallpaper
 # nitrogen --restore &
-feh --bg-fill ~/.config/wallpapers/backgrounds.jpg
+feh --bg-fill ~/Pictures/wallpapers/forest-foggy-misty-cloudy.jpg &
 # Dex
 dex -a -s /etc/xdg/autostart/:~/.config/autostart/  &
 # Picom
@@ -59,4 +58,6 @@ xsetroot -cursor_name left_ptr &
 
 # Low battery notifier
 ~/.config/bspwm/scripts/low_bat_notifier.sh
+
+setxkbmap -option "caps:ctrl_modifier,ctrl:nocaps"
 

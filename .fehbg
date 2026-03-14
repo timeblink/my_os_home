@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/home/zzz/.config/wallpapers/backgrounds.jpg' 
+feh --no-fehbg --bg-fill '/home/zzz/Pictures/wallpapers/forest-foggy-misty-cloudy.jpg' 

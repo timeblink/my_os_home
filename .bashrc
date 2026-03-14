@@ -17,8 +17,8 @@ export XIM_PROGRAM=fcitx
 
 export EDITOR=vim
 
-setxkbmap -option ""
-setxkbmap -option "caps:ctrl_modifier,ctrl:nocaps"
+#setxkbmap -option ""
+#setxkbmap -option "caps:ctrl_modifier,ctrl:nocaps"
 
 export LANG=zh_CN.UTF-8
 export LC_ALL=zh_CN.UTF-8
