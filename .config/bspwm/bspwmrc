@@ -5,10 +5,11 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 # Polkit
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+#bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor -d I II III IV V
 
-bspc config border_width         2
-bspc config window_gap          12
+bspc config border_width         1
+bspc config window_gap          8
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
@@ -16,15 +17,16 @@ bspc config gapless_monocle      true
 bspc config pointer_follows_focus true
 bspc config focus_follows_pointer true
 
-bspc rule -a Gimp desktop='^8' state=floating follow=on
-bspc rule -a Chromium desktop='^2'
-bspc rule -a firefox desktop='^2'
+# state=tiled|pseudo_tiled|floating|fullscreen
+bspc rule -a Gimp desktop='^5' state=floating follow=on
+bspc rule -a Chromium desktop='^2' state=tiled
+bspc rule -a firefox desktop='^2' state=tiled
 bspc rule -a mplayer2 state=floating
-bspc rule -a kitty desktop='^1' state=floating focus=on
+bspc rule -a kitty desktop='^1' state=pseudo_tiled focus=on
 bspc rule -a mpv state=floating focus=on
-bspc rule -a xed desktop='^7' focus=on
-bspc rule -a xreader desktop='^8' focus=on
-bspc rule -a emacs desktop='^9' focus=on
+bspc rule -a xed desktop='^4' focus=on
+bspc rule -a xreader desktop='^5' focus=on
+bspc rule -a emacs desktop='^3' state=pseudo_tiled focus=on
 bspc rule -a Yad state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
@@ -46,6 +48,9 @@ sh ~/.screenlayout/monitor.sh &
 # Notifications
 /usr/bin/dunst &
 
+setxkbmap -option ""
+setxkbmap -option "caps:ctrl_modifier,ctrl:nocaps"
+
 # Wallpaper
 # nitrogen --restore &
 feh --bg-fill ~/Pictures/wallpapers/forest-foggy-misty-cloudy.jpg &
@@ -61,7 +66,4 @@ xsetroot -cursor_name left_ptr &
 
 # Low battery notifier
 ~/.config/bspwm/scripts/low_bat_notifier.sh
-
-setxkbmap -option "" &
-setxkbmap -option "caps:ctrl_modifier,ctrl:nocaps" &
 

@@ -32,6 +32,7 @@
 .config/polybar-themes
 .cache
 .emacs.*
+.minimal-emacs.d
 .mozilla
 .sunpinyin
 .xsession-errors
@@ -44,4 +45,3 @@
 .rnd
 .ssh
 .gnupg/public-keys.d/.#lk0x0000767fa8002290.yms-xxs.146880
-

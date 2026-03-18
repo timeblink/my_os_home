@@ -12,8 +12,10 @@ export XMODIFIERS=@im=fcitx
 export QT_IM_MODULE=fcitx
 export GLFW_IM_MODULE=fcitx
 export INPUT_METHOD=fcitx
-export XIM=fcitx
-export XIM_PROGRAM=fcitx
+export SDL_IM_MODULE=fcitx
+
+#export XIM=fcitx
+#export XIM_PROGRAM=fcitx
 export EDITOR=vim
 
 export LANG=zh_CN.UTF-8
@@ -22,8 +24,8 @@ export LC_ALL=zh_CN.UTF-8
 #export LANGUAGE=en_US:en
 #export LC_ALL=C
 
-setxkbmap -option ""
-setxkbmap -option "caps:ctrl_modifier,ctrl:nocaps"
+#setxkbmap -option ""
+#setxkbmap -option "caps:ctrl_modifier,ctrl:nocaps"
 
 
 # export TEXMFHOME=/home/zzz/texlive
