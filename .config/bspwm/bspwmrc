@@ -14,8 +14,19 @@ bspc config window_gap          8
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
-bspc config pointer_follows_focus true
-bspc config focus_follows_pointer true
+
+# 1. 完全禁用焦点跟随鼠标
+bspc config focus_follows_pointer false
+# 2. 指针不跟随焦点变化
+bspc config pointer_follows_focus false
+# 3. 指针不跟随显示器焦点变化
+bspc config pointer_follows_monitor false
+# 4. 设置焦点延迟（毫秒）
+# bspc config focus_delay 300
+# 5. 禁用自动切换焦点
+# bspc config focus_by_distance true
+# 设置为 false 可减少意外焦点切换
+bspc config focus_by_distance false
 
 # state=tiled|pseudo_tiled|floating|fullscreen
 bspc rule -a Gimp desktop='^5' state=floating follow=on
@@ -24,8 +35,8 @@ bspc rule -a firefox desktop='^2' state=tiled
 bspc rule -a mplayer2 state=floating
 bspc rule -a kitty desktop='^1' state=pseudo_tiled focus=on
 bspc rule -a mpv state=floating focus=on
-bspc rule -a xed desktop='^4' focus=on
-bspc rule -a xreader desktop='^5' focus=on
+bspc rule -a Xed desktop='^4' focus=on
+bspc rule -a Xreader desktop='^5' focus=on
 bspc rule -a emacs desktop='^3' state=pseudo_tiled focus=on
 bspc rule -a Yad state=floating
 bspc rule -a Kupfer.py focus=on
@@ -50,6 +61,7 @@ sh ~/.screenlayout/monitor.sh &
 
 setxkbmap -option ""
 setxkbmap -option "caps:ctrl_modifier,ctrl:nocaps"
+xset dpms 1200 1200 1200
 
 # Wallpaper
 # nitrogen --restore &
@@ -65,5 +77,5 @@ nm-applet --indicator &
 xsetroot -cursor_name left_ptr &
 
 # Low battery notifier
-~/.config/bspwm/scripts/low_bat_notifier.sh
+# ~/.config/bspwm/scripts/low_bat_notifier.sh
 
