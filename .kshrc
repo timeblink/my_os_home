@@ -5,9 +5,10 @@
 export LANG=zh_CN.UTF-8
 export LC_ALL=zh_CN.UTF-8
 
-HISTFILE=$HOME/.ksh_history
-HISTSIZE=9999
-SAVEHIST=9999
+export HISTFILE=$HOME/.ksh_history
+export HISTSIZE=9999
+export SAVEHIST=9999
+export HISTEDIT=mg
 
 #set -o emacs
 
