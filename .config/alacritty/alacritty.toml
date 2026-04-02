@@ -1,0 +1,59 @@
+[general]
+import = [
+"~/.config/alacritty/themes.toml",
+"~/.config/alacritty/keybindings.toml"]
+
+live_config_reload = true
+
+# ===== 窗口 =====
+[window]
+dimensions  = { columns = 168, lines  = 44 }
+blur = true
+padding = { x = 5, y = 5 }      # 边缘空白
+position = { x = 10, y = 10 }
+decorations = "buttonless"      # 无标题栏，保留控制按钮
+dynamic_title = true
+opacity = 0.75                  # 透明，带模糊需合成器支持
+startup_mode = "Windowed"
+resize_increments = true
+
+# ===== 字体 =====
+[font]
+size = 9.0
+normal = { family = "DejaVu Sans Mono", style = "Regular" }
+bold   = { family = "DejaVu Sans Mono", style = "Bold" }
+italic = { family = "DejaVu Sans Mono", style = "Italic" }
+bold_italic = { family = "DejaVu Sans Mono", style = "Bold Italic" }
+builtin_box_drawing = true   # 内置表格符，速度快
+
+# 🖱 Mouse behavior
+[mouse]
+hide_when_typing = true
+
+# 🌈 Color options
+[colors]
+draw_bold_text_with_bright_colors = true
+
+# ===== 光标 =====
+[cursor]
+style = "Block"
+blink_interval = 600
+unfocused_hollow = true
+
+# ===== 选择/剪贴板 =====
+[selection]
+semantic_escape_chars = "│`|:\"' ()[]{}<>"
+save_to_clipboard = true      # 选中文本立即进系统剪贴板
+
+[terminal]
+osc52 = "CopyPaste"           # 允许程序读写剪贴板（ssh+vim 可用）
+
+# ===== 滚动 =====
+[scrolling]
+history = 10000
+multiplier = 3                # 滚轮速度倍率
+
+# ===== 性能/调试 =====
+[debug]
+render_timer = false        # 想看 FPS 可开 true
+persistent_logging = false

@@ -1,0 +1,32 @@
+# ===== 键盘绑定 =====
+[[keyboard.bindings]]
+key = "c"
+mods = "Control|Shift"
+action = "Copy"
+
+[[keyboard.bindings]]
+key = "v"
+mods = "Control|Shift"
+action = "Paste"
+
+#[[keyboard.bindings]]
+#key = "f"
+#mods = "Control|Shift"
+#action = "ToggleFullscreen"
+
+# 在终端中打开tmux
+[[keyboard.bindings]]
+key = "t"
+mods = "Control|Shift"
+chars = "tmux new-session -A -s work\n"
+
+# 新开个带tmux的终端
+[[keyboard.bindings]]
+key = "w"
+mods = "Control|Shift"
+command = { program = "alacritty", args = ["-e", "tmux", "new-session", "-A", "-s", "work"] }
+
+[[keyboard.bindings]]
+key = "Enter"
+mods = "Control|Shift"
+action = "SpawnNewInstance"
