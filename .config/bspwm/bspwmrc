@@ -6,14 +6,14 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 #bspc monitor -d I II III IV V VI VII VIII IX X
-bspc monitor -d I II III IV V
+bspc monitor -d I II III
 
-bspc config border_width         1
-bspc config window_gap          8
+bspc config border_width         2 # 所有窗口的边框宽度为 2 px
+bspc config window_gap          8 # 窗口之间的间距（gap）为 8 px
 
-bspc config split_ratio          0.52
-bspc config borderless_monocle   true
-bspc config gapless_monocle      true
+bspc config split_ratio          0.52 # 新窗口加入时，父节点按 0.52 : 0.48 的比例划分空间（略偏向新窗口）
+bspc config borderless_monocle   true # 当 desktop 处于 monocle（全屏层叠）模式时隐藏边框
+bspc config gapless_monocle      true # 当 desktop 处于 monocle（全屏层叠）模式时同时去掉 gap，让当前窗口真正占满整个屏幕
 
 # 1. 完全禁用焦点跟随鼠标
 bspc config focus_follows_pointer false
@@ -29,19 +29,17 @@ bspc config pointer_follows_monitor false
 bspc config focus_by_distance false
 
 # state=tiled|pseudo_tiled|floating|fullscreen
-bspc rule -a Gimp desktop='^5' state=floating follow=on
-bspc rule -a Chromium desktop='^2' state=tiled
 bspc rule -a firefox desktop='^2' state=tiled
-bspc rule -a mplayer2 state=floating
-bspc rule -a alacritty desktop='^1' state=pseudo_tiled focus=on
+bspc rule -a Alacritty desktop='^1' state=pseudo_tiled focus=on follow=on center=on
 bspc rule -a kitty desktop='^1' state=pseudo_tiled focus=on
 bspc rule -a mpv state=floating focus=on
-bspc rule -a Xed desktop='^4' focus=on
-bspc rule -a Xreader desktop='^5' focus=on
+bspc rule -a subl desktop='^3'
+bspc rule -a Xed desktop='^3'
+bspc rule -a Xreader desktop='^5'
 bspc rule -a emacs desktop='^3' state=pseudo_tiled focus=on
 bspc rule -a Yad state=floating
 bspc rule -a Kupfer.py focus=on
-bspc rule -a Screenkey manage=off
+bspc rule -a Screenkey manage=off # 屏幕键盘/按键可视化，不受 bspwm 管理，避免被平铺/最小化
 
 
 # Border

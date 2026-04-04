@@ -1,13 +1,13 @@
 [general]
 import = [
-"~/.config/alacritty/themes.toml",
-"~/.config/alacritty/keybindings.toml"]
+"/home/zzz/.config/alacritty/themes.toml",
+"/home/zzz/.config/alacritty/keybindings.toml"]
 
 live_config_reload = true
 
 # ===== 窗口 =====
 [window]
-dimensions  = { columns = 168, lines  = 44 }
+dimensions  = { columns = 132, lines  = 38 }
 blur = true
 padding = { x = 5, y = 5 }      # 边缘空白
 position = { x = 10, y = 10 }

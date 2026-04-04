@@ -1,2 +1,482 @@
 Xcursor.theme: Qogir-dark
 Xcursor.size: 16
+
+! $OpenBSD: dot.Xdefaults,v 1.3 2014/07/10 10:22:59 jasper Exp $
+
+! ==============================================================================
+!                                 字体配置
+! ==============================================================================
+URxvt*font: xft:MesloLGM Nerd Font Mono:size=9,xft:Sarasa Term SC Nerd:size=9
+URxvt*boldFont: xft:MesloLGM Nerd Font Mono:bold:size=9,xft:SarasaTermSC Nerd SemiBold:size=9
+URxvt*italicFont: xft:MesloLGM Nerd Font Mono:size=9,xft:Sarasa Term SC Nerd:size=9
+URxvt*boldItalicFont: xft:MesloLGM Nerd Font Mono:bold:italic:size=9,xft:Sarasa Term SC Nerd:bold:italic:size=9
+
+! 备用字体 (如果主字体中没有某个字符，会尝试使用备用字体)
+!URxvt*fallbackFont: xft:Noto Color Emoji:size=10,xft:WenQuanYi Micro Hei:size=8
+
+! 设置字符宽度模式 (对于中文字符很重要)
+! auto: 自动识别
+! half: 所有字符都占半宽 (可能导致中文重叠)
+! double: 全角字符占双倍宽度 (推荐用于中文)
+URxvt*cjkWidth: double
+
+! ==============================================================================
+!                                 颜色配置
+! ==============================================================================
+! 真透明设置
+URxvt*depth:        32
+URxvt*background:   [80]#000000
+URxvt*foreground:   white
+
+! urxvt 颜色配置实例（Gruvbox Dark）
+!URxvt*foreground:   #ebdbb2
+!URxvt*background:   [90]#282828
+!
+!URxvt*color0:  #282828
+!URxvt*color1:  #cc241d
+!URxvt*color2:  #98971a
+!URxvt*color3:  #d79921
+!URxvt*color4:  #458588
+!URxvt*color5:  #b16286
+!URxvt*color6:  #689d6a
+!URxvt*color7:  #a89984
+!URxvt*color8:  #928374
+!URxvt*color9:  #fb4934
+!URxvt*color10: #b8bb26
+!URxvt*color11: #fabd2f
+!URxvt*color12: #83a598
+!URxvt*color13: #d3869b
+!URxvt*color14: #8ec07c
+!URxvt*color15: #ebdbb2
+
+! urxvt 颜色配置实例（One Dark）
+!URxvt*foreground:   #abb2bf
+!URxvt*background:   [90]#282c34
+!URxvt*cursorColor:  #528bff
+!
+!URxvt*color0:  #282c34
+!URxvt*color1:  #e06c75
+!URxvt*color2:  #98c379
+!URxvt*color3:  #e5c07b
+!URxvt*color4:  #61afef
+!URxvt*color5:  #c678dd
+!URxvt*color6:  #56b6c2
+!URxvt*color7:  #dcdfe4
+!URxvt*color8:  #5c6370
+!URxvt*color9:  #e06c75
+!URxvt*color10: #98c379
+!URxvt*color11: #d19a66
+!URxvt*color12: #61afef
+!URxvt*color13: #c678dd
+!URxvt*color14: #56b6c2
+!URxvt*color15: #ffffff
+
+! urxvt 颜色配置实例（Dracula）
+!URxvt*foreground:   #f8f8f2
+!URxvt*background:   [90]#282a36
+!URxvt*cursorColor:  #f8f8f2
+!
+!URxvt*color0:  #21222c
+!URxvt*color1:  #ff5555
+!URxvt*color2:  #50fa7b
+!URxvt*color3:  #f1fa8c
+!URxvt*color4:  #bd93f9
+!URxvt*color5:  #ff79c6
+!URxvt*color6:  #8be9fd
+!URxvt*color7:  #f8f8f2
+!URxvt*color8:  #6272a4
+!URxvt*color9:  #ff6e6e
+!URxvt*color10: #69ff94
+!URxvt*color11: #ffffa5
+!URxvt*color12: #d6acff
+!URxvt*color13: #ff92df
+!URxvt*color14: #a4ffff
+!URxvt*color15: #ffffff
+
+! urxvt 颜色配置实例（Nord）
+!URxvt*foreground:   #D8DEE9
+!URxvt*background:   [90]#2E3440
+URxvt*cursorColor:  #88C0D0
+
+URxvt*color0:  #3B4252
+URxvt*color1:  #BF616A
+URxvt*color2:  #A3BE8C
+URxvt*color3:  #EBCB8B
+URxvt*color4:  #81A1C1
+URxvt*color5:  #B48EAD
+URxvt*color6:  #88C0D0
+URxvt*color7:  #E5E9F0
+URxvt*color8:  #4C566A
+URxvt*color9:  #BF616A
+URxvt*color10: #A3BE8C
+URxvt*color11: #EBCB8B
+URxvt*color12: #81A1C1
+URxvt*color13: #B48EAD
+URxvt*color14: #8FBCBB
+URxvt*color15: #ECEFF4
+
+! ==============================================================================
+!                                 滚动条配置
+! ==============================================================================
+! 隐藏滚动条
+URxvt*scrollBar: false
+! 滚动条在右侧
+!URxvt*scrollBar_right: true
+! 滚动条悬浮在窗口边缘
+!URxvt*scrollBar_floating: true
+! 仅在需要时显示滚动条
+!URxvt*scrollBar_on_request: true
+! 滚动条颜色
+!URxvt*scrollcolor: #888888
+! 滚动条槽颜色
+!URxvt*troughcolor: #333333
+! 滚动条厚度
+!URxvt*thickness: 8
+
+! 滚动条回溯缓冲区大小（保存多少行历史）
+URxvt*saveLines: 10000
+
+! ==============================================================================
+!                                 光标配置
+! ==============================================================================
+! 下划线光标
+URxvt*cursorUnderline: true
+! 块状光标
+URxvt*cursorBlock: false
+! 竖线光标（I-beam）
+URxvt*cursorBar: false
+! 光标闪烁
+URxvt*cursorBlink: true
+
+! ==============================================================================
+!                                 其他实用功能
+! ==============================================================================
+! 关闭闪烁的bell
+URxvt*bell-urxvt: false
+! 启动audible bell（声音提示）
+URxvt*audibleBell: true
+! 关闭iso14755模式，避免Ctrl+Shift+L无法使用
+URxvt*iso14755: false
+
+! 字体间距 (可选，微调字体显示)
+! 字符间距（默认0）
+URxvt*letterSpace: 0
+! 字符行间距（默认0）
+URxvt*lineSpace: 0
+
+!------------------------------------------------------------------------------
+!Xterm 核心配置
+!定义 XTerm 类名
+XTerm*termName: xterm-256color
+
+! ==============================================================================
+!                                 字体配置
+! ==============================================================================
+! 启用 Xft 字体渲染
+XTerm*renderFont: true
+
+! 指定主字体和字号
+! 格式: xft:Font Name:size=SIZE
+! 注意: Xterm 在处理粗体/斜体字体时，通常会通过字体渲染库自动合成，
+!       或者可以尝试为 boldFont, italicFont 单独指定，但效果可能不如Urxvt灵活。
+XTerm*faceName: xft:MesloLGM Nerd Font Mono:style=Normal:size=9,xft:Sarasa Term SC Nerd:size=9
+! 显式设置字号，与faceName配合
+XTerm*faceSize: 9
+
+! 设置字符宽度模式 (对于中文字符很重要)
+! 这是解决 Xterm 中文字符过宽或重叠问题的关键。
+XTerm*cjkWidth: true
+
+! ==============================================================================
+!                                 颜色配置
+! ==============================================================================
+! Xterm 配色实例（Tomorrow Light）
+!XTerm*foreground: #4d4d4c
+!XTerm*background: #ffffff
+!XTerm*cursorColor: #4d4d4c
+!
+!XTerm*color0:  #000000
+!XTerm*color1:  #c82829
+!XTerm*color2:  #718c00
+!XTerm*color3:  #eab700
+!XTerm*color4:  #4271ae
+!XTerm*color5:  #8959a8
+!XTerm*color6:  #3e999f
+!XTerm*color7:  #ffffff
+!XTerm*color8:  #777777
+!XTerm*color9:  #c82829
+!XTerm*color10: #718c00
+!XTerm*color11: #eab700
+!XTerm*color12: #4271ae
+!XTerm*color13: #8959a8
+!XTerm*color14: #3e999f
+!XTerm*color15: #ffffff
+
+! Xterm 配色实例（Dracula）
+!XTerm*foreground: #f8f8f2
+!XTerm*background: #282a36
+!XTerm*cursorColor: #f8f8f2
+!
+!XTerm*color0:  #21222c
+!XTerm*color1:  #ff5555
+!XTerm*color2:  #50fa7b
+!XTerm*color3:  #f1fa8c
+!XTerm*color4:  #bd93f9
+!XTerm*color5:  #ff79c6
+!XTerm*color6:  #8be9fd
+!XTerm*color7:  #f8f8f2
+!XTerm*color8:  #6272a4
+!XTerm*color9:  #ff6e6e
+!XTerm*color10: #69ff94
+!XTerm*color11: #ffffa5
+!XTerm*color12: #d6acff
+!XTerm*color13: #ff92df
+!XTerm*color14: #a4ffff
+!XTerm*color15: #ffffff
+
+! Xterm 配色实例（Solarized Dark）
+!XTerm*foreground: #839496
+!XTerm*background: #002b36
+!XTerm*cursorColor: #93a1a1
+!
+!XTerm*color0:  #073642
+!XTerm*color1:  #dc322f
+!XTerm*color2:  #859900
+!XTerm*color3:  #b58900
+!XTerm*color4:  #268bd2
+!XTerm*color5:  #d33682
+!XTerm*color6:  #2aa198
+!XTerm*color7:  #eee8d5
+!XTerm*color8:  #002b36
+!XTerm*color9:  #cb4b16
+!XTerm*color10: #586e75
+!XTerm*color11: #657b83
+!XTerm*color12: #839496
+!XTerm*color13: #6c71c4
+!XTerm*color14: #93a1a1
+!XTerm*color15: #fdf6e3
+
+! Xterm 配色实例（Solarized Light）
+!XTerm*foreground: #657b83
+!XTerm*background: #fdf6e3
+!XTerm*cursorColor: #586e75
+!
+!XTerm*color0:  #073642
+!XTerm*color1:  #dc322f
+!XTerm*color2:  #859900
+!XTerm*color3:  #b58900
+!XTerm*color4:  #268bd2
+!XTerm*color5:  #d33682
+!XTerm*color6:  #2aa198
+!XTerm*color7:  #eee8d5
+!XTerm*color8:  #002b36
+!XTerm*color9:  #cb4b16
+!XTerm*color10: #586e75
+!XTerm*color11: #657b83
+!XTerm*color12: #839496
+!XTerm*color13: #6c71c4
+!XTerm*color14: #93a1a1
+!XTerm*color15: #fdf6e3
+
+! Xterm 配色实例（Base16 Default Light）
+!XTerm*foreground: #383838
+!XTerm*background: #f8f8f8
+!XTerm*cursorColor: #d8d8d8
+!
+!XTerm*color0:  #f8f8f8
+!XTerm*color1:  #ab4642
+!XTerm*color2:  #a1b56c
+!XTerm*color3:  #f7ca88
+!XTerm*color4:  #7cafc2
+!XTerm*color5:  #ba8baf
+!XTerm*color6:  #86c1b9
+!XTerm*color7:  #383838
+!XTerm*color8:  #b8b8b8
+!XTerm*color9:  #ab4642
+!XTerm*color10: #a1b56c
+!XTerm*color11: #f7ca88
+!XTerm*color12: #7cafc2
+!XTerm*color13: #ba8baf
+!XTerm*color14: #86c1b9
+!XTerm*color15: #181818
+
+! Xterm 配色实例（One Light）
+!XTerm*foreground: #383a42
+!XTerm*background: #fafafa
+!XTerm*cursorColor: #526eff
+!
+!XTerm*color0:  #fafafa
+!XTerm*color1:  #e45649
+!XTerm*color2:  #50a14f
+!XTerm*color3:  #c18401
+!XTerm*color4:  #4078f2
+!XTerm*color5:  #a626a4
+!XTerm*color6:  #0184bc
+!XTerm*color7:  #383a42
+!XTerm*color8:  #a0a1a7
+!XTerm*color9:  #e06c75
+!XTerm*color10: #98c379
+!XTerm*color11: #e5c07b
+!XTerm*color12: #61afef
+!XTerm*color13: #c678dd
+!XTerm*color14: #56b6c2
+!XTerm*color15: #fafafa
+
+! Xterm 配色实例（GitHub Light）
+!XTerm*foreground: #24292e
+!XTerm*background: #ffffff
+!XTerm*cursorColor: #0366d6
+!
+!XTerm*color0:  #24292e
+!XTerm*color1:  #d73a49
+!XTerm*color2:  #28a745
+!XTerm*color3:  #dbab09
+!XTerm*color4:  #0366d6
+!XTerm*color5:  #6f42c1
+!XTerm*color6:  #1b7c83
+!XTerm*color7:  #6a737d
+!XTerm*color8:  #959da5
+!XTerm*color9:  #cb2431
+!XTerm*color10: #22863a
+!XTerm*color11: #b08800
+!XTerm*color12: #005cc5
+!XTerm*color13: #5a32a3
+!XTerm*color14: #005f6b
+!XTerm*color15: #ffffff
+
+! Xterm 配色实例（PaperColor Light）
+!XTerm*foreground: #4d4d4c
+!XTerm*background: #fefefe
+!XTerm*cursorColor: #af0000
+!
+!XTerm*color0:  #eeeeee
+!XTerm*color1:  #af0000
+!XTerm*color2:  #008700
+!XTerm*color3:  #5f8700
+!XTerm*color4:  #0087af
+!XTerm*color5:  #878787
+!XTerm*color6:  #005f87
+!XTerm*color7:  #444444
+!XTerm*color8:  #bcbcbc
+!XTerm*color9:  #d70000
+!XTerm*color10: #d70087
+!XTerm*color11: #8700af
+!XTerm*color12: #d75f00
+!XTerm*color13: #d75f00
+!XTerm*color14: #005faf
+!XTerm*color15: #005f87
+
+! Xterm 配色实例（Gruvbox Dark Soft）
+!XTerm*foreground: #ebdbb2
+!XTerm*background: #282828
+!XTerm*cursorColor: #fe8019
+!
+!XTerm*color0:  #282828
+!XTerm*color1:  #cc241d
+!XTerm*color2:  #98971a
+!XTerm*color3:  #d79921
+!XTerm*color4:  #458588
+!XTerm*color5:  #b16286
+!XTerm*color6:  #689d6a
+!XTerm*color7:  #a89984
+!XTerm*color8:  #928374
+!XTerm*color9:  #fb4934
+!XTerm*color10: #b8bb26
+!XTerm*color11: #fabd2f
+!XTerm*color12: #83a598
+!XTerm*color13: #d3869b
+!XTerm*color14: #8ec07c
+!XTerm*color15: #ebdbb2
+
+! Xterm 配色实例（One Dark Pro）
+XTerm*foreground: #abb2bf
+XTerm*background: #282c34
+XTerm*cursorColor: #528bff
+
+XTerm*color0:  #282c34
+XTerm*color1:  #e06c75
+XTerm*color2:  #98c379
+XTerm*color3:  #e5c07b
+XTerm*color4:  #61afef
+XTerm*color5:  #c678dd
+XTerm*color6:  #56b6c2
+XTerm*color7:  #dcdfe4
+XTerm*color8:  #5c6370
+XTerm*color9:  #e06c75
+XTerm*color10: #98c379
+XTerm*color11: #d19a66
+XTerm*color12: #61afef
+XTerm*color13: #c678dd
+XTerm*color14: #56b6c2
+XTerm*color15: #ffffff
+
+! Xterm 配色实例（Nord Dark）
+!XTerm*foreground: #D8DEE9
+!XTerm*background: #2E3440
+!XTerm*cursorColor: #88C0D0
+!
+!XTerm*color0:  #3B4252
+!XTerm*color1:  #BF616A
+!XTerm*color2:  #A3BE8C
+!XTerm*color3:  #EBCB8B
+!XTerm*color4:  #81A1C1
+!XTerm*color5:  #B48EAD
+!XTerm*color6:  #88C0D0
+!XTerm*color7:  #E5E9F0
+!XTerm*color8:  #4C566A
+!XTerm*color9:  #BF616A
+!XTerm*color10: #A3BE8C
+!XTerm*color11: #EBCB8B
+!XTerm*color12: #81A1C1
+!XTerm*color13: #B48EAD
+!XTerm*color14: #8FBCBB
+!XTerm*color15: #ECEFF4
+
+! ==============================================================================
+!                                 滚动条配置
+! ==============================================================================
+! 隐藏滚动条
+XTerm*scrollBar: false
+! 显示滚动条
+! XTerm*scrollBar: true
+! 滚动条在右侧
+XTerm*rightScrollBar: true
+! 更平滑的滚动
+XTerm*jumpScroll: true
+! 滚动回溯缓冲区大小（保存多少行历史）
+XTerm*saveLines: 10000
+
+! ==============================================================================
+!                                 光标配置
+! ==============================================================================
+! 光标闪烁
+XTerm*cursorBlink: true
+! 下划线光标
+!XTerm*cursorUnderline: true
+! 块装光标（如果cursorUnderline是false）
+! XTerm*cursorBlock: true
+! 竖条光标
+XTerm*cursorShape: bar
+
+! ==============================================================================
+!                                 其他实用功能
+! ==============================================================================
+! 启用粗体模式
+XTerm*boldMode: true
+! 高亮鼠标选择
+XTerm*highlightSelection: true
+! 高亮选择的颜色（可与光标颜色不同）
+XTerm*highlightColor: #81a2be
+
+! 启用鼠标选择即复制（通常鼠标中键粘贴）
+XTerm*copySelections: true
+! 复制时是否包含换行符
+XTerm*cutNewline: false
+! 确保Xterm正确初始化终端模式
+XTerm*ptyInitialMode: term
+
+! 字体渲染调试 (如果字体显示有问题)
+! XTerm*renderFont: true
+! XTerm*renderFontResample: true
+! XTerm*renderFontHinting: true
+! XTerm*renderFontAntiAlias: true
