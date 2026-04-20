@@ -9,4 +9,5 @@
 	"wrap_width": 120,
 	"show_sidebar_button": true,
 	"sidebar_on_right": false,
+	"color_scheme": "Packages/User/Dracula Color Scheme/Dracula.tmTheme",
 }

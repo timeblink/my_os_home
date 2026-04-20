@@ -35,7 +35,7 @@ bspc rule -a kitty desktop='^1' state=pseudo_tiled focus=on
 bspc rule -a mpv state=floating focus=on
 bspc rule -a subl desktop='^3'
 bspc rule -a Xed desktop='^3'
-bspc rule -a Xreader desktop='^5'
+bspc rule -a Xreader desktop='^3'
 bspc rule -a emacs desktop='^3' state=pseudo_tiled focus=on
 bspc rule -a Yad state=floating
 bspc rule -a Kupfer.py focus=on
@@ -43,9 +43,16 @@ bspc rule -a Screenkey manage=off # 屏幕键盘/按键可视化，不受 bspwm 
 
 
 # Border
-bspc config focused_border_color        "#6c71c4"
-bspc config normal_border_color         "#073642"
-bspc config active_border_color         "#073642"
+#bspc config focused_border_color        "#6c71c4"
+#bspc config normal_border_color         "#073642"
+#bspc config active_border_color         "#073642"
+
+bspc config normal_border_color "#44475a"
+bspc config active_border_color "#bd93f9"
+#bspc config active_border_color "#6272a4"
+bspc config focused_border_color "#ff79c6"
+#bspc config focused_border_color "#8be9fd"
+bspc config presel_feedback_color "#6272a4"
 
 #
 # Autostart

@@ -1,6 +1,4 @@
 filelist*.txt
-playlist*.txt
-rsync_filelist.sh
 *.m3u8
 *.mp4
 */*.mp4

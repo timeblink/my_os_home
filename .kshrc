@@ -24,7 +24,7 @@ export XIM_PROGRAM=fcitx
 export EDITOR=vim
 
 #PS1='[$(whoami)@$(hostname -s) $PWD]$ '
-#PS1=' $PWD $ '
-PS1='$PWD >_ '
+PS1=' $PWD $ '
+#PS1=' $PWD >_ '
 
 [ -f ~/.shell_aliases ] && . ~/.shell_aliases

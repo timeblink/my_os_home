@@ -1,8 +1,9 @@
 #!/bin/bash
 
-rm rsync_filelist*.sh
+#cat filelist*.txt > filelist.txt
 
-cat filelist*.txt | awk -F'/' '{print \
+rm rsync_filelist.sh
+cat filelist.txt | awk -F'/' '{print \
   "rsync -rav --partial --update /home/zzz/Public/Videos/XRated/xrated.ssh/" \
   $1"/"$2 \
   " /home/zzz/Videos/XRated/.xrated.ssh/"$1"/"}' \
@@ -11,7 +12,6 @@ cat filelist*.txt | awk -F'/' '{print \
 
 
 exit 0
-
 rm rsync_filelist1.sh
 awk -F'/' '{print \
   "rsync -rav --partial --update zzz@192.168.12.102:Videos/XRated/.xrated.ssh/" \
