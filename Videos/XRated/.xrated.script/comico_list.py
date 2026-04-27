@@ -21,6 +21,9 @@
 '''
 
 import os
+from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 
 comico_url    = os.environ['HOME']+"/Videos/XRated/.xrated.script/url_comico_list.txt"
 url_root_path = "https://vyqtnxbc.top:2549"
@@ -41,7 +44,6 @@ def open_url(url):
   except:
     print("error when open "+url)
     return None
-  from bs4 import BeautifulSoup
   return BeautifulSoup(content,'html.parser')
 
 def tag_div_class_listpic(tag):
@@ -75,15 +77,18 @@ if __name__ == "__main__":
     url_str = '{vod_url}?cate_id={id}&page=,{start},{end}'.format(
               vod_url=vod_url_str,id=x,start=1,end=305)
     url_list.append(url_str)
-  from selenium import webdriver
-  from selenium.webdriver.firefox.options import Options
   opt = Options()
   opt.add_argument("--headless")
   opt.add_argument("--disable-gpu")
   global g_driver
-  g_driver = webdriver.Firefox(options=opt)
-  for url in url_list:
-    url_str,page_1,page_2 = url.split(",")
-    # 循环打开列表网页
-    loop_list_page(url_str,int(page_1),int(page_2))
-  g_driver.quit()
+  try:
+    g_driver = webdriver.Firefox(options=opt)
+    for url in url_list:
+      url_str,page_1,page_2 = url.split(",")
+      # 循环打开列表网页
+      loop_list_page(url_str,int(page_1),int(page_2))
+  except:
+    print(str(e))
+    sys.exit(1)
+  finally:
+    g_driver.quit()

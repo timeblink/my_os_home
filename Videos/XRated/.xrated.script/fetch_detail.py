@@ -21,6 +21,9 @@
 '''
 
 import os
+from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 
 detail_url         = os.environ['HOME']+"/Videos/xrated.script/url_detail.txt"
 m3u8_url_file      = os.environ['HOME']+"/Videos/xrated.script/url.txt"
@@ -59,7 +62,6 @@ def open_url(url):
   except:
     print("error when open "+url)
     return None
-  from bs4 import BeautifulSoup
   return BeautifulSoup(content,'html.parser')
 
 def search_in_file(file_path,search_text):
@@ -94,13 +96,16 @@ if __name__ == "__main__":
   detail_urls = []
   with open(detail_url,'r',encoding='utf-8') as f:
     detail_urls = map(lambda x:x.strip(),f.readlines())
-  from selenium import webdriver
-  from selenium.webdriver.firefox.options import Options
   opt = Options()
   opt.add_argument("--headless")
   opt.add_argument("--disable-gpu")
   global g_driver
-  g_driver = webdriver.Firefox(options=opt)
-  for i in detail_urls:
-    open_tag_url(i)
-  g_driver.quit()
+  try:
+    g_driver = webdriver.Firefox(options=opt)
+    for i in detail_urls:
+      open_tag_url(i)
+  except:
+    print(str(e))
+    sys.exit(1)
+  finally:
+    g_driver.quit()

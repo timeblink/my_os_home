@@ -21,6 +21,9 @@
 '''
 
 import os
+from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 
 detail_url      = os.environ['HOME']+"/Videos/XRated/.xrated.script/url_comico_detail.txt"
 download_root   = os.environ['HOME']+"/Pictures/xrated"
@@ -41,7 +44,6 @@ def open_url(url):
   except:
     print("error when open "+url)
     return None
-  from bs4 import BeautifulSoup
   return BeautifulSoup(content,'html.parser')
 
 def open_tag_url(url_tag):
@@ -65,8 +67,6 @@ if __name__ == "__main__":
   detail_urls = []
   with open(detail_url,'r',encoding='utf-8') as f:
     detail_urls = map(lambda x:x.strip(),f.readlines())
-  from selenium import webdriver
-  from selenium.webdriver.firefox.options import Options
   opt = Options()
   opt.add_argument("--headless")
   opt.add_argument("--disable-gpu")
@@ -76,6 +76,7 @@ if __name__ == "__main__":
     for i in detail_urls:
       open_tag_url(i)
   except:
+    print(str(e))
     exit(1)
   finally:
     g_driver.quit()

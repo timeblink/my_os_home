@@ -23,6 +23,8 @@ export XIM=fcitx
 export XIM_PROGRAM=fcitx
 export EDITOR=vim
 
+umask 0022
+
 #PS1='[$(whoami)@$(hostname -s) $PWD]$ '
 PS1=' $PWD $ '
 #PS1=' $PWD >_ '

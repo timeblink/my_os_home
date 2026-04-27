@@ -21,6 +21,9 @@
 '''
 
 import os
+from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 
 detail_url    = os.environ['HOME']+"/Videos/xrated.script/url_detail.txt"
 url_root_path = "https://vyqtnxbc.top:2549"
@@ -38,7 +41,6 @@ def open_url(url):
   except:
     print("error when open "+url)
     return None
-  from bs4 import BeautifulSoup
   return BeautifulSoup(content,'html.parser')
 
 def tag_div_class_listpic(tag):
@@ -70,19 +72,23 @@ def loop_list_page(list_url,loop_start=1,loop_int=1):
 
 if __name__ == "__main__":
   vod_url_str = '{url_root}/vod/list.html'.format(url_root=url_root_path)
-  url_list = map(
-    lambda x:'{vod_url}?type_id={id}&page=,{start},{end}'.format(
-      vod_url=vod_url_str,id=x,start=1,end=2),
-    [1070,1071])
-  from selenium import webdriver
-  from selenium.webdriver.firefox.options import Options
+  url_list = []
+  for x in [1070,1071]:
+    url_str = '{vod_url}?type_id={id}&page=,{start},{end}'.format(
+              vod_url=vod_url_str,id=x,start=1,end=2)
+    url_list.append(url_str)
   opt = Options()
   opt.add_argument("--headless")
   opt.add_argument("--disable-gpu")
   global g_driver
-  g_driver = webdriver.Firefox(options=opt)
-  for url in url_list:
-    url_str,page_1,page_2 = url.split(",")
-    # 循环打开列表网页
-    loop_list_page(url_str,int(page_1),int(page_2))
-  g_driver.quit()
+  try:
+    g_driver = webdriver.Firefox(options=opt)
+    for url in url_list:
+      url_str,page_1,page_2 = url.split(",")
+      # 循环打开列表网页
+      loop_list_page(url_str,int(page_1),int(page_2))
+  except:
+    print(str(e))
+    sys.exit(1)
+  finally:
+    g_driver.quit()
