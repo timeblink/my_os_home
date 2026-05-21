@@ -3,9 +3,13 @@ playlist*.txt
 rsync_filelist.sh
 *.m3u8
 *.mp4
+*.avi
+*.wmv
+*.rmvb
 */*.mp4
-*/*/*.mp4
-*/*/*/*.mp4
+*/*.txt
+*/*.avi
+*/*.wmv
+*/*.rmvb
 *.m3u8
 */*.m3u8
-*/*/*.m3u8

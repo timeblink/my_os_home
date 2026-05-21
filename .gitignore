@@ -35,7 +35,9 @@
 .local
 .minimal-emacs.d
 .mozilla
+.modelscope
 .python_history
+.paddlex
 .rnd
 .sh_history
 .ssh

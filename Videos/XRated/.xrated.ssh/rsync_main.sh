@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/ksh
 
 #cat sort_list*.txt > filelist.txt
 
