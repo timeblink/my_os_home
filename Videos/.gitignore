@@ -1,9 +1,11 @@
 *.mp4
 *.mkv
+*.srt
 *.rmvb
 *.m3u8
 */*.m3u8
 */*.mp4
 */*.mkv
+*/*.srt
 */*.rmvb
 */*/*.m3u8

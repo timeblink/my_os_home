@@ -3,8 +3,10 @@ alias df='df -h'
 alias ls='ls --color=auto'
 alias ll='ls -sh'
 alias grep='grep -n --color=auto'
+alias top='top -c -Em -u 1000 -o +PID'
 
 alias xreader='xreader -f'
+alias ffz='feh -F -Z'
 
 export BDUSS="dadHVqbFJifjBUZVl6ZkdjaWFrRHJMM0FUOTQ4UjZUZlVuYlg2cW1GZThsSHBwSVFBQUFBJCQAAAAAAAAAAAEAAADxZYYMdGltZWJsaW5rAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALwHU2m8B1NpMl"
 

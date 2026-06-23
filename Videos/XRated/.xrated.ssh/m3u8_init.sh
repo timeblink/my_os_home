@@ -6,6 +6,6 @@ echo "#EXTM3U" > playlist.m3u8
 find "$(pwd)" -type f \
     -regex ".*\(\.mp4\|\.avi\|\.wmv\|\.rmvb\)$" \
     -printf '%P\n' \
-    | sort -t'/' -k1 -k2 \
+    | sort -t'/' -rk2 \
 	| tee -a playlist.m3u8
 

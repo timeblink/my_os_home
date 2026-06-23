@@ -25,9 +25,9 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
-detail_url         = os.environ['HOME']+"/Videos/xrated.script/url_detail.txt"
-m3u8_url_file      = os.environ['HOME']+"/Videos/xrated.script/url.txt"
-file_url_playlist  = os.environ['HOME']+"/Videos/xrated.script/url_playlist.txt"
+detail_url         = os.environ['HOME']+"/Videos/XRated/.xrated.script/url_detail.txt"
+m3u8_url_file      = os.environ['HOME']+"/Videos/XRated/.xrated.script/url.txt"
+file_url_playlist  = os.environ['HOME']+"/Videos/XRated/.xrated.script/url_playlist.txt"
 url_root_path      = "https://vyqtnxbc.top:2549"
 
 def tag_div_class_listpic(tag):
@@ -87,8 +87,8 @@ def open_tag_url(url_tag):
     b_list = open_url(url_tag).find_all(tag_source)
   except:
     return 0
-  finally:
-    print(url_tag)
+  #finally:
+  #  print(url_tag)
   for b in b_list:
     open_src_url(b.get('src'))
 

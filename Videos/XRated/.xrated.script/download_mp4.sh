@@ -1,23 +1,23 @@
 #!/bin/bash
 
-sshdir=${HOME}/Videos/xrated.ssh
+sshdir=${HOME}/Videos/XRated/.xrated.ssh
 mkdir -p ${sshdir}
 
-mp4dir=${HOME}/Videos/xrated.mp4
+mp4dir=${HOME}/Videos/XRated/.xrated.mp4
 mkdir -p ${mp4dir}
 
-tsdir=${HOME}/Videos/xrated.ts
+tsdir=${HOME}/Videos/XRated/.xrated.ts
 mkdir -p ${tsdir}
 
-ucdir=${HOME}/Videos/xrated.uc
+ucdir=${HOME}/Videos/XRated/.xrated.uc
 mkdir -p ${ucdir}
 
-trashd=${HOME}//Videos/xrated.trash
+trashd=${HOME}/Videos/XRated/.xrated.trash
 mkdir -p ${trashd}
 
 LIMIT_RATE=
 h=`date +'%H'`
-LIMIT_RATE="128"
+LIMIT_RATE="512"
 [ $h == '00' ] && LIMIT_RATE="2048"
 [ $h == '01' ] && LIMIT_RATE="2048"
 [ $h == '02' ] && LIMIT_RATE="2048"

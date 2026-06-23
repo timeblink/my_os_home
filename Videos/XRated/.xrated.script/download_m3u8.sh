@@ -2,11 +2,11 @@
 
 
 # mp4dir=${HOME}/Videos/xrated.txt
-mp4dir=${HOME}/Videos/xrated.mp4
+mp4dir=${HOME}/Videos/XRated/.xrated.mp4
 mkdir -p ${mp4dir}
-trashd=${HOME}/Videos/xrated.trash
+trashd=${HOME}/Videos/XRated/.xrated.trash
 mkdir -p ${trashd}
-tmpd=${HOME}/Videos/xrated.tmp
+tmpd=${HOME}/Videos/XRated/.xrated.tmp
 mkdir -p ${tmpd}
 m3u8url=$1
 relname=
@@ -16,7 +16,7 @@ relname=
 [ "${m3u8url}" == "END" ] && exit 0
 
 m3u8file=${mp4dir}/playlist.m3u8
-faildfile=${HOME}/Videos/xrated.script/url_m3u8_faild.txt
+faildfile=${HOME}/Videos/XRated/.xrated.script/url_m3u8_faild.txt
 
 dirurl=$(dirname ${m3u8url})
 

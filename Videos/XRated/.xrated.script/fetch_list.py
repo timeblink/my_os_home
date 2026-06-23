@@ -25,7 +25,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
-detail_url    = os.environ['HOME']+"/Videos/xrated.script/url_detail.txt"
+detail_url    = os.environ['HOME']+"/Videos/XRated/.xrated.script/url_detail.txt"
 url_root_path = "https://vyqtnxbc.top:2549"
 
 def get_tag_href(tag):
@@ -58,10 +58,10 @@ def open_page_url(page_url):
   except Exception as e:
     print(str(e))
     return 0
-  finally:
-    print(page_url)
+  #finally:
+  #  print(page_url)
   for tag_href in map(lambda x:get_tag_href(x),a_list):
-    print(tag_href)
+    #print(tag_href)
     with open(detail_url,"a") as file:
       file.write(tag_href.split('&')[0]+"\n")
 
@@ -75,7 +75,7 @@ if __name__ == "__main__":
   url_list = []
   for x in [1070,1071]:
     url_str = '{vod_url}?type_id={id}&page=,{start},{end}'.format(
-              vod_url=vod_url_str,id=x,start=1,end=2)
+              vod_url=vod_url_str,id=x,start=1,end=10)
     url_list.append(url_str)
   opt = Options()
   opt.add_argument("--headless")
