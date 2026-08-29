@@ -1,5 +1,5 @@
 
-alias df='df -h'
+
 alias ls='ls --color=auto'
 alias ll='ls -sh'
 alias grep='grep -n --color=auto'
@@ -14,3 +14,7 @@ alias gq='mpv --volume=75  --loop-playlist=inf --shuffle --playlist=/home/zzz/Mu
 alias baidu='baidupcs login --bduss=${BDUSS}'
 
 alias mount_sdb1_to_public='sudo mount -o uid=1000,gid=1000 /dev/sdb1 ~/Public'
+
+alias tmux-att='tmux -L self att'
+alias tmux-www='tmux -L self att -t www'
+

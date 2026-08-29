@@ -22,21 +22,24 @@ bspc config pointer_follows_focus false
 # 3. 指针不跟随显示器焦点变化
 bspc config pointer_follows_monitor false
 # 4. 设置焦点延迟（毫秒）
-# bspc config focus_delay 300
+bspc config focus_delay 300
 # 5. 禁用自动切换焦点
-# bspc config focus_by_distance true
+bspc config focus_by_distance true
 # 设置为 false 可减少意外焦点切换
 bspc config focus_by_distance false
 
 # state=tiled|pseudo_tiled|floating|fullscreen
 bspc rule -a firefox desktop='^2' state=tiled
+bspc rule -a Chromium desktop='^2' state=tiled
 bspc rule -a Alacritty desktop='^1' state=pseudo_tiled focus=on follow=on center=on
 bspc rule -a kitty desktop='^1' state=pseudo_tiled focus=on
 bspc rule -a mpv state=floating focus=on
 bspc rule -a subl desktop='^3'
+bspc rule -a sublime_text desktop='^3'
 bspc rule -a Xed desktop='^3'
 bspc rule -a Xreader desktop='^3'
-bspc rule -a emacs desktop='^3' state=pseudo_tiled focus=on
+bspc rule -a Emacs desktop='^3'
+#bspc rule -a Emacs desktop='^3' state=pseudo_tiled focus=on
 bspc rule -a Yad state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off # 屏幕键盘/按键可视化，不受 bspwm 管理，避免被平铺/最小化
@@ -67,11 +70,25 @@ sh ~/.screenlayout/monitor.sh &
 
 setxkbmap -option ""
 setxkbmap -option "caps:ctrl_modifier,ctrl:nocaps"
-xset dpms 1200 1200 1200
+
+#xset s 0
+xset s 9000
+
+#xset -dpms
+xset dpms 3000 6000 12000
+
 
 # Wallpaper
 # nitrogen --restore &
-feh --bg-fill ~/Pictures/wallpapers/forest-foggy-misty-cloudy.jpg &
+# https://gruvbox-wallpapers.pages.dev/wallpapers/photography/forest-foggy-misty-cloudy.png
+# https://gruvbox-wallpapers.pages.dev/wallpapers/mix/abstract-2.jpg
+# https://gruvbox-wallpapers.pages.dev/wallpapers/mix/gruvb99810.png
+# https://gruvbox-wallpapers.pages.dev/wallpapers/mix/ruins-2.png
+# https://gruvbox-wallpapers.pages.dev/wallpapers/mix/light/landscape.png
+# https://gruvbox-wallpapers.pages.dev/wallpapers/minimalistic/starry-sky.png
+# https://gruvbox-wallpapers.pages.dev/wallpapers/minimalistic/gruvb_solarsys.png
+feh --bg-fill ~/Pictures/wallpapers/gruvb_solarsys.png &
+
 # Dex
 dex -a -s /etc/xdg/autostart/:~/.config/autostart/  &
 # Picom

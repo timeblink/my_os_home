@@ -26,7 +26,7 @@ key = "w"
 mods = "Control|Shift"
 command = { program = "alacritty", args = ["-e", "tmux", "new-session", "-A", "-s", "work"] }
 
-[[keyboard.bindings]]
-key = "Enter"
-mods = "Control|Shift"
-action = "SpawnNewInstance"
+#[[keyboard.bindings]]
+#key = "Enter"
+#mods = "Control|Shift"
+#action = "SpawnNewInstance"
